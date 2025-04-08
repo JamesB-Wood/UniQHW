@@ -455,7 +455,8 @@
 		)
 		(symbol "FTSH-105-XX-X-DV:FTSH-105-XX-X-DV"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3605,7 +3606,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3623,7 +3624,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -9815,7 +9816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -9833,7 +9834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -10649,7 +10650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 283.21 148.59 0)
 			(effects
 				(font
@@ -10667,7 +10668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 283.21 148.59 0)
 			(effects
 				(font
@@ -11983,7 +11984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -12001,7 +12002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -12435,7 +12436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 267.97 132.08 0)
 			(effects
 				(font
@@ -12453,7 +12454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 267.97 132.08 0)
 			(effects
 				(font

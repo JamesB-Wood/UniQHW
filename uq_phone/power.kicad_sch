@@ -1870,7 +1870,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1888,7 +1888,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RES 100K OHM 1% 1/10W 0402"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1971,7 +1971,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1989,7 +1989,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2274,7 +2274,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2292,7 +2292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RES SMD 270K OHM 1% 1/10W 0402"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2375,7 +2375,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2393,7 +2393,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RES SMD 5.1K OHM 5% 1/10W 0402"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -8229,7 +8229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.66 215.9 0)
 			(effects
 				(font
@@ -8247,7 +8247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 5.1K OHM 5% 1/10W 0402"
 			(at 200.66 215.9 0)
 			(effects
 				(font
@@ -8495,7 +8495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 222.25 0)
 			(effects
 				(font
@@ -8513,7 +8513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0402"
 			(at 40.64 222.25 0)
 			(effects
 				(font
@@ -8696,7 +8696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8714,7 +8714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 5.1K OHM 5% 1/10W 0402"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -9174,7 +9174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 53.34 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0402"
 			(at 231.14 53.34 0)
 			(effects
 				(font
@@ -10370,7 +10370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 212.09 0)
 			(effects
 				(font
@@ -10388,7 +10388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 270K OHM 1% 1/10W 0402"
 			(at 40.64 212.09 0)
 			(effects
 				(font
@@ -10640,7 +10640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.34 233.68 0)
 			(effects
 				(font
@@ -10658,7 +10658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 180.34 233.68 0)
 			(effects
 				(font
@@ -11038,7 +11038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 238.76 0)
 			(effects
 				(font
@@ -11056,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0402"
 			(at 45.72 238.76 0)
 			(effects
 				(font
@@ -11632,7 +11632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 60.96 0)
 			(effects
 				(font
@@ -11650,7 +11650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 5.1K OHM 5% 1/10W 0402"
 			(at 57.15 60.96 0)
 			(effects
 				(font
