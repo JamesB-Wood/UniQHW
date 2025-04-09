@@ -791,7 +791,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -809,7 +809,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -905,7 +905,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -923,7 +923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "CAP CER 10PF 16V X7R 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1019,7 +1019,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1037,7 +1037,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1133,7 +1133,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1151,7 +1151,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "CAP CER 22PF 16V X7R 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1247,7 +1247,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1265,7 +1265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "CAP CER 33PF 16V X7R 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1379,7 +1379,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "CAP CER 47UF 6.3V X5R 0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1475,7 +1475,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1493,7 +1493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6884,6 +6884,208 @@
 				)
 			)
 		)
+		(symbol "Resistor_22R_1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_22R_1_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_22R_1_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor_22R_2"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_22R_2_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_22R_2_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Resistors:Resistor_0R"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -7007,7 +7209,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -7025,7 +7227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11870,7 +12072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 311.15 220.98 0)
 			(effects
 				(font
@@ -11888,7 +12090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 16V X7R 0402"
 			(at 311.15 220.98 0)
 			(effects
 				(font
@@ -12906,7 +13108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 325.12 220.98 0)
 			(effects
 				(font
@@ -12924,7 +13126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 325.12 220.98 0)
 			(effects
 				(font
@@ -14080,7 +14282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 304.8 220.98 0)
 			(effects
 				(font
@@ -14098,7 +14300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 16V X7R 0402"
 			(at 304.8 220.98 0)
 			(effects
 				(font
@@ -14405,7 +14607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 330.2 220.98 0)
 			(effects
 				(font
@@ -14423,7 +14625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 33PF 16V X7R 0402"
 			(at 330.2 220.98 0)
 			(effects
 				(font
@@ -15017,7 +15219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 47UF 6.3V X5R 0805"
 			(at 361.95 41.91 0)
 			(effects
 				(font
@@ -16427,7 +16629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 298.45 220.98 0)
 			(effects
 				(font
@@ -16445,7 +16647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 16V X7R 0402"
 			(at 298.45 220.98 0)
 			(effects
 				(font
@@ -16496,7 +16698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 355.6 41.91 0)
 			(effects
 				(font
@@ -16514,7 +16716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 355.6 41.91 0)
 			(effects
 				(font
@@ -16735,6 +16937,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Resistor_22R_1")
 		(lib_id "Resistors:Resistor_22R")
 		(at 320.04 203.2 90)
 		(unit 1)
@@ -16759,7 +16962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 203.2 0)
 			(effects
 				(font
@@ -16777,7 +16980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 323.85 203.2 0)
 			(effects
 				(font
@@ -16802,6 +17005,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Resistor_22R_2")
 		(lib_id "Resistors:Resistor_22R")
 		(at 320.04 205.74 90)
 		(unit 1)
@@ -16826,7 +17030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 205.74 0)
 			(effects
 				(font
@@ -16844,7 +17048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 323.85 205.74 0)
 			(effects
 				(font
@@ -17383,7 +17587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 347.98 41.91 0)
 			(effects
 				(font
@@ -17401,7 +17605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 347.98 41.91 0)
 			(effects
 				(font
@@ -17470,7 +17674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 47UF 6.3V X5R 0805"
 			(at 368.3 41.91 0)
 			(effects
 				(font
@@ -17587,7 +17791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 335.28 41.91 0)
 			(effects
 				(font
@@ -17605,7 +17809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10PF 16V X7R 0402"
 			(at 335.28 41.91 0)
 			(effects
 				(font
@@ -18079,7 +18283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 341.63 41.91 0)
 			(effects
 				(font
@@ -18097,7 +18301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 341.63 41.91 0)
 			(effects
 				(font
@@ -18434,7 +18638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 208.28 0)
 			(effects
 				(font
@@ -18452,7 +18656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 323.85 208.28 0)
 			(effects
 				(font

@@ -334,7 +334,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -352,7 +352,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -448,7 +448,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -466,7 +466,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "CAP CER 33PF 16V X7R 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -562,7 +562,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -676,7 +676,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -694,7 +694,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4338,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 118.11) (xy 316.23 120.65)
+			(xy 316.23 118.11) (xy 316.23 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6752,7 +6752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 309.88 146.05 0)
 			(effects
 				(font
@@ -6770,7 +6770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 309.88 146.05 0)
 			(effects
 				(font
@@ -6992,71 +6992,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 213.36 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1286cfad-79c7-423e-9d5e-79d5aebf2c76")
-		(property "Reference" "#PWR097"
-			(at 213.36 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 213.36 207.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 213.36 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ad13ebf-c19c-4b3f-b977-466b0f9ea1c2")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7463,73 +7398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors:Resistor_0R")
-		(at 316.23 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32399d26-d5f4-43d0-b57d-eb2040641ff7")
-		(property "Reference" "R55"
-			(at 318.516 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 320.294 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 316.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0197035-b2d2-48d3-a5b6-263078543969")
-		)
-		(pin "1"
-			(uuid "b9ccd7d0-df8d-4ef2-bc26-0ffa1fb80a1a")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 77.47 265.43 0)
 		(unit 1)
@@ -7619,7 +7487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -7637,7 +7505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -7755,7 +7623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 59.69 0)
 			(effects
 				(font
@@ -7773,7 +7641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 274.32 59.69 0)
 			(effects
 				(font
@@ -7887,7 +7755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 267.97 48.26 0)
 			(effects
 				(font
@@ -7905,7 +7773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 267.97 48.26 0)
 			(effects
 				(font
@@ -8415,7 +8283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 213.36 199.39 0)
 			(effects
 				(font
@@ -8433,7 +8301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 33PF 16V X7R 0402"
 			(at 213.36 199.39 0)
 			(effects
 				(font
@@ -8484,7 +8352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 295.91 156.21 0)
 			(effects
 				(font
@@ -8502,7 +8370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 295.91 156.21 0)
 			(effects
 				(font
@@ -8618,7 +8486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 295.91 177.8 0)
 			(effects
 				(font
@@ -8636,7 +8504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 295.91 177.8 0)
 			(effects
 				(font
@@ -9134,7 +9002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.53 133.35 0)
 			(effects
 				(font
@@ -9152,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 49.53 133.35 0)
 			(effects
 				(font
@@ -9201,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 255.27 0)
 			(effects
 				(font
@@ -9219,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 93.98 255.27 0)
 			(effects
 				(font
@@ -9441,6 +9309,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a85f3729-512a-4c14-8695-8871227ed008")
+		(property "Reference" "#PWR087"
+			(at 213.36 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36cbdf3c-9dde-4519-becd-e31c5030fd63")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:Resistor_10k")
 		(at 34.29 158.75 0)
 		(unit 1)
@@ -9603,7 +9536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 171.45 0)
 			(effects
 				(font
@@ -9621,7 +9554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 314.96 171.45 0)
 			(effects
 				(font
@@ -9804,7 +9737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 245.11 0)
 			(effects
 				(font
@@ -9822,7 +9755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 93.98 245.11 0)
 			(effects
 				(font
@@ -10184,7 +10117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 240.03 0)
 			(effects
 				(font
@@ -10202,7 +10135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 93.98 240.03 0)
 			(effects
 				(font
@@ -10388,7 +10321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 316.23 146.05 0)
 			(effects
 				(font
@@ -10406,7 +10339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 316.23 146.05 0)
 			(effects
 				(font
@@ -10457,7 +10390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -10475,7 +10408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 302.26 156.21 0)
 			(effects
 				(font
