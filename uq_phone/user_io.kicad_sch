@@ -2132,12 +2132,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "IC LRA/ERM HAPTIC DRIVER 10QFN"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -2152,16 +2153,6 @@
 				)
 			)
 			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "IC LRA/ERM HAPTIC DRIVER 10QFN"
 				(at 0 0 0)
 				(effects
 					(font

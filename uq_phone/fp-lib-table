@@ -35,4 +35,5 @@
   (lib (name "MCP1664T_E_OT")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MCP1664T_E_OT")(options "")(descr ""))
   (lib (name "WE-MAPI_3015")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/WE-MAPI_3015")(options "")(descr ""))
   (lib (name "FTSH-105-XX-X-DV")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/FTSH-105-XX-X-DV")(options "")(descr ""))
+  (lib (name "custom_footprints")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/custom_footprints.pretty")(options "")(descr ""))
 )

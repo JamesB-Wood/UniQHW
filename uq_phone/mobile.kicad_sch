@@ -11083,7 +11083,7 @@
 		)
 		(uuid "85b32a29-14ae-4463-abae-1f75fbfce6b4")
 	)
-	(text "SIM card"
+	(text "Micro SIM card"
 		(exclude_from_sim no)
 		(at 330.962 187.706 0)
 		(effects
