@@ -38,4 +38,7 @@
   (lib (name "2025-04-08_10-28-15")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MCP1664T_E_OT/2025-04-08_10-28-15.kicad_sym")(options "")(descr ""))
   (lib (name "Misc")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/Misc.kicad_sym")(options "")(descr ""))
   (lib (name "WE-MAPI_3015")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/WE-MAPI_3015/WE-MAPI_3015.kicad_sym")(options "")(descr ""))
+  (lib (name "KP15B-6S-SF_800_")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/KP15B-6S-SF_800_/KP15B-6S-SF_800_.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD3F303DQDR")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/TPD3F303DQDR/TPD3F303DQDR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD8F003DQDR")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/TPD8F003DQDR/TPD8F003DQDR.kicad_sym")(options "")(descr ""))
 )

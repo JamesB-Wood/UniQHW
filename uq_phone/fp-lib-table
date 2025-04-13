@@ -36,4 +36,7 @@
   (lib (name "WE-MAPI_3015")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/WE-MAPI_3015")(options "")(descr ""))
   (lib (name "FTSH-105-XX-X-DV")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/FTSH-105-XX-X-DV")(options "")(descr ""))
   (lib (name "custom_footprints")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/custom_footprints.pretty")(options "")(descr ""))
+  (lib (name "KP15B-6S-SF_800_")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/KP15B-6S-SF_800_")(options "")(descr ""))
+  (lib (name "TPD8F003DQDR")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/TPD8F003DQDR")(options "")(descr ""))
+  (lib (name "TPD3F303DQDR")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/TPD3F303DQDR")(options "")(descr ""))
 )
