@@ -4138,7 +4138,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 210.82) (xy 227.33 210.82)
+			(xy 224.79 210.82) (xy 245.11 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4325,16 +4325,6 @@
 			(type default)
 		)
 		(uuid "343d674f-a48a-4e30-b803-0acc0ad2d506")
-	)
-	(wire
-		(pts
-			(xy 234.95 210.82) (xy 245.11 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378be195-dd85-42c7-bef3-1f1087f85526")
 	)
 	(wire
 		(pts
@@ -4685,16 +4675,6 @@
 			(type default)
 		)
 		(uuid "75dedfe1-1356-47de-aab4-b3dda5aa919b")
-	)
-	(wire
-		(pts
-			(xy 234.95 213.36) (xy 245.11 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79cd69f3-3c4b-473f-9f54-8d4f3c31acdc")
 	)
 	(wire
 		(pts
@@ -5168,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 213.36) (xy 227.33 213.36)
+			(xy 224.79 213.36) (xy 245.11 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6397,73 +6377,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_0R")
-		(at 231.14 213.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00381022-1474-4658-81cb-3125c53425a6")
-		(property "Reference" "R53"
-			(at 231.14 215.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 231.14 217.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.95 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22e810d3-9490-4c6d-a43f-73bf46c4125f")
-		)
-		(pin "1"
-			(uuid "cb41b4f0-85d7-457d-8422-6051d4a0ed01")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "R53")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -9437,73 +9350,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_0R")
-		(at 231.14 210.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adc12acd-858b-4a41-843f-a7a48f7cf173")
-		(property "Reference" "R52"
-			(at 231.14 206.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 231.14 208.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.95 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b057ba7-78ae-4b03-858b-cd04dae33f5f")
-		)
-		(pin "1"
-			(uuid "4f4b9f61-01be-4144-84c7-f936881cd865")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "R52")
 					(unit 1)
 				)
 			)
