@@ -351,6 +351,198 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
+				(at 5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -4919,6 +5111,10 @@
 		(at 200.66 60.96)
 		(uuid "543cb0f0-347f-44a2-b1fe-81a95658bc90")
 	)
+	(no_connect
+		(at 367.03 130.81)
+		(uuid "e25c14bc-f91f-4fde-87d1-5ae0eac258cb")
+	)
 	(wire
 		(pts
 			(xy 238.76 137.16) (xy 267.97 137.16)
@@ -5931,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 120.65) (xy 367.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bc639f-6d1b-4b83-96c4-8148ac000202")
+	)
+	(wire
+		(pts
 			(xy 172.72 184.15) (xy 172.72 182.88)
 		)
 		(stroke
@@ -6371,6 +6577,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 128.27) (xy 368.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37efc92-941a-41f0-8608-1a0a8c6bc8db")
+	)
+	(wire
+		(pts
 			(xy 83.82 146.05) (xy 83.82 153.67)
 		)
 		(stroke
@@ -6548,6 +6764,16 @@
 			(type default)
 		)
 		(uuid "cb40bcf4-77ab-4b36-8ff1-5ad57cf62273")
+	)
+	(wire
+		(pts
+			(xy 367.03 125.73) (xy 368.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf89288-915b-4790-979d-9a290e56edd0")
 	)
 	(wire
 		(pts
@@ -6965,6 +7191,28 @@
 		)
 		(uuid "e8a43b9f-c967-4c4f-8edf-626b080df7c4")
 	)
+	(global_label "RST"
+		(shape input)
+		(at 368.3 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "014c6656-4713-4568-917a-439f58c85980")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.7323 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DISP_RD"
 		(shape input)
 		(at 173.99 147.32 180)
@@ -7110,6 +7358,28 @@
 		(uuid "1161b552-5408-4cf5-b95a-74c20121d47e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.8594 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 368.3 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18314f0f-30ae-431c-81a4-59839a78ea29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.1514 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,6 +8001,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 368.3 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "805afa0e-0abc-415e-9c51-5c040fb7d2c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.5142 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9900,7 +10192,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4778dca7-dff4-4486-bece-b00ce2adb1fb")
 		(property "Reference" "#PWR0112"
 			(at 337.82 104.14 0)
@@ -10452,6 +10743,88 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")
+		(at 359.41 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d52daa-d27e-4387-9b34-09d31c45a226")
+		(property "Reference" "J12"
+			(at 353.06 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
+			(at 353.06 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+			(at 359.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 359.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+			(at 359.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "03cdf5f7-b97a-44fb-918c-e8d15f1f8597")
+		)
+		(pin "1"
+			(uuid "2e747647-83c7-4cc8-a6af-42e1516e5379")
+		)
+		(pin "2"
+			(uuid "382954f0-7eb0-474e-9d81-d7805037403c")
+		)
+		(pin "5"
+			(uuid "5e331851-fe16-430e-86ad-b060ffdd7b50")
+		)
+		(pin "3"
+			(uuid "4c27c81e-50a6-4a6f-b21a-455b18834c8b")
+		)
+		(pin "4"
+			(uuid "f78c2388-fc9b-4d0f-abb2-22c092722d41")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -11054,6 +11427,72 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 356.87 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eea7031-7522-45b8-83a1-c0d615983739")
+		(property "Reference" "#PWR083"
+			(at 356.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 356.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 356.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb81b85-689d-47b5-933a-f49486cabe57")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -11727,6 +12166,72 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 356.87 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26f14ef-4036-4414-95b5-ec1e96cb5915")
+		(property "Reference" "#PWR097"
+			(at 356.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 356.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82effcf2-e2b2-4aef-b76d-7889e6d004b3")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
