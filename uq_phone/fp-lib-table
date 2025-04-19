@@ -8,7 +8,6 @@
   (lib (name "S3B-PH-SM4-TB_LF__SN_")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/S3B-PH-SM4-TB_LF__SN_")(options "")(descr ""))
   (lib (name "MAX17048G_T10")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MAX17048G_T10")(options "")(descr ""))
   (lib (name "BQ27441DRZR-G1A")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/BQ27441DRZR-G1A")(options "")(descr ""))
-  (lib (name "MMBT3904LT1G")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MMBT3904LT1G")(options "")(descr ""))
   (lib (name "MMSZ5231BT1G")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MMSZ5231BT1G")(options "")(descr ""))
   (lib (name "LightOn-LEDs")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/LightOn-LEDs")(options "")(descr ""))
   (lib (name "MPZ2012S221AT000")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MPZ2012S221AT000")(options "")(descr ""))
@@ -39,4 +38,5 @@
   (lib (name "KP15B-6S-SF_800_")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/KP15B-6S-SF_800_")(options "")(descr ""))
   (lib (name "TPD8F003DQDR")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/TPD8F003DQDR")(options "")(descr ""))
   (lib (name "TPD3F303DQDR")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/TPD3F303DQDR")(options "")(descr ""))
+  (lib (name "MMBT3904LP-7")(type "KiCad")(uri "${KICAD8_3DMODEL_DIR}/MMBT3904LP-7")(options "")(descr ""))
 )
