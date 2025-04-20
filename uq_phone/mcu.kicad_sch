@@ -543,353 +543,6 @@
 				)
 			)
 		)
-		(symbol "FTSH-105-XX-X-DV:FTSH-105-XX-X-DV"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "FTSH-105-XX-X-DV"
-				(at -7.62 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "FTSH-105-XX-X-DV:SAMTEC_FTSH-105-XX-X-DV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "SAM13165TR-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FTSH-105-01-L-DV-K-TR/Samtec+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Connector Header Surface Mount 10 position 0.050 (1.27mm)\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/FTSH-105-01-L-DV-K-TR/Samtec+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "FTSH-105-01-L-DV-K-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "FTSH-105-XX-X-DV_0_0"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "08"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "08"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "09"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "09"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32H7:STM32H730VBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4770,12 +4423,6 @@
 		(uuid "17a4f418-6a8b-4f36-a86a-f057e91784cc")
 	)
 	(junction
-		(at 337.82 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bbd00eb-0fb4-4ac0-9ab7-54d9deeaa2e8")
-	)
-	(junction
 		(at 280.67 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4786,12 +4433,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "230cfce1-b7fb-47c2-8c61-3cca86faad66")
-	)
-	(junction
-		(at 337.82 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2594c03c-ca6d-499b-93a2-c0daec7f23dd")
 	)
 	(junction
 		(at 267.97 137.16)
@@ -4822,12 +4463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39784a85-3008-4b8d-9944-96185947a5ac")
-	)
-	(junction
-		(at 337.82 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c6cc6e7-6438-47a3-a0cb-a3aea9202873")
 	)
 	(junction
 		(at 85.09 195.58)
@@ -5205,16 +4840,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 88.9) (xy 337.82 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f4634b0-2289-497d-8cdf-fd13c4371419")
-	)
-	(wire
-		(pts
 			(xy 173.99 119.38) (xy 177.8 119.38)
 		)
 		(stroke
@@ -5262,16 +4887,6 @@
 			(type default)
 		)
 		(uuid "233a16f7-7a1c-4bc3-b5d5-b1c67596b7f3")
-	)
-	(wire
-		(pts
-			(xy 337.82 93.98) (xy 337.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250ee6e7-7d61-41bb-b8b6-3c0f56fc090a")
 	)
 	(wire
 		(pts
@@ -5435,16 +5050,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 86.36) (xy 365.76 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3759d6cd-261f-469f-a27a-75a02aff4a4a")
-	)
-	(wire
-		(pts
 			(xy 173.99 142.24) (xy 177.8 142.24)
 		)
 		(stroke
@@ -5592,16 +5197,6 @@
 			(type default)
 		)
 		(uuid "47a096b2-abc1-44a6-973b-991ca28f7fb5")
-	)
-	(wire
-		(pts
-			(xy 340.36 86.36) (xy 337.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484179dd-151e-4579-90e1-057d62cc29b5")
 	)
 	(wire
 		(pts
@@ -5885,16 +5480,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 96.52) (xy 337.82 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ffa2be-827b-4fe8-a20a-53be4d4583bd")
-	)
-	(wire
-		(pts
 			(xy 182.88 54.61) (xy 190.5 54.61)
 		)
 		(stroke
@@ -5915,26 +5500,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 88.9) (xy 365.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7980c832-19fc-49e5-bb4c-39f591af164f")
-	)
-	(wire
-		(pts
-			(xy 340.36 88.9) (xy 337.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79db45f0-d5be-4471-a708-55668fedb906")
-	)
-	(wire
-		(pts
 			(xy 198.12 54.61) (xy 205.74 54.61)
 		)
 		(stroke
@@ -5942,16 +5507,6 @@
 			(type default)
 		)
 		(uuid "7cd7451a-c225-40f1-ac66-6e21fe7c1242")
-	)
-	(wire
-		(pts
-			(xy 340.36 91.44) (xy 337.82 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80bb7ee3-5366-4c7b-83c3-2d8ef0742bfa")
 	)
 	(wire
 		(pts
@@ -6132,16 +5687,6 @@
 			(type default)
 		)
 		(uuid "8e3d8403-2804-48a9-866f-94c5ca463b97")
-	)
-	(wire
-		(pts
-			(xy 337.82 86.36) (xy 337.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f138ed2-b5ee-4522-a76f-c13933774a4b")
 	)
 	(wire
 		(pts
@@ -6515,16 +6060,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 96.52) (xy 337.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0ac3af-fd29-4416-9dfd-20ccba70c055")
-	)
-	(wire
-		(pts
 			(xy 210.82 60.96) (xy 210.82 59.69)
 		)
 		(stroke
@@ -6572,16 +6107,6 @@
 			(type default)
 		)
 		(uuid "bfb6c0e9-50c9-4557-9117-43d563c09e99")
-	)
-	(wire
-		(pts
-			(xy 340.36 93.98) (xy 337.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0759a5c-645a-4f1b-a38e-bc74ee3ce8e0")
 	)
 	(wire
 		(pts
@@ -6985,16 +6510,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 91.44) (xy 337.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdcd217-88ed-45df-9a44-74f2c5ff1a57")
-	)
-	(wire
-		(pts
 			(xy 242.57 147.32) (xy 238.76 147.32)
 		)
 		(stroke
@@ -7022,16 +6537,6 @@
 			(type default)
 		)
 		(uuid "fe1920af-7b02-45f2-9537-711d1221021d")
-	)
-	(wire
-		(pts
-			(xy 367.03 96.52) (xy 365.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe2f8aba-0490-45f7-a8bf-8cf0d4ce5172")
 	)
 	(text "Max data rate = 60Mbps"
 		(exclude_from_sim no)
@@ -7069,7 +6574,7 @@
 	)
 	(text "CHECK PINOUT\n"
 		(exclude_from_sim no)
-		(at 354.33 74.422 0)
+		(at 358.648 108.204 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7129,28 +6634,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST"
-		(shape input)
-		(at 367.03 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "090369c8-5567-4afd-9e83-5aadb775533c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.4623 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7661,28 +7144,6 @@
 			)
 		)
 	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 367.03 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56909e27-bdeb-40eb-9bb2-52528a2a6133")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.8814 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape input)
 		(at 156.21 71.12 180)
@@ -8048,28 +7509,6 @@
 		(uuid "8b81cc33-8e51-4a8e-856c-13a6f5e7b486")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.7194 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 367.03 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e1aa6f7-afdc-4188-9af4-f6b3709a633d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 376.2442 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,71 +9455,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 337.82 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4778dca7-dff4-4486-bece-b00ce2adb1fb")
-		(property "Reference" "#PWR066"
-			(at 337.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 337.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "988a7ead-f0a5-48f1-8532-43c08d79bf69")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 85.09 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11056,72 +10430,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 337.82 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862d569d-6675-497d-ac1a-0ad8094bc6f5")
-		(property "Reference" "#PWR065"
-			(at 337.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 337.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 337.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "411eb085-fab5-4c43-937d-631dbf0f058c")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12128,199 +11436,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FTSH-105-XX-X-DV:FTSH-105-XX-X-DV")
-		(at 353.06 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2569e35-024e-481f-89d3-bebe0a4acf8a")
-		(property "Reference" "J5"
-			(at 353.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FTSH-105-XX-X-DV"
-			(at 353.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FTSH-105-XX-X-DV:SAMTEC_FTSH-105-XX-X-DV"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "SAM13165TR-ND"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FTSH-105-01-L-DV-K-TR/Samtec+Inc./view-part/?ref=snap"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Connector Header Surface Mount 10 position 0.050 (1.27mm)\n                        \n"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/FTSH-105-01-L-DV-K-TR/Samtec+Inc./view-part/?ref=eda"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "FTSH-105-01-L-DV-K-TR"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 353.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "01"
-			(uuid "bceb351d-6ff1-4fa3-853c-b5e11ffff8b9")
-		)
-		(pin "03"
-			(uuid "ba125af2-ec5a-40af-8d6f-b1a2533e0f52")
-		)
-		(pin "02"
-			(uuid "71a62c0a-c47a-4327-bcad-875af147d811")
-		)
-		(pin "08"
-			(uuid "9daf87cd-4a04-4039-91a8-55debe41d29c")
-		)
-		(pin "05"
-			(uuid "79d8d648-ed34-4479-841a-0500e2dc71d8")
-		)
-		(pin "07"
-			(uuid "5d5cb445-fa96-4a09-bfa9-19e289df2935")
-		)
-		(pin "04"
-			(uuid "a0386207-157b-4b2c-924c-e07053bc4d33")
-		)
-		(pin "06"
-			(uuid "7ce7cc08-a0bc-4ca2-b9ab-f5803b2f3638")
-		)
-		(pin "10"
-			(uuid "efd16525-5cb7-4cc8-a189-90dc92f0d25d")
-		)
-		(pin "09"
-			(uuid "baeafdab-f980-4f49-9127-a4f14e0c04fe")
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
-					(reference "J5")
 					(unit 1)
 				)
 			)
