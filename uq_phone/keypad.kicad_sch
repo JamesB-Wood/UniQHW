@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4c1ed5c6-5f05-4275-94f7-cfc9cbfc3f08")
 	(paper "A3")
 	(title_block
@@ -10,7 +10,9 @@
 	)
 	(lib_symbols
 		(symbol "Misc:SKTAAAE010"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -94,10 +96,32 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 5.08 -0.508) (xy 5.08 0.508)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -1.27)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -130,28 +154,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 3.81 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -163,24 +165,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -207,6 +191,24 @@
 					)
 				)
 				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "4"
@@ -225,6 +227,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Misc:XL-1010RGBC-WS2812B"
 			(exclude_from_sim no)
@@ -286,42 +289,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -2.54 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 0 0)
 					(length 2.54)
 					(name "GND"
@@ -357,11 +324,52 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Resistors:Resistor_330R"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -423,24 +431,6 @@
 			)
 			(symbol "Resistor_330R_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
 					(name "~"
@@ -458,13 +448,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -536,7 +549,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -548,7 +561,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -579,12 +592,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -675,7 +693,52 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "GXBL08260?"
+		(exclude_from_sim no)
+		(at 95.25 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19e6c542-ecce-4095-bdf4-2a404660e1a8")
+	)
+	(text "LEDs\n"
+		(exclude_from_sim no)
+		(at 332.74 37.592 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "25583dd4-646d-4f7b-9393-1a7d59b82e4c")
+	)
+	(text "SKTAAAE010"
+		(exclude_from_sim no)
+		(at 94.488 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bc46fb7-61fe-486b-ad00-0585406c7f00")
+	)
+	(text "Buttons\n"
+		(exclude_from_sim no)
+		(at 70.612 54.864 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "cbbc6a35-cf38-4115-abd8-c91164897913")
 	)
 	(no_connect
 		(at 372.11 78.74)
@@ -1650,50 +1713,6 @@
 			(type default)
 		)
 		(uuid "fe44efda-a6fb-4e8a-9006-954e81eed54c")
-	)
-	(text "GXBL08260?"
-		(exclude_from_sim no)
-		(at 95.25 48.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "19e6c542-ecce-4095-bdf4-2a404660e1a8")
-	)
-	(text "LEDs\n"
-		(exclude_from_sim no)
-		(at 332.74 37.592 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 1)
-				(bold yes)
-			)
-		)
-		(uuid "25583dd4-646d-4f7b-9393-1a7d59b82e4c")
-	)
-	(text "SKTAAAE010"
-		(exclude_from_sim no)
-		(at 94.488 53.848 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4bc46fb7-61fe-486b-ad00-0585406c7f00")
-	)
-	(text "Buttons\n"
-		(exclude_from_sim no)
-		(at 70.612 54.864 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 1)
-				(bold yes)
-			)
-		)
-		(uuid "cbbc6a35-cf38-4115-abd8-c91164897913")
 	)
 	(global_label "LED_DATA"
 		(shape input)
