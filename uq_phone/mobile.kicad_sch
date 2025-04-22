@@ -10803,112 +10803,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistors:Resistor_10k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor_10k_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_10k_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Resistors:Resistor_47k"
 			(pin_numbers
 				(hide yes)
@@ -11831,12 +11725,6 @@
 		(uuid "3073c6d5-4d5b-45f5-bfd0-d10476c2bd39")
 	)
 	(junction
-		(at 184.15 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30dc304a-0daf-4f10-ab87-a7d553da503d")
-	)
-	(junction
 		(at 250.19 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12453,6 +12341,10 @@
 		(uuid "b1fa58ed-f0b7-4a9b-8b2b-1e08934075d7")
 	)
 	(no_connect
+		(at 163.83 93.98)
+		(uuid "b4dd424a-0cc2-4b67-96a5-fedbc7faea05")
+	)
+	(no_connect
 		(at 82.55 152.4)
 		(uuid "c65fd65d-3c3a-4239-83ac-af8d4db0c5e3")
 	)
@@ -12929,16 +12821,6 @@
 			(type default)
 		)
 		(uuid "2fb1580a-91f1-4a97-b106-a38264e6f0b4")
-	)
-	(wire
-		(pts
-			(xy 163.83 93.98) (xy 184.15 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3269ccbf-905c-4ddf-9103-5e4e48b2471a")
 	)
 	(wire
 		(pts
@@ -13649,16 +13531,6 @@
 			(type default)
 		)
 		(uuid "9506f768-96e9-4d23-ad3b-f24819d36f83")
-	)
-	(wire
-		(pts
-			(xy 184.15 93.98) (xy 186.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e602f8-40de-4a76-8f9d-ee354750dcd7")
 	)
 	(wire
 		(pts
@@ -14727,28 +14599,6 @@
 		(uuid "49d57ed5-1b41-4a64-a0da-d9b7bfc8c459")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.9976 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SIM_DET"
-		(shape output)
-		(at 186.69 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f8464ad-3512-4a74-a8ac-484535400e97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2951 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20895,142 +20745,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 184.15 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e45e412a-348f-480d-9bdf-cbf679d2664b")
-		(property "Reference" "#PWR042"
-			(at 184.15 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 179.832 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9db8cf06-f9d4-42bf-b676-099bcb75c3a0")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_10k")
-		(at 184.15 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb29b17c-36f9-4dad-a43f-a9c60b8a97a8")
-		(property "Reference" "R23"
-			(at 186.69 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 186.69 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7b169ad-c943-4646-9f9b-4bc6fd041923")
-		)
-		(pin "1"
-			(uuid "10702ade-bde5-4ed2-a852-d23d104cb568")
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "R23")
 					(unit 1)
 				)
 			)

@@ -7172,16 +7172,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 143.51) (xy 176.53 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c096eb-1854-44ac-9a79-7ebb0766dfd9")
-	)
-	(wire
-		(pts
 			(xy 351.79 132.08) (xy 355.6 132.08)
 		)
 		(stroke
@@ -8781,28 +8771,6 @@
 		(uuid "7f3702ad-44f6-443b-8f73-ccd38fea3638")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 317.0548 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SIM_DET"
-		(shape output)
-		(at 175.26 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81bf4219-5501-4d3e-b49f-25e736a91f37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.6549 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

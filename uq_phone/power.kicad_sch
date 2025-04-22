@@ -1321,7 +1321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Microchip MCP73871-2CCI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CCI/ML\n                        \n"
+			(property "Description_1" "Microchip MCP73871-2CCI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CCI/ML"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8908,7 +8908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Microchip MCP73871-2CCI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CCI/ML\n                        \n"
+		(property "Description_1" "Microchip MCP73871-2CCI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CCI/ML"
 			(at 87.63 226.06 0)
 			(effects
 				(font
