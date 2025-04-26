@@ -40,4 +40,5 @@
   (lib (name "TPD3F303DQDR")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/TPD3F303DQDR/TPD3F303DQDR.kicad_sym")(options "")(descr ""))
   (lib (name "TPD8F003DQDR")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/TPD8F003DQDR/TPD8F003DQDR.kicad_sym")(options "")(descr ""))
   (lib (name "MMBT3904LP-7")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MMBT3904LP-7/MMBT3904LP-7.kicad_sym")(options "")(descr ""))
+  (lib (name "FI-RE51S-HF-R1500")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/FI-RE51S-HF-R1500/FI-RE51S-HF-R1500.kicad_sym")(options "")(descr ""))
 )
