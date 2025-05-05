@@ -7422,28 +7422,6 @@
 			)
 		)
 	)
-	(global_label "MCU_RXD"
-		(shape input)
-		(at 242.57 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40494a38-21b7-4929-ae90-a56a4bda7487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.6784 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB_DPAD_RIGHT"
 		(shape input)
 		(at 242.57 127 0)
@@ -8082,6 +8060,28 @@
 			)
 		)
 	)
+	(global_label "MCU_RXD"
+		(shape input)
+		(at 242.57 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88338cdc-b92b-4035-9af6-c18446e5fec6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.6784 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_DCD"
 		(shape output)
 		(at 173.99 167.64 180)
@@ -8381,28 +8381,6 @@
 		(uuid "9935a597-f3af-4b4f-a45d-332842b12090")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.7842 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_TXD"
-		(shape output)
-		(at 242.57 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a8f4544-ff28-42d8-b1ba-683b9bde7301")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.376 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,6 +9310,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_TXD"
+		(shape output)
+		(at 242.57 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eef05be3-0a87-4ce7-91b7-588a07c14a9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.376 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
