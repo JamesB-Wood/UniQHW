@@ -11516,9 +11516,9 @@
 		)
 		(uuid "85b32a29-14ae-4463-abae-1f75fbfce6b4")
 	)
-	(text "MOBILE TX AND RX ARE IN TERMS OF THE MCU FOR WHATEVER REASON \nMEANING TX->TX & RX->RX"
+	(text "MOBILE TX AND RX ARE IN TERMS OF THE \nMCU FOR WHATEVER REASON \nMEANING TX->TX & RX->RX"
 		(exclude_from_sim no)
-		(at 38.1 44.196 0)
+		(at 36.576 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)

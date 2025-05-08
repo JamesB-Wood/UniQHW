@@ -5043,7 +5043,7 @@
 	)
 	(text "Test Points\n"
 		(exclude_from_sim no)
-		(at 379.984 200.914 0)
+		(at 354.584 136.144 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5617,7 +5617,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 213.36) (xy 364.49 215.9)
+			(xy 339.09 148.59) (xy 339.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5737,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 213.36) (xy 387.35 215.9)
+			(xy 361.95 148.59) (xy 361.95 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6197,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 213.36) (xy 398.78 215.9)
+			(xy 373.38 148.59) (xy 373.38 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6297,7 +6297,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 220.98) (xy 375.92 223.52)
+			(xy 350.52 156.21) (xy 350.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6307,7 +6307,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 213.36) (xy 351.79 215.9)
+			(xy 326.39 148.59) (xy 326.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6547,7 +6547,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 220.98) (xy 364.49 223.52)
+			(xy 339.09 156.21) (xy 339.09 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6577,7 +6577,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 213.36) (xy 375.92 215.9)
+			(xy 350.52 148.59) (xy 350.52 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7121,7 +7121,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 364.49 213.36 0)
+		(at 339.09 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7130,7 +7130,7 @@
 		(fields_autoplaced yes)
 		(uuid "1296f96e-773d-4454-ba8e-d37f92e343df")
 		(property "Reference" "#PWR029"
-			(at 364.49 217.17 0)
+			(at 339.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7139,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 364.49 208.28 0)
+			(at 339.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +7147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 213.36 0)
+			(at 339.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +7156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 213.36 0)
+			(at 339.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +7165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 364.49 213.36 0)
+			(at 339.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7187,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 398.78 215.9 270)
+		(at 373.38 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7196,7 +7196,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b33227f-8320-42a4-a41b-8cff180b2719")
 		(property "Reference" "TP7"
-			(at 403.86 215.8999 90)
+			(at 378.46 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7205,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 403.86 217.1699 90)
+			(at 378.46 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 398.78 220.98 0)
+			(at 373.38 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 398.78 220.98 0)
+			(at 373.38 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7233,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 398.78 215.9 0)
+			(at 373.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7387,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 364.49 220.98 270)
+		(at 339.09 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7396,7 +7396,7 @@
 		(fields_autoplaced yes)
 		(uuid "21aa9da0-287b-4b61-9a30-774a59b3cee2")
 		(property "Reference" "TP2"
-			(at 369.57 220.9799 90)
+			(at 344.17 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7405,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 369.57 222.2499 90)
+			(at 344.17 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7415,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 364.49 226.06 0)
+			(at 339.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,7 +7424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 226.06 0)
+			(at 339.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,7 +7433,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 364.49 220.98 0)
+			(at 339.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7521,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 375.92 213.36 0)
+		(at 350.52 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7530,7 +7530,7 @@
 		(fields_autoplaced yes)
 		(uuid "297fa455-b5fd-4b0d-85cf-19ebef9e4203")
 		(property "Reference" "#PWR031"
-			(at 375.92 217.17 0)
+			(at 350.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,7 +7539,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 375.92 208.28 0)
+			(at 350.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 213.36 0)
+			(at 350.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 213.36 0)
+			(at 350.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 375.92 213.36 0)
+			(at 350.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 364.49 223.52 0)
+		(at 339.09 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7596,7 +7596,7 @@
 		(fields_autoplaced yes)
 		(uuid "330084f2-157c-4c8f-8c9d-a6a3612f85b4")
 		(property "Reference" "#PWR030"
-			(at 364.49 229.87 0)
+			(at 339.09 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.49 228.6 0)
+			(at 339.09 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 223.52 0)
+			(at 339.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 223.52 0)
+			(at 339.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +7631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 364.49 223.52 0)
+			(at 339.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7784,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 364.49 215.9 270)
+		(at 339.09 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7793,7 +7793,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b8dab85-6d13-4286-8e5a-c8ba1d996820")
 		(property "Reference" "TP1"
-			(at 369.57 215.8999 90)
+			(at 344.17 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +7802,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 369.57 217.1699 90)
+			(at 344.17 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7812,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 364.49 220.98 0)
+			(at 339.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 220.98 0)
+			(at 339.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +7830,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 364.49 215.9 0)
+			(at 339.09 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8520,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 375.92 223.52 0)
+		(at 350.52 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8529,7 +8529,7 @@
 		(fields_autoplaced yes)
 		(uuid "5db0916b-60e9-4bbc-a194-52a511fbac42")
 		(property "Reference" "#PWR032"
-			(at 375.92 229.87 0)
+			(at 350.52 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8538,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 375.92 228.6 0)
+			(at 350.52 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 223.52 0)
+			(at 350.52 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 223.52 0)
+			(at 350.52 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8564,7 +8564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 375.92 223.52 0)
+			(at 350.52 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +9817,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 387.35 215.9 270)
+		(at 361.95 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9826,7 +9826,7 @@
 		(fields_autoplaced yes)
 		(uuid "a03fb9ed-73fe-418f-9e78-d6ccb3a40aa7")
 		(property "Reference" "TP5"
-			(at 392.43 215.8999 90)
+			(at 367.03 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9835,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 392.43 217.1699 90)
+			(at 367.03 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +9845,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 387.35 220.98 0)
+			(at 361.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +9854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 387.35 220.98 0)
+			(at 361.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +9863,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 387.35 215.9 0)
+			(at 361.95 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11471,7 +11471,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 375.92 220.98 270)
+		(at 350.52 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11480,7 +11480,7 @@
 		(fields_autoplaced yes)
 		(uuid "e19034ad-9114-4d7a-b506-08f3da53a54b")
 		(property "Reference" "TP4"
-			(at 381 220.9799 90)
+			(at 355.6 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +11489,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 381 222.2499 90)
+			(at 355.6 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11499,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 375.92 226.06 0)
+			(at 350.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 226.06 0)
+			(at 350.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +11517,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 375.92 220.98 0)
+			(at 350.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11861,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 351.79 215.9 270)
+		(at 326.39 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11870,7 +11870,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8bab8cf-0626-468e-8eff-3a91afde8952")
 		(property "Reference" "TP6"
-			(at 356.87 215.8999 90)
+			(at 331.47 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11879,7 +11879,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 356.87 217.1699 90)
+			(at 331.47 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +11889,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 351.79 220.98 0)
+			(at 326.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +11898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 220.98 0)
+			(at 326.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11907,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 351.79 215.9 0)
+			(at 326.39 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12060,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 375.92 215.9 270)
+		(at 350.52 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12069,7 +12069,7 @@
 		(fields_autoplaced yes)
 		(uuid "f811cc2b-544a-4549-a2a7-f8c9145fb0fa")
 		(property "Reference" "TP3"
-			(at 381 215.8999 90)
+			(at 355.6 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12078,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 381 217.1699 90)
+			(at 355.6 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12088,7 +12088,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 375.92 220.98 0)
+			(at 350.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12097,7 +12097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 220.98 0)
+			(at 350.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12106,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 375.92 215.9 0)
+			(at 350.52 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12128,7 +12128,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 351.79 213.36 0)
+		(at 326.39 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12137,7 +12137,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8786c5d-b8c5-4ccd-b75b-bdf51321698c")
 		(property "Reference" "#PWR034"
-			(at 351.79 217.17 0)
+			(at 326.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12146,7 +12146,7 @@
 			)
 		)
 		(property "Value" "+VMOB"
-			(at 351.79 208.28 0)
+			(at 326.39 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 213.36 0)
+			(at 326.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 213.36 0)
+			(at 326.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 351.79 213.36 0)
+			(at 326.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +12260,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 387.35 213.36 0)
+		(at 361.95 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12269,7 +12269,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc6d6115-ce1a-473c-8286-2a0b68938780")
 		(property "Reference" "#PWR033"
-			(at 387.35 217.17 0)
+			(at 361.95 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,7 +12278,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 387.35 208.28 0)
+			(at 361.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 213.36 0)
+			(at 361.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +12295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 213.36 0)
+			(at 361.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 387.35 213.36 0)
+			(at 361.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12326,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 398.78 213.36 0)
+		(at 373.38 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12334,7 +12334,7 @@
 		(dnp no)
 		(uuid "ff908498-b7f8-42d7-a949-3abbd3c760ef")
 		(property "Reference" "#PWR035"
-			(at 398.78 217.17 0)
+			(at 373.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12343,7 @@
 			)
 		)
 		(property "Value" "+1.8V"
-			(at 394.716 208.28 0)
+			(at 369.316 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 213.36 0)
+			(at 373.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 213.36 0)
+			(at 373.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 398.78 213.36 0)
+			(at 373.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

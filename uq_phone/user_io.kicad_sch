@@ -7228,9 +7228,9 @@
 		)
 		(uuid "578b8c3b-f875-46aa-8417-bc575c5e962b")
 	)
-	(text "make sure stm has pullups\n"
+	(text "Need to check STM pullups sufficient \n"
 		(exclude_from_sim no)
-		(at 124.714 46.482 0)
+		(at 90.932 94.234 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 	)
 	(text "Iout = 0.3/R\n3.83R -> 78mA"
 		(exclude_from_sim no)
-		(at 356.87 76.454 0)
+		(at 356.87 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14095,7 +14095,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "67426522-d4c2-4344-b2d5-08c231dbacc0")
 		(property "Reference" "J9"
@@ -14394,7 +14394,7 @@
 		(dnp no)
 		(uuid "6b7edde3-a81f-496d-9e17-121d286d96c3")
 		(property "Reference" "C32"
-			(at 182.118 65.024 0)
+			(at 181.102 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,7 +14460,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7104e337-b26a-47bb-bad7-1f0494642b5f")
 		(property "Reference" "#PWR094"
@@ -14658,7 +14658,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7bfaf773-23e1-400f-b729-2d64664911b3")
 		(property "Reference" "#PWR091"
@@ -15185,7 +15185,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "9defd63f-f453-4aba-b488-120a15f74514")
 		(property "Reference" "#PWR095"
 			(at 349.25 124.46 0)
@@ -15484,7 +15484,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "a4d8ef43-47ef-41bf-9d6e-73bafc80aea9")
 		(property "Reference" "#PWR096"
 			(at 349.25 132.08 0)
@@ -15549,7 +15549,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b20a427a-1753-42b9-908c-50b6568180ff")
 		(property "Reference" "#PWR092"
@@ -17208,7 +17208,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "efacc74a-d302-4bcc-8c2e-3000ba8bdb86")
 		(property "Reference" "#PWR093"
