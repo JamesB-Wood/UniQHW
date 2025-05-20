@@ -11492,7 +11492,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Interfacing\n"
+	(text "Power Control\n"
 		(exclude_from_sim no)
 		(at 90.17 203.2 0)
 		(effects
@@ -11538,7 +11538,7 @@
 	)
 	(text "Antenna\n"
 		(exclude_from_sim no)
-		(at 245.11 208.788 0)
+		(at 292.1 206.248 0)
 		(effects
 			(font
 				(size 4 4)
@@ -12704,7 +12704,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 226.06) (xy 252.73 226.06)
+			(xy 290.83 223.52) (xy 299.72 223.52)
 		)
 		(stroke
 			(width 0)
@@ -12874,7 +12874,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 236.22) (xy 252.73 236.22)
+			(xy 290.83 233.68) (xy 299.72 233.68)
 		)
 		(stroke
 			(width 0)
@@ -14444,7 +14444,7 @@
 	)
 	(global_label "MOB_MAIN_ANT"
 		(shape output)
-		(at 252.73 226.06 0)
+		(at 299.72 223.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14454,7 +14454,7 @@
 		)
 		(uuid "03405889-435f-44a9-9f69-a5de64260102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.5643 226.06 0)
+			(at 316.5543 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,7 +14531,7 @@
 		)
 	)
 	(global_label "MOB_RTS"
-		(shape output)
+		(shape input)
 		(at 59.69 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14598,7 +14598,7 @@
 	)
 	(global_label "MOB_AUX_ANT"
 		(shape output)
-		(at 252.73 236.22 0)
+		(at 299.72 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14608,7 +14608,7 @@
 		)
 		(uuid "49d57ed5-1b41-4a64-a0da-d9b7bfc8c459")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.7176 236.22 0)
+			(at 315.7076 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15081,7 +15081,7 @@
 		)
 	)
 	(global_label "MOB_CTS"
-		(shape input)
+		(shape output)
 		(at 59.69 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -17527,7 +17527,7 @@
 	)
 	(symbol
 		(lib_id "20279-001E-03:20279-001E-03")
-		(at 241.3 226.06 0)
+		(at 288.29 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17535,7 +17535,7 @@
 		(dnp no)
 		(uuid "4589b680-4ad1-47e9-a607-a39501ed4a8c")
 		(property "Reference" "J3"
-			(at 238.76 223.52 0)
+			(at 285.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17544,7 +17544,7 @@
 			)
 		)
 		(property "Value" "20279-001E-03"
-			(at 239.014 221.742 0)
+			(at 286.004 219.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17553,7 +17553,7 @@
 			)
 		)
 		(property "Footprint" "20279-001E-03:IPEX_20279-001E-03"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17563,7 +17563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17572,7 +17572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17581,7 +17581,7 @@
 			)
 		)
 		(property "MF" "I-PEX"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,7 +17591,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.25mm"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,7 +17601,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,7 +17611,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17621,7 +17621,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/20279-001E-03/I-PEX/view-part/?ref=eda"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17631,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +17641,7 @@
 			)
 		)
 		(property "PARTREV" "32"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17651,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20279-001E-03/I-PEX/view-part/?ref=snap"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17661,7 +17661,7 @@
 			)
 		)
 		(property "MP" "20279-001E-03"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +17671,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            1 POS Vertical SMD Small form factor with big performance through 6 GHz connector,MHF, RF, micro-coaxial MHF I Receptacle\n                        \n"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17681,7 +17681,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +17691,7 @@
 			)
 		)
 		(property "MANUFACTURER" "I-PEX"
-			(at 241.3 226.06 0)
+			(at 288.29 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18052,7 +18052,7 @@
 	)
 	(symbol
 		(lib_id "20279-001E-03:20279-001E-03")
-		(at 241.3 236.22 0)
+		(at 288.29 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18060,7 +18060,7 @@
 		(dnp no)
 		(uuid "630e7dd3-38d5-4bc1-ab27-4b3be01e3bc7")
 		(property "Reference" "J4"
-			(at 238.76 233.68 0)
+			(at 285.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18069,7 +18069,7 @@
 			)
 		)
 		(property "Value" "20279-001E-03"
-			(at 239.014 231.902 0)
+			(at 286.004 229.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18078,7 +18078,7 @@
 			)
 		)
 		(property "Footprint" "20279-001E-03:IPEX_20279-001E-03"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18088,7 +18088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18097,7 +18097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18106,7 +18106,7 @@
 			)
 		)
 		(property "MF" "I-PEX"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18116,7 +18116,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.25mm"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18126,7 +18126,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18136,7 +18136,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18146,7 +18146,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/20279-001E-03/I-PEX/view-part/?ref=eda"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18156,7 +18156,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18166,7 +18166,7 @@
 			)
 		)
 		(property "PARTREV" "32"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18176,7 +18176,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20279-001E-03/I-PEX/view-part/?ref=snap"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18186,7 +18186,7 @@
 			)
 		)
 		(property "MP" "20279-001E-03"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18196,7 +18196,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            1 POS Vertical SMD Small form factor with big performance through 6 GHz connector,MHF, RF, micro-coaxial MHF I Receptacle\n                        \n"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18206,7 +18206,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18216,7 +18216,7 @@
 			)
 		)
 		(property "MANUFACTURER" "I-PEX"
-			(at 241.3 236.22 0)
+			(at 288.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19549,7 +19549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 228.6 0)
+		(at 290.83 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19557,7 +19557,7 @@
 		(dnp no)
 		(uuid "787e8080-56ca-4880-8d0d-54be4a3b5103")
 		(property "Reference" "#PWR036"
-			(at 243.84 234.95 0)
+			(at 290.83 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19566,7 +19566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 233.426 0)
+			(at 290.83 230.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19574,7 +19574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 228.6 0)
+			(at 290.83 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19583,7 +19583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 228.6 0)
+			(at 290.83 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19592,7 +19592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 228.6 0)
+			(at 290.83 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,7 +19614,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 238.76 0)
+		(at 290.83 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19622,7 +19622,7 @@
 		(dnp no)
 		(uuid "7b6df72a-a64c-4962-a42e-5c0455f06a63")
 		(property "Reference" "#PWR037"
-			(at 243.84 245.11 0)
+			(at 290.83 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19631,7 +19631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 243.586 0)
+			(at 290.83 241.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19639,7 +19639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 238.76 0)
+			(at 290.83 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19648,7 +19648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 238.76 0)
+			(at 290.83 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19657,7 +19657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 238.76 0)
+			(at 290.83 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
