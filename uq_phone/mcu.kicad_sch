@@ -3454,6 +3454,112 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistors:Resistor_4k7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7k"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_4k7_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_4k7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TXB0108RGYR:TXB0108RGYR"
 			(pin_names
 				(offset 1.016)
@@ -4478,6 +4584,16 @@
 		)
 		(uuid "c4038b81-d317-484c-8b07-926c511c2876")
 	)
+	(text "make pullup 4.7k\n"
+		(exclude_from_sim no)
+		(at 280.416 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9a63f2e-5619-4650-85e6-9f878f8af8a8")
+	)
 	(text "Logic Level Shifting\n"
 		(exclude_from_sim no)
 		(at 65.532 58.674 0)
@@ -4489,6 +4605,16 @@
 			)
 		)
 		(uuid "e8a43b9f-c967-4c4f-8edf-626b080df7c4")
+	)
+	(text "ENSURE VREF\n"
+		(exclude_from_sim no)
+		(at 145.542 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa137c84-490b-4d4c-8c70-cbfb6eed86e2")
 	)
 	(junction
 		(at 85.09 127)
@@ -4587,7 +4713,7 @@
 		(uuid "561bcca7-35ba-431a-9d67-b67ed2af32c5")
 	)
 	(junction
-		(at 160.02 71.12)
+		(at 154.94 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "578b2c52-4083-45d6-881e-6bb1e0d78729")
@@ -5386,7 +5512,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 177.8 71.12)
+			(xy 154.94 71.12) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5532,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 76.2) (xy 177.8 76.2)
+			(xy 161.29 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 71.12) (xy 160.02 71.12)
+			(xy 151.13 71.12) (xy 154.94 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6303,6 +6429,16 @@
 			(type default)
 		)
 		(uuid "b37efc92-941a-41f0-8608-1a0a8c6bc8db")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b419b0a3-b715-45c5-bb46-5803785f1c3a")
 	)
 	(wire
 		(pts
@@ -6826,7 +6962,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 78.74) (xy 166.37 76.2)
+			(xy 161.29 77.47) (xy 161.29 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7622,7 +7758,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 156.21 71.12 180)
+		(at 151.13 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7632,7 +7768,7 @@
 		)
 		(uuid "56ecd952-0635-4166-a3f3-2971832a4dbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7777 71.12 0)
+			(at 144.6977 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10165,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors:capacitor_100nF")
-		(at 160.02 74.93 180)
+		(at 154.94 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10037,7 +10173,7 @@
 		(dnp no)
 		(uuid "23fa66b4-ac7f-4bad-b2cd-e4ed13dd7b07")
 		(property "Reference" "C18"
-			(at 153.162 74.676 0)
+			(at 148.082 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10182,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 151.892 77.47 0)
+			(at 146.812 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10191,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.02 74.93 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 74.93 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10209,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 160.02 74.93 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,6 +10371,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors:Resistor_4k7")
+		(at 267.97 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3736d406-61ec-4653-b574-1366db7dd6e9")
+		(property "Reference" "R25"
+			(at 269.494 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 269.748 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 267.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
+			(at 267.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b958adf7-07ae-4f0f-9d3a-3205f753a342")
+		)
+		(pin "2"
+			(uuid "d858b9eb-d817-4ada-9366-d59d7ae3fbc1")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:Resistor_10k")
 		(at 280.67 144.78 0)
 		(unit 1)
@@ -10363,6 +10568,76 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_10k")
+		(at 161.29 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b16a938-990f-49fd-862c-3dfe24ba91df")
+		(property "Reference" "R49"
+			(at 163.83 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 163.83 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0536bf1d-e150-4cde-ae1f-8a842e4474cd")
+		)
+		(pin "2"
+			(uuid "e6d86c7c-35f2-427e-8676-3c23b20aa879")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -10521,7 +10796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 78.74 0)
+		(at 154.94 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10530,7 +10805,7 @@
 		(fields_autoplaced yes)
 		(uuid "633962dd-1fea-44c4-becc-e1517c8b6359")
 		(property "Reference" "#PWR057"
-			(at 160.02 85.09 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 83.82 0)
+			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 78.74 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 78.74 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 78.74 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,7 +12370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 78.74 0)
+		(at 161.29 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12104,7 +12379,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd9bbb7b-e7d2-4809-b7ce-d6915c881e05")
 		(property "Reference" "#PWR058"
-			(at 166.37 85.09 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 83.82 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,7 +12396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 78.74 0)
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,7 +12405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 78.74 0)
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 78.74 0)
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +12426,7 @@
 			(uuid "6c8e0cba-99a6-4ba4-bfe2-90fe196d58f9")
 		)
 		(instances
-			(project ""
+			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "#PWR058")
 					(unit 1)
@@ -12292,16 +12567,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors:Resistor_10k")
+		(lib_id "Resistors:Resistor_4k7")
 		(at 265.43 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2f0a998-902f-41cc-b381-da8366a6a60b")
+		(uuid "e55c21ef-d5a0-4376-8fdc-a5b68145ee14")
 		(property "Reference" "R24"
-			(at 260.096 126.492 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,8 +12584,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 260.35 129.54 0)
+		(property "Value" "4.7k"
+			(at 260.096 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -12346,13 +12621,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae23e2e7-9091-449c-bc70-224c418d0909")
+			(uuid "b198af39-fb18-4682-81a1-3d9ab3e67ec2")
 		)
 		(pin "2"
-			(uuid "ce403a07-9b7f-45f2-bd68-6444630342cd")
+			(uuid "4e264794-6de8-42bb-84c3-c8cb4dc628e5")
 		)
 		(instances
-			(project "uq_phone"
+			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "R24")
 					(unit 1)
@@ -12738,75 +13013,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_10k")
-		(at 267.97 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7e7b603-b882-4787-b166-f7926d900db6")
-		(property "Reference" "R25"
-			(at 269.494 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 269.494 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 267.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
-			(at 267.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d96511a-dbf0-4493-b2fb-4cab3e5e58ef")
-		)
-		(pin "2"
-			(uuid "e2a30842-3597-4b62-80d2-4651f2a955cd")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/ae53d2cb-b3f2-4714-9a2c-ad5dc2e43dd7"
-					(reference "R25")
 					(unit 1)
 				)
 			)

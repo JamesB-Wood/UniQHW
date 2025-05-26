@@ -38,4 +38,7 @@
   (lib (name "KP15B-6S-SF_800_")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/KP15B-6S-SF_800_")(options "")(descr ""))
   (lib (name "TPD8F003DQDR")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/TPD8F003DQDR")(options "")(descr ""))
   (lib (name "MMBT3904LP-7")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/MMBT3904LP-7")(options "")(descr ""))
+  (lib (name "BM03B-ACHSS-GAN-TF_LF__SN_")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/BM03B-ACHSS-GAN-TF_LF__SN_")(options "")(descr ""))
+  (lib (name "0532610371")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/0532610371")(options "")(descr ""))
+  (lib (name "6871XX14022_68715014022")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/6871XX14022_68715014022")(options "")(descr ""))
 )
