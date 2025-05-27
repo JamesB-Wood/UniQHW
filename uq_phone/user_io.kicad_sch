@@ -61,6 +61,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C625339"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "MCP1664T-E/OT"
 				(at 0 0 0)
 				(effects
@@ -148,24 +157,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 27.94 2.54 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 27.94 -7.62 180)
 					(length 5.08)
 					(name "VFB"
@@ -176,6 +167,26 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP1664T-E_OT_1_1"
+				(pin passive line
+					(at 27.94 2.54 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2310,55 +2321,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Cable_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "Cable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0151660555"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com.au/en/products/detail/molex/0151660555/3281436"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Capacitors:Capacitor_10uF"
 			(pin_numbers
 				(hide yes)
@@ -2404,6 +2366,15 @@
 				)
 			)
 			(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C2168196"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2531,6 +2502,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C2168187"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_22pF_0_1"
 				(polyline
 					(pts
@@ -2642,6 +2622,15 @@
 				)
 			)
 			(property "Description" "CAP CER 33PF 16V X7R 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C70465"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2769,6 +2758,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C191541"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_4.7uF_0_1"
 				(polyline
 					(pts
@@ -2880,6 +2878,15 @@
 				)
 			)
 			(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C307331"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3260,13 +3267,22 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Haptic driver for ERM/LRA with auto-resonance tracking in QFN package\n                        \n"
+			(property "Description_1" "Haptic driver for ERM/LRA with auto-resonance tracking in QFN package"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C75424"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -4495,7 +4511,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board no)
-			(property "Reference" "C"
+			(property "Reference" "Cable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4583,6 +4599,15 @@
 				)
 			)
 			(property "Description" "DIODE SCHOTTKY 20V 1A SOD323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C193668"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4781,218 +4806,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor_22R_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22R"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor_22R_1_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_22R_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_22R_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22R"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor_22R_2_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_22R_2_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Resistors:Resistor_0R"
 			(pin_numbers
 				(hide yes)
@@ -5039,6 +4852,15 @@
 			)
 			(property "Description" ""
 				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C95177"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5152,6 +4974,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C851848"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Resistor_10k_0_1"
 				(rectangle
 					(start 1.016 2.54)
@@ -5258,6 +5089,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C6117700"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Resistor_22R_0_1"
 				(rectangle
 					(start 1.016 2.54)
@@ -5357,6 +5197,15 @@
 			)
 			(property "Description" "RES SMD 3.83 OHM 1% 1/10W 0603"
 				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C3037044"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5970,6 +5819,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C2869050"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "TPD3F303DQDR_0_0"
 				(rectangle
 					(start -15.24 -10.16)
@@ -6299,6 +6157,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C473368"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -6747,6 +6614,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C2761891"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "WE-MAPI_3015_0_1"
 				(arc
 					(start -2.54 0)
@@ -7172,7 +7048,7 @@
 	)
 	(text "Micro SIM card"
 		(exclude_from_sim no)
-		(at 225.552 34.036 0)
+		(at 225.044 27.686 0)
 		(effects
 			(font
 				(size 4 4)
@@ -12251,7 +12127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0edeb2b6-08eb-4612-a06b-8620eb876cd4")
 		(property "Reference" "M1"
@@ -12291,6 +12167,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 124.46 247.65 0)
 			(effects
 				(font
@@ -12362,6 +12247,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2168196"
+			(at 325.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 325.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "172055f9-e171-461a-9e3c-b1a84dd73196")
 		)
@@ -12423,6 +12326,24 @@
 			)
 		)
 		(property "Description" "CAP CER 33PF 16V X7R 0402"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C70465"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 190.5 67.31 0)
 			(effects
 				(font
@@ -12567,6 +12488,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "49646ea9-921d-4410-9ed5-f4e8f6fdb448")
 		)
@@ -12613,71 +12543,6 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Misc:Cable")
-		(at 241.3 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "2a71a39c-4882-4751-9e28-37420be42292")
-		(property "Reference" "C50"
-			(at 255.27 151.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "0151660555"
-			(at 255.27 154.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.au/en/products/detail/molex/0151660555/3281436"
-			(at 241.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
-					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -12854,6 +12719,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13071,6 +12945,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C95177"
+			(at 33.02 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 33.02 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e824d3f-a6e5-4dcd-85ad-f7ed7f5874a7")
 		)
@@ -13153,7 +13045,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cable_1")
 		(lib_id "Misc:Cable")
 		(at 231.14 184.15 0)
 		(unit 1)
@@ -13200,6 +13091,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 231.14 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 231.14 184.15 0)
 			(effects
 				(font
@@ -13328,7 +13228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC LRA/ERM HAPTIC DRIVER 10QFN"
 			(at 72.39 248.92 0)
 			(effects
 				(font
@@ -13457,13 +13357,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Haptic driver for ERM/LRA with auto-resonance tracking in QFN package\n                        \n"
+		(property "Description_1" "Haptic driver for ERM/LRA with auto-resonance tracking in QFN package"
 			(at 72.39 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C75424"
+			(at 72.39 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 72.39 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13556,6 +13474,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C193668"
+			(at 379.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 379.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7ea74b4-239f-44be-8dd7-7f156abdb738")
 		)
@@ -13572,7 +13508,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Resistor_22R_1")
 		(lib_id "Resistors:Resistor_22R")
 		(at 180.34 49.53 90)
 		(unit 1)
@@ -13617,6 +13552,24 @@
 		)
 		(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C6117700"
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 180.34 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13685,6 +13638,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 29.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 29.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 29.21 190.5 0)
 			(effects
 				(font
@@ -13763,6 +13734,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C191541"
+			(at 386.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 386.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66dcab3d-c5be-403f-b129-59dcf3d33a66")
 		)
@@ -13833,6 +13822,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 104.14 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e24467e-a932-4a79-b4dc-5096e74256f5")
 		)
@@ -13894,6 +13892,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C625339"
+			(at 340.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 340.36 55.88 0)
 			(effects
 				(font
@@ -13972,6 +13988,24 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 16V X7R 0402"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2168187"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -14119,6 +14153,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2761891"
+			(at 355.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6e8c5f8-bec0-4835-a939-6a896095ea53")
 		)
@@ -14180,6 +14223,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 92.71 165.1 0)
 			(effects
 				(font
@@ -14374,6 +14435,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14616,6 +14686,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 355.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "25"
 			(uuid "68ca5440-23ee-4145-89f1-5267b2076207")
 		)
@@ -14812,6 +14891,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 185.42 67.31 0)
 			(effects
 				(font
@@ -15799,6 +15896,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C473368"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "5d769b7d-fe1a-48fe-9a99-0b6bd6afe036")
 		)
@@ -16544,6 +16659,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2869050"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "67a07432-f464-4bd8-9ff9-c1cc8508304d")
 		)
@@ -16689,6 +16822,24 @@
 		)
 		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C851848"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16913,6 +17064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 222.25 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e4533f5-f600-4671-aa14-d2155bd6d0b3")
 		)
@@ -17133,6 +17293,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3037044"
+			(at 369.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 369.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7408cf2-0b62-419d-a24e-57a451232a70")
 		)
@@ -17346,7 +17524,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Resistor_22R_2")
 		(lib_id "Resistors:Resistor_22R")
 		(at 180.34 52.07 90)
 		(unit 1)
@@ -17391,6 +17568,24 @@
 		)
 		(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 184.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C6117700"
+			(at 180.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 180.34 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,6 +17720,24 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 16V X7R 0402"
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2168187"
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -17800,6 +18013,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C95177"
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9297b204-1dad-4db8-b14d-3a4955894ac4")
 		)
@@ -17861,6 +18092,24 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 16V X7R 0402"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2168187"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -18191,6 +18440,24 @@
 		)
 		(property "Description" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C6117700"
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 180.34 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)

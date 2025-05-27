@@ -62,6 +62,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C107369"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_2.2uF_0_1"
 				(polyline
 					(pts
@@ -181,6 +190,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C191541"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_4.7uF_0_1"
 				(polyline
 					(pts
@@ -292,6 +310,15 @@
 				)
 			)
 			(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C307331"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3401,6 +3428,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C851848"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Resistor_10k_0_1"
 				(rectangle
 					(start 1.016 2.54)
@@ -3500,6 +3536,15 @@
 			)
 			(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
 				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C606173"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3720,6 +3765,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C194701"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -9746,6 +9800,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C194701"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "176071bb-9ce6-44c8-8ce6-d2ea3e4db682")
 		)
@@ -9942,6 +10014,24 @@
 			)
 		)
 		(property "Description" "2.2 µF ±10% 6.3V Ceramic Capacitor X6S 0402 (1005 Metric)"
+			(at 172.72 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C107369"
+			(at 172.72 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 172.72 187.96 0)
 			(effects
 				(font
@@ -10217,6 +10307,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C307331"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea43e7da-c45f-4cd8-a1c3-50246abba609")
 		)
@@ -10278,6 +10386,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -10355,6 +10481,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C191541"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0cdb730-4a4c-4651-aa8f-add860ea8abe")
 		)
@@ -10424,6 +10568,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C606173"
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b958adf7-07ae-4f0f-9d3a-3205f753a342")
 		)
@@ -10486,6 +10648,24 @@
 		)
 		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 280.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C851848"
+			(at 280.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 280.67 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,6 +10808,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C851848"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0536bf1d-e150-4cde-ae1f-8a842e4474cd")
 		)
@@ -10689,6 +10887,24 @@
 			)
 		)
 		(property "Description" "2.2 µF ±10% 6.3V Ceramic Capacitor X6S 0402 (1005 Metric)"
+			(at 167.64 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C107369"
+			(at 167.64 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 167.64 187.96 0)
 			(effects
 				(font
@@ -10759,6 +10975,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+			(at 359.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 359.41 125.73 0)
 			(effects
 				(font
@@ -10914,6 +11139,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C307331"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89c2765f-1c0c-456d-a37f-a42a9b97c77b")
 		)
@@ -11041,6 +11284,24 @@
 		)
 		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 283.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C851848"
+			(at 283.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 283.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11315,6 +11576,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C307331"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "200ef1e6-9c41-4bef-9f15-6aeb96b2e3a3")
 		)
@@ -11444,6 +11723,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 564KB RAM, 550 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 208.28 134.62 0)
 			(effects
 				(font
@@ -11815,6 +12103,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C307331"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cb8d907-759b-4a67-ba56-ecc01f3c21db")
 		)
@@ -11884,6 +12190,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C307331"
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be6fb101-22d3-40e4-b74b-f7f3a4514afd")
 		)
@@ -11945,6 +12269,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 198.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 198.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -12219,6 +12561,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C307331"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5e669c8-7506-4738-9a40-978c0c69e3bc")
 		)
@@ -12345,6 +12705,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 91.44 151.13 0)
 			(effects
 				(font
@@ -12620,6 +12998,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C606173"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b198af39-fb18-4682-81a1-3d9ab3e67ec2")
 		)
@@ -12681,6 +13077,24 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C307331"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 36.83 151.13 0)
 			(effects
 				(font
@@ -12931,6 +13345,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C194701"
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

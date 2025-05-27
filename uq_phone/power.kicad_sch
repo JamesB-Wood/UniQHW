@@ -9,15 +9,16 @@
 		(company "The University of Queensland")
 	)
 	(lib_symbols
-		(symbol "0532610371:0532610371"
+		(symbol "BM03B-ACHSS-GAN-TF_LF__SN_:BM03B-ACHSS-GAN-TF_LF__SN_"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -2.5469 5.7304 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,8 +26,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "0532610371"
-				(at -2.5455 -7.6364 0)
+			(property "Value" "BM03B-ACHSS-GAN-TF_LF__SN_"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,7 +35,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "0532610371:MOLEX_0532610371"
+			(property "Footprint" "BM03B-ACHSS-GAN-TF_LF__SN_:JST_BM03B-ACHSS-GAN-TF_LF__SN_"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "WM7621TR-ND"
+			(property "DigiKey_Part_Number" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/0532610371/Molex/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM03B-ACHSS-GAN-TF(LF)(SN)/JST/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Picoblade Connector, 3 Circuit Single Row, Right Angle Surface Mount SMT PCB"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.4 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -102,7 +103,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/0532610371/Molex/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/BM03B-ACHSS-GAN-TF(LF)(SN)/JST/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -112,7 +113,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Molex"
+			(property "STANDARD" "Manufacturer recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -122,7 +123,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "0532610371"
+			(property "PARTREV" "N/A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -132,7 +133,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Molex"
+			(property "MF" "JST Sales"
 				(at 0 0 0)
 				(effects
 					(font
@@ -142,20 +143,180 @@
 					(hide yes)
 				)
 			)
-			(symbol "0532610371_0_0"
-				(rectangle
-					(start -2.54 -5.08)
-					(end 2.54 5.08)
+			(property "MP" "BM03B-ACHSS-GAN-TF(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Surface Mount, Right Angle 3 position 0.047 (1.20mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BM03B-ACHSS-GAN-TF_LF__SN__0_0"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 2.2225)
+					(end 2.2225 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -2.8575)
+					(end 2.2225 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -5.08 2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -173,7 +334,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -5.08 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -191,7 +352,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -341,6 +502,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C473397"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -594,6 +764,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C2168196"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_10uF_0_1"
 				(polyline
 					(pts
@@ -705,6 +884,15 @@
 				)
 			)
 			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C52923"
 				(at 0 0 0)
 				(effects
 					(font
@@ -832,6 +1020,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C3020456"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_22uF_0_1"
 				(polyline
 					(pts
@@ -951,6 +1148,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C191541"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Capacitor_4.7uF_0_1"
 				(polyline
 					(pts
@@ -1062,6 +1268,15 @@
 				)
 			)
 			(property "Description" "CAP CER 470PF 10V X7R 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C26412"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1590,6 +1805,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C5121473"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -2138,112 +2362,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor_2k2_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.2k"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor_2k2_1_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_2k2_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Resistors:Resistor_0R_2A"
 			(pin_numbers
 				(hide yes)
@@ -2290,6 +2408,15 @@
 			)
 			(property "Description" ""
 				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C844811"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2403,6 +2530,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C606167"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Resistor_100k_0_1"
 				(rectangle
 					(start 1.016 2.54)
@@ -2502,6 +2638,15 @@
 			)
 			(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C851848"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2615,6 +2760,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "PE0805FRE470R01Z"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Resistor_10m_1W_0_1"
 				(rectangle
 					(start 1.016 2.54)
@@ -2721,6 +2875,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC PN" "C131553"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Resistor_270k_0_1"
 				(rectangle
 					(start 1.016 2.54)
@@ -2735,6 +2898,121 @@
 				)
 			)
 			(symbol "Resistor_270k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistors:Resistor_2k2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2.2k"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C606171"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_2k2_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_2k2_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2820,6 +3098,15 @@
 			)
 			(property "Description" "RES SMD 5.1K OHM 5% 1/10W 0402"
 				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C7334585"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3647,6 +3934,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C40256"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -5239,6 +5535,12 @@
 		(uuid "38834f45-33a3-47f3-956e-55535ae8076a")
 	)
 	(junction
+		(at 218.44 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a571fa8-fc0c-4fbf-8241-682ca6963e53")
+	)
+	(junction
 		(at 232.41 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5333,12 +5635,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b30df1c3-7d5b-4d92-bdd0-6c6713b45558")
-	)
-	(junction
-		(at 218.44 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc3b94bd-1b6d-4054-b01b-caa0d94cf3ee")
 	)
 	(junction
 		(at 107.95 254)
@@ -5636,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 256.54) (xy 218.44 256.54)
+			(xy 219.71 247.65) (xy 218.44 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6003,6 +6299,26 @@
 			(type default)
 		)
 		(uuid "6a009bf1-64c0-46c4-9d25-480f05cb49d6")
+	)
+	(wire
+		(pts
+			(xy 220.98 251.46) (xy 220.98 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70684389-a9bb-4fe4-8b54-c8e1494d3812")
+	)
+	(wire
+		(pts
+			(xy 220.98 250.19) (xy 218.44 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70690032-112e-48a7-9bae-74ee2575d282")
 	)
 	(wire
 		(pts
@@ -6686,16 +7002,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 256.54) (xy 218.44 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8c9f1b-ddf5-49cb-a651-0f193cd15bbf")
-	)
-	(wire
-		(pts
 			(xy 350.52 148.59) (xy 350.52 151.13)
 		)
 		(stroke
@@ -6803,16 +7109,6 @@
 			(type default)
 		)
 		(uuid "eaa4828f-029a-429a-96c4-c2c7ff4b3621")
-	)
-	(wire
-		(pts
-			(xy 223.52 247.65) (xy 218.44 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7508cf-24f5-4732-9cde-2ffae65b4a11")
 	)
 	(wire
 		(pts
@@ -7038,7 +7334,7 @@
 	)
 	(global_label "BAT_THERM"
 		(shape input)
-		(at 219.71 256.54 0)
+		(at 219.71 247.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7048,7 +7344,7 @@
 		)
 		(uuid "5d3f1b42-7f4d-40cc-ba6d-4eeb97a68574")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.1575 256.54 0)
+			(at 233.1575 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,6 +7519,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C26412"
+			(at 275.59 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 275.59 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5509f9af-4c44-4924-abfd-af17857acecc")
 		)
@@ -7233,158 +7547,6 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0532610371:0532610371")
-		(at 210.82 247.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e55b302-71ec-4ceb-9af4-5c2d7b908857")
-		(property "Reference" "J2"
-			(at 210.312 257.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0532610371"
-			(at 210.312 255.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0532610371:MOLEX_0532610371"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM7621TR-ND"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0532610371/Molex/view-part/?ref=snap"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Picoblade Connector, 3 Circuit Single Row, Right Angle Surface Mount SMT PCB"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/0532610371/Molex/view-part/?ref=eda"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "0532610371"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 210.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9ed25511-3ec7-464d-a220-15d349820b94")
-		)
-		(pin "2"
-			(uuid "e3929892-bef0-4099-aaaf-cce774c4b36d")
-		)
-		(pin "1"
-			(uuid "07efa333-4a3e-4180-9d35-9a0c41bfe14f")
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7512,6 +7674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 373.38 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6710cb0a-87d2-498b-9de8-b9ec7bda563c")
 		)
@@ -7526,7 +7697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 247.65 0)
+		(at 220.98 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7535,7 +7706,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f31e2e1-329e-42ba-8087-8529e01ccd6a")
 		(property "Reference" "#PWR019"
-			(at 223.52 254 0)
+			(at 220.98 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 252.73 0)
+			(at 220.98 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 247.65 0)
+			(at 220.98 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 247.65 0)
+			(at 220.98 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 247.65 0)
+			(at 220.98 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,6 +7876,15 @@
 		)
 		(property "Description" "test point"
 			(at 339.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 339.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,6 +8289,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 339.09 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "179304cf-9ab6-4b04-b0fd-912a089b4d33")
 		)
@@ -8285,6 +8474,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C40256"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "cac502ad-3331-4051-9ceb-efcd61163091")
 		)
@@ -8441,6 +8648,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C191541"
+			(at 67.31 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 67.31 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd57c918-6775-4f18-949a-e8cf31113b7f")
 		)
@@ -8576,6 +8801,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C7334585"
+			(at 236.22 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 236.22 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a098b922-aa5d-43aa-9001-f7eef935e31b")
 		)
@@ -8658,7 +8901,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Resistor_2k2_1")
 		(lib_id "Resistors:Resistor_2k2")
 		(at 40.64 234.95 180)
 		(unit 1)
@@ -8705,6 +8947,24 @@
 		)
 		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
 			(at 40.64 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C606171"
+			(at 40.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 40.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,6 +9165,24 @@
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0402"
 			(at 40.64 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C606167"
+			(at 40.64 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 40.64 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,6 +9391,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C7334585"
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "495fcd6b-8f0f-418f-b517-968e5b71db4f")
 		)
@@ -9262,6 +9558,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C5121473"
+			(at 87.63 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 87.63 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a86cc326-3e20-4cfd-9533-179a6b052f2e")
 		)
@@ -9381,6 +9695,24 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 254 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3020456"
+			(at 254 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 254 63.5 0)
 			(effects
 				(font
@@ -9584,6 +9916,24 @@
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0402"
 			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C606167"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 242.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,6 +10250,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B8"
 			(uuid "b8933c88-99a8-45bb-93e9-5e0e06ebc967")
 		)
@@ -10145,6 +10504,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 361.95 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67ec0258-fe2f-41be-95c6-cbe5f927bac0")
 		)
@@ -10280,6 +10648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43b22e1c-7aad-4628-83ae-906e60c5c3b6")
 		)
@@ -10407,6 +10784,24 @@
 		)
 		(property "Description" ""
 			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C844811"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 213.36 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,6 +11089,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C473397"
+			(at 256.54 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 256.54 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e094ea0e-e986-4746-b14c-3365af39decd")
 		)
@@ -10780,6 +11193,24 @@
 		)
 		(property "Description" "RES SMD 270K OHM 1% 1/10W 0402"
 			(at 40.64 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C131553"
+			(at 40.64 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 40.64 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +11306,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b4df36d4-dd79-4425-990c-07d89aad4bda")
 		(property "Reference" "B1"
@@ -10915,6 +11346,15 @@
 			)
 		)
 		(property "Description" "https://ecocell.com.au/product/lipo-2000-113450-3w/"
+			(at 181.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 181.61 245.11 0)
 			(effects
 				(font
@@ -10979,6 +11419,24 @@
 		)
 		(property "Description" "10mOhm 1%, 1W 0805"
 			(at 233.68 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "PE0805FRE470R01Z"
+			(at 233.68 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 233.68 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,6 +11572,24 @@
 		)
 		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 215.9 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C851848"
+			(at 215.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 215.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11444,6 +11920,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 107.95 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93fcb7db-a8ac-4da0-a8ba-af588174033d")
 		)
@@ -11519,6 +12004,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C606167"
+			(at 45.72 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 45.72 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9376b4e0-8a3a-40f0-9297-46bdd4c6fc5b")
 		)
@@ -11580,6 +12083,24 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 278.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C52923"
+			(at 278.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 278.13 238.76 0)
 			(effects
 				(font
@@ -11657,6 +12178,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2168196"
+			(at 58.42 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 58.42 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f33adbc-06e3-4ac0-b0b8-b37803200b7e")
 		)
@@ -11718,6 +12257,24 @@
 			)
 		)
 		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 125.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C191541"
+			(at 125.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 125.73 210.82 0)
 			(effects
 				(font
@@ -11863,6 +12420,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 350.52 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2304a7bc-8347-484d-ac19-3672c4438417")
 		)
@@ -11930,6 +12496,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C7334585"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c948777-bc38-40d7-9204-9e855a15e131")
 		)
@@ -11940,6 +12524,187 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BM03B-ACHSS-GAN-TF_LF__SN_:BM03B-ACHSS-GAN-TF_LF__SN_")
+		(at 213.36 247.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5e27d39-c127-40c6-b2c6-0a7c5f096263")
+		(property "Reference" "J2"
+			(at 210.058 259.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM03B-ACHSS-GAN-TF_LF__SN_"
+			(at 210.058 262.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM03B-ACHSS-GAN-TF_LF__SN_:JST_BM03B-ACHSS-GAN-TF_LF__SN_"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM03B-ACHSS-GAN-TF(LF)(SN)/JST/view-part/?ref=snap"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.4 mm"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BM03B-ACHSS-GAN-TF(LF)(SN)/JST/view-part/?ref=eda"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BM03B-ACHSS-GAN-TF(LF)(SN)"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Surface Mount, Right Angle 3 position 0.047 (1.20mm)"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f002f64-4857-4ea9-a91c-52bd8bbb38b3")
+		)
+		(pin "2"
+			(uuid "9e61057a-dbca-481a-87d0-45dd3a7c7a73")
+		)
+		(pin "1"
+			(uuid "5b8e1f44-dd63-4a15-b4e4-c79d0f201d7b")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11991,6 +12756,24 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2168196"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 186.69 63.5 0)
 			(effects
 				(font
@@ -12063,6 +12846,15 @@
 		)
 		(property "Description" "test point"
 			(at 326.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 326.39 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,6 +13054,15 @@
 		)
 		(property "Description" "test point"
 			(at 350.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 350.52 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
