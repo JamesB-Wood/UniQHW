@@ -39320,7 +39320,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net 177 "unconnected-(U4A-~{W_DISABLE}-Pad151)")
 			(pinfunction "~{W_DISABLE}")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "134219e2-ac59-45fd-b7a0-348d4e8457b6")
 		)

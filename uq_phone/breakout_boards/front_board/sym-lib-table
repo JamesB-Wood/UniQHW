@@ -4,4 +4,5 @@
   (lib (name "541324562")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/541324562/541324562.kicad_sym")(options "")(descr ""))
   (lib (name "FI-RE51S-HF-R1500")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/FI-RE51S-HF-R1500/FI-RE51S-HF-R1500.kicad_sym")(options "")(descr ""))
   (lib (name "6871XX14022_68715014022")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/6871XX14022_68715014022/6871XX14022_68715014022.kicad_sym")(options "")(descr ""))
+  (lib (name "resistors")(type "KiCad")(uri "/home/james/Documents/Uni/Thesis/UniQHW/Components/Resistors/resistors.kicad_sym")(options "")(descr ""))
 )

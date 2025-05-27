@@ -2760,7 +2760,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "PE0805FRE470R01Z"
+			(property "LCSC PN" "C723359"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11426,7 +11426,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "PE0805FRE470R01Z"
+		(property "LCSC PN" "C723359"
 			(at 233.68 233.68 0)
 			(effects
 				(font
