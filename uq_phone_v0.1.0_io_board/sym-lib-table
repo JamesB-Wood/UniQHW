@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Misc")(type "KiCad")(uri "${USR_SYMBOL_DIR}/Misc.kicad_sym")(options "")(descr ""))
+  (lib (name "541324562")(type "KiCad")(uri "${USR_SYMBOL_DIR}/541324562/541324562.kicad_sym")(options "")(descr ""))
+  (lib (name "FI-RE51S-HF-R1500")(type "KiCad")(uri "${USR_SYMBOL_DIR}/FI-RE51S-HF-R1500/FI-RE51S-HF-R1500.kicad_sym")(options "")(descr ""))
+  (lib (name "6871XX14022_68715014022")(type "KiCad")(uri "${USR_SYMBOL_DIR}/6871XX14022_68715014022/6871XX14022_68715014022.kicad_sym")(options "")(descr ""))
+  (lib (name "resistors")(type "KiCad")(uri "${USR_SYMBOL_DIR}/Resistors/resistors.kicad_sym")(options "")(descr ""))
+)

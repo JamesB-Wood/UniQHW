@@ -32,6 +32,8 @@ fp-info-cache
 
 #Gerbers
 *.zip
+*.ipc
+production/
 
 #components - Hide for now until attribution
 Components/
