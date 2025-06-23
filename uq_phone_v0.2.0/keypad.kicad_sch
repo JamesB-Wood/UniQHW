@@ -585,121 +585,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistors:Resistor_0R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0R"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC PN" "C95177"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor_0R_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_0R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Resistors:Resistor_330R"
 			(pin_numbers
 				(hide yes)
@@ -3686,16 +3571,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 53.34) (xy 350.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c25fc7d-2aa4-499d-93b2-082ced17ad08")
-	)
-	(wire
-		(pts
 			(xy 49.53 128.27) (xy 49.53 130.81)
 		)
 		(stroke
@@ -4576,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 53.34) (xy 340.36 53.34)
+			(xy 337.82 53.34) (xy 350.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5470,12 +5345,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02170ba1-1d14-4c9f-a9d9-7f4bab40bd70")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0175"
 			(at 373.38 200.66 0)
 			(effects
 				(font
@@ -5525,93 +5400,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_0R")
-		(at 344.17 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "031404f7-7bad-4c7c-ac85-6a6542deffd0")
-		(property "Reference" "R23"
-			(at 344.17 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 344.17 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 347.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C95177"
-			(at 344.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 344.17 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d7daff0-c6c7-4a9f-ae3e-11f0bb385809")
-		)
-		(pin "2"
-			(uuid "8740314f-bad2-4fb9-9a7f-72d09caa5e24")
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "R23")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -5623,9 +5412,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "03a82594-bfa7-4b1d-90c2-52c7417f6f7c")
 		(property "Reference" "LED17"
 			(at 365.252 185.166 0)
@@ -5705,11 +5494,11 @@
 		(at 128.27 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "05c37252-8bf3-49d7-b252-2894a1a7e081")
-		(property "Reference" "SW37"
+		(property "Reference" "SW4"
 			(at 133.35 89.916 0)
 			(effects
 				(font
@@ -5777,7 +5566,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW37")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5789,11 +5578,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "07aeb346-e661-4df1-965b-2c52f0b10936")
-		(property "Reference" "LED16"
+		(property "Reference" "LED14"
 			(at 365.252 161.036 0)
 			(effects
 				(font
@@ -5860,7 +5649,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED16")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -5872,11 +5661,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "08075d15-24a7-412a-b098-729a02bce465")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0136"
 			(at 356.87 109.22 0)
 			(effects
 				(font
@@ -5926,7 +5715,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0146")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -5938,12 +5727,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c550279-45a7-4f98-9624-7bcc24eee276")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0156"
 			(at 330.2 152.4 0)
 			(effects
 				(font
@@ -5993,7 +5782,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0132")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -6004,11 +5793,11 @@
 		(at 127 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0c60b760-b043-44ec-8c84-a4618e48e54d")
-		(property "Reference" "SW36"
+		(property "Reference" "SW31"
 			(at 132.08 133.096 0)
 			(effects
 				(font
@@ -6076,7 +5865,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW36")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -6087,11 +5876,11 @@
 		(at 127 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0c9ddda7-657d-4ae6-89f3-bc7ad296e94d")
-		(property "Reference" "SW39"
+		(property "Reference" "SW36"
 			(at 132.08 144.526 0)
 			(effects
 				(font
@@ -6159,7 +5948,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW39")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -6170,12 +5959,12 @@
 		(at 209.55 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ce093c1-74e2-4733-8ce0-3f67ee3f87c7")
-		(property "Reference" "SW45"
+		(property "Reference" "SW16"
 			(at 209.55 105.41 0)
 			(effects
 				(font
@@ -6243,7 +6032,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW45")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -6254,11 +6043,11 @@
 		(at 67.31 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0dbe1dd7-31a1-439c-8036-3c4a6d97dc08")
-		(property "Reference" "SW10"
+		(property "Reference" "SW29"
 			(at 72.39 133.096 0)
 			(effects
 				(font
@@ -6326,7 +6115,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW10")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -6338,11 +6127,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0ecc7d19-8b87-41dc-a264-31beaaa9e9e5")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0153"
 			(at 109.22 139.7 0)
 			(effects
 				(font
@@ -6392,7 +6181,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0168")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -6403,11 +6192,11 @@
 		(at 127 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0ef7148a-5d0b-4794-87e5-b1517eadc9a1")
-		(property "Reference" "SW35"
+		(property "Reference" "SW27"
 			(at 132.08 125.476 0)
 			(effects
 				(font
@@ -6475,7 +6264,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW35")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -6487,11 +6276,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0ff8cb6c-c26d-4b0e-8e4b-1cdb46dbd0af")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0160"
 			(at 335.28 157.48 0)
 			(effects
 				(font
@@ -6541,7 +6330,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0137")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -6553,12 +6342,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14fd008d-383d-4133-96c8-9e09fb17f0fd")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0157"
 			(at 351.79 152.4 0)
 			(effects
 				(font
@@ -6608,7 +6397,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0142")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -6620,11 +6409,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "15d41065-f22e-4a24-aaa1-d4787528f5c9")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0166"
 			(at 180.34 160.02 0)
 			(effects
 				(font
@@ -6674,7 +6463,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0175")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -6686,11 +6475,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "15dc6167-35e9-44ac-a69f-f3ce3d2a81ec")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0152"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -6740,7 +6529,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0165")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -6752,11 +6541,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "177efaef-5da5-4669-baf9-3da831f5700c")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0170"
 			(at 313.69 181.61 0)
 			(effects
 				(font
@@ -6806,7 +6595,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0127")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -6817,11 +6606,11 @@
 		(at 67.31 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "1ca8443b-6524-46ae-8e3b-c40056ed8fae")
-		(property "Reference" "SW4"
+		(property "Reference" "SW39"
 			(at 72.39 152.146 0)
 			(effects
 				(font
@@ -6889,7 +6678,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW4")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -6901,9 +6690,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "1cb04f80-baf8-4048-b0cb-c02bbe87b6dd")
 		(property "Reference" "#PWR0123"
 			(at 313.69 85.09 0)
@@ -6966,11 +6755,11 @@
 		(at 67.31 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "21844311-d327-426b-9ebc-f0e83c062766")
-		(property "Reference" "SW21"
+		(property "Reference" "SW2"
 			(at 72.39 89.916 0)
 			(effects
 				(font
@@ -7038,7 +6827,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW21")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7050,12 +6839,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "246726c5-f811-4ce8-bfa6-362917795cda")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0145"
 			(at 351.79 128.27 0)
 			(effects
 				(font
@@ -7105,7 +6894,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0141")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -7116,11 +6905,11 @@
 		(at 95.25 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "26a31ad3-a708-4c47-bc9a-c27717959d09")
-		(property "Reference" "SW5"
+		(property "Reference" "SW35"
 			(at 100.33 144.526 0)
 			(effects
 				(font
@@ -7188,7 +6977,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW5")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -7199,11 +6988,11 @@
 		(at 128.27 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "2937975c-f724-45b5-9e9f-7c8c851acb11")
-		(property "Reference" "SW42"
+		(property "Reference" "SW21"
 			(at 133.35 115.316 0)
 			(effects
 				(font
@@ -7271,7 +7060,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW42")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7282,11 +7071,11 @@
 		(at 39.37 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "294e5410-f9a4-497e-b275-b50460c5bfa3")
-		(property "Reference" "SW2"
+		(property "Reference" "SW38"
 			(at 44.45 152.146 0)
 			(effects
 				(font
@@ -7354,7 +7143,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW2")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -7366,11 +7155,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "29e380b6-8bb6-4812-814d-0dee27844059")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0147"
 			(at 313.69 133.35 0)
 			(effects
 				(font
@@ -7420,7 +7209,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0125")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -7431,11 +7220,11 @@
 		(at 67.31 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "30684c08-1f70-4ca0-b659-479e6b331065")
-		(property "Reference" "SW9"
+		(property "Reference" "SW25"
 			(at 72.39 125.476 0)
 			(effects
 				(font
@@ -7503,7 +7292,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW9")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -7515,11 +7304,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "32bb57cd-5fcd-43eb-becb-7b4dd0a52155")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0137"
 			(at 218.44 118.11 0)
 			(effects
 				(font
@@ -7569,7 +7358,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0181")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7581,12 +7370,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a2c76a-7c93-406a-b21b-5c13fcd502d9")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0119"
 			(at 337.82 55.88 0)
 			(effects
 				(font
@@ -7636,7 +7425,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0121")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -7648,11 +7437,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "368c06b3-8a5e-48a2-8ee5-f571d6b3fb6f")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0142"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -7702,7 +7491,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0178")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -7714,12 +7503,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36beb572-4133-47d6-bf95-6af719e70e00")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0168"
 			(at 351.79 176.53 0)
 			(effects
 				(font
@@ -7769,7 +7558,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0143")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -7781,11 +7570,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "375cdb8c-b91d-403b-81a0-24508bed0bc1")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0129"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -7835,7 +7624,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0171")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -7846,11 +7635,11 @@
 		(at 95.25 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "39a92cca-d56b-4c41-900e-afac5604acc4")
-		(property "Reference" "SW23"
+		(property "Reference" "SW3"
 			(at 100.33 89.916 0)
 			(effects
 				(font
@@ -7918,7 +7707,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW23")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -7930,11 +7719,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "3a0e7bdd-44d8-4c6a-8707-e01c105c2cf2")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0130"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -7984,7 +7773,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0179")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -7996,11 +7785,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "3c8c5ade-bc17-4ede-b0f6-54d55984773a")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0126"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -8050,7 +7839,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0162")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8061,11 +7850,11 @@
 		(at 67.31 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "3d0edd2f-a4ea-47c1-ae11-546792a40ac1")
-		(property "Reference" "SW15"
+		(property "Reference" "SW13"
 			(at 72.39 107.696 0)
 			(effects
 				(font
@@ -8133,7 +7922,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW15")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -8145,11 +7934,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "3f55fcb6-b95b-441a-8a4b-ad9f32fcebe8")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0177"
 			(at 335.28 205.74 0)
 			(effects
 				(font
@@ -8199,7 +7988,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0139")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -8210,11 +7999,11 @@
 		(at 39.37 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "433b4c4d-c867-458f-a95c-8cc6684c7a5c")
-		(property "Reference" "SW7"
+		(property "Reference" "SW24"
 			(at 44.45 125.476 0)
 			(effects
 				(font
@@ -8282,7 +8071,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW7")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -8293,11 +8082,11 @@
 		(at 67.31 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "4d0960da-13c2-4101-a1d0-602bfd36d9b9")
-		(property "Reference" "SW22"
+		(property "Reference" "SW8"
 			(at 72.39 97.536 0)
 			(effects
 				(font
@@ -8365,7 +8154,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW22")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -8376,11 +8165,11 @@
 		(at 166.37 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "4f834f79-22d5-48b7-a118-789d7736a83c")
-		(property "Reference" "SW29"
+		(property "Reference" "SW32"
 			(at 171.45 136.906 0)
 			(effects
 				(font
@@ -8448,7 +8237,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW29")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -8460,9 +8249,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "528cfdb7-2c41-49c4-8ed4-d804a12f30a5")
 		(property "Reference" "LED1"
 			(at 322.072 64.516 0)
@@ -8543,11 +8332,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "53bbab6d-f58c-4255-9e7f-80069bef83f6")
-		(property "Reference" "LED11"
+		(property "Reference" "LED16"
 			(at 343.662 185.166 0)
 			(effects
 				(font
@@ -8614,7 +8403,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED11")
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -8625,11 +8414,11 @@
 		(at 166.37 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "58d9f7bb-9f47-4a8b-bf2d-af0cb4fc854c")
-		(property "Reference" "SW34"
+		(property "Reference" "SW11"
 			(at 171.45 97.536 0)
 			(effects
 				(font
@@ -8697,7 +8486,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW34")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -8709,11 +8498,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "5a47f4f6-61d8-4a2f-a247-aaa25db49608")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0141"
 			(at 142.24 121.92 0)
 			(effects
 				(font
@@ -8763,7 +8552,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0172")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -8775,11 +8564,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "5d27809d-5085-4769-83b3-b60508b2d799")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0124"
 			(at 356.87 85.09 0)
 			(effects
 				(font
@@ -8829,7 +8618,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0145")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -8840,11 +8629,11 @@
 		(at 166.37 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "5e89a437-713d-4cd1-b49c-90112343e193")
-		(property "Reference" "SW33"
+		(property "Reference" "SW5"
 			(at 171.45 89.916 0)
 			(effects
 				(font
@@ -8912,7 +8701,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW33")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -8924,11 +8713,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "5fb0c39b-116e-4316-89b4-8611038c9d37")
-		(property "Reference" "LED15"
+		(property "Reference" "LED11"
 			(at 365.252 136.906 0)
 			(effects
 				(font
@@ -8995,7 +8784,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED15")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -9006,11 +8795,11 @@
 		(at 166.37 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "659fc5b1-c9ee-4148-ae08-b52486b39d22")
-		(property "Reference" "SW27"
+		(property "Reference" "SW23"
 			(at 171.45 124.206 0)
 			(effects
 				(font
@@ -9078,7 +8867,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW27")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -9090,12 +8879,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667c6bfd-9da6-42c9-be38-47eef48ea106")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0120"
 			(at 350.52 55.88 0)
 			(effects
 				(font
@@ -9145,7 +8934,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0122")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -9156,11 +8945,11 @@
 		(at 128.27 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "6a8c5b98-290c-473a-b890-d6c1f1f63730")
-		(property "Reference" "SW41"
+		(property "Reference" "SW15"
 			(at 133.35 107.696 0)
 			(effects
 				(font
@@ -9228,7 +9017,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW41")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -9240,11 +9029,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "6df69a0b-1748-48ea-a2ea-203758b84155")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0162"
 			(at 53.34 158.75 0)
 			(effects
 				(font
@@ -9294,7 +9083,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0159")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -9306,11 +9095,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "6dfa99fe-9c24-4ad0-894d-9129c6c70c18")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0150"
 			(at 180.34 134.62 0)
 			(effects
 				(font
@@ -9360,7 +9149,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0177")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -9372,11 +9161,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "71011eb8-40b8-418a-97a5-525057ce9068")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0128"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -9426,7 +9215,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0170")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -9438,11 +9227,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "75687d82-f300-4614-8023-1dc8251941ff")
-		(property "Reference" "LED14"
+		(property "Reference" "LED8"
 			(at 365.252 112.776 0)
 			(effects
 				(font
@@ -9509,7 +9298,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED14")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -9521,11 +9310,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "76942090-caef-41e6-9940-891923f8c5fb")
-		(property "Reference" "LED9"
+		(property "Reference" "LED10"
 			(at 343.662 136.906 0)
 			(effects
 				(font
@@ -9592,7 +9381,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED9")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -9604,11 +9393,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "79084e3e-390f-4554-b15f-323fcb4f89df")
-		(property "Reference" "LED10"
+		(property "Reference" "LED13"
 			(at 343.662 161.036 0)
 			(effects
 				(font
@@ -9675,7 +9464,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED10")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -9687,11 +9476,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "7ecee9ff-e0a4-419f-8d50-67ee3b7ed8bb")
-		(property "Reference" "LED5"
+		(property "Reference" "LED12"
 			(at 322.072 161.036 0)
 			(effects
 				(font
@@ -9758,7 +9547,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED5")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -9769,11 +9558,11 @@
 		(at 95.25 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "815a623e-fb5c-4910-9d98-51a29b507c3f")
-		(property "Reference" "SW18"
+		(property "Reference" "SW20"
 			(at 100.33 115.316 0)
 			(effects
 				(font
@@ -9841,7 +9630,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW18")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -9853,11 +9642,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "83cf67dc-c0a6-4872-9638-f7d9846de34f")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0176"
 			(at 313.69 205.74 0)
 			(effects
 				(font
@@ -9907,7 +9696,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0128")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -9919,12 +9708,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84173dbf-1521-4124-b7bf-6992f52e98c0")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0169"
 			(at 373.38 176.53 0)
 			(effects
 				(font
@@ -9974,7 +9763,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0155")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -9985,11 +9774,11 @@
 		(at 39.37 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "84c606d4-28e2-48f7-8e11-6cd2697f699a")
-		(property "Reference" "SW19"
+		(property "Reference" "SW1"
 			(at 44.45 89.916 0)
 			(effects
 				(font
@@ -10057,7 +9846,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW19")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10069,11 +9858,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "8c2258c4-13b2-4f4b-a497-9b9dae62499c")
-		(property "Reference" "LED7"
+		(property "Reference" "LED4"
 			(at 343.662 88.646 0)
 			(effects
 				(font
@@ -10140,7 +9929,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED7")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -10151,11 +9940,11 @@
 		(at 39.37 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "8c9c712d-dd21-4f21-93ca-f7ca988a0e36")
-		(property "Reference" "SW8"
+		(property "Reference" "SW28"
 			(at 44.45 133.096 0)
 			(effects
 				(font
@@ -10223,7 +10012,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW8")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -10235,12 +10024,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8efa72bd-8a8c-4a32-9b51-c0d676aab384")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0122"
 			(at 373.38 80.01 0)
 			(effects
 				(font
@@ -10290,7 +10079,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0151")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10302,11 +10091,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "95c0a745-92bf-4f6e-8fd8-b80d0166b9b4")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0138"
 			(at 53.34 121.92 0)
 			(effects
 				(font
@@ -10356,7 +10145,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0161")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -10367,12 +10156,12 @@
 		(at 306.07 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96f77433-09fa-436a-ace4-ea03f0b30cce")
-		(property "Reference" "R48"
+		(property "Reference" "R42"
 			(at 306.07 190.5 90)
 			(effects
 				(font
@@ -10442,7 +10231,7 @@
 		(instances
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "R48")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -10454,11 +10243,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "970ed3d3-8217-47e0-9a6e-f0b4c4c43134")
-		(property "Reference" "LED2"
+		(property "Reference" "LED3"
 			(at 322.072 88.646 0)
 			(effects
 				(font
@@ -10525,7 +10314,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED2")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -10536,11 +10325,11 @@
 		(at 39.37 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "9af95878-9b58-466d-bf62-c1727a137608")
-		(property "Reference" "SW1"
+		(property "Reference" "SW33"
 			(at 44.45 144.526 0)
 			(effects
 				(font
@@ -10608,7 +10397,7 @@
 		(instances
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW1")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -10620,12 +10409,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c4f6deb-2de8-4929-97bd-46f3845ac02e")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0121"
 			(at 330.2 80.01 0)
 			(effects
 				(font
@@ -10675,7 +10464,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0129")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -10686,11 +10475,11 @@
 		(at 166.37 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "9cdc678e-659d-4284-bf99-209a69cfd500")
-		(property "Reference" "SW31"
+		(property "Reference" "SW17"
 			(at 171.45 111.506 0)
 			(effects
 				(font
@@ -10758,7 +10547,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW31")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -10770,11 +10559,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "9f8d41ea-9144-47f0-8064-f407f63d37a0")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0134"
 			(at 313.69 109.22 0)
 			(effects
 				(font
@@ -10824,7 +10613,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0124")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -10836,11 +10625,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "a743a9e6-8013-46be-995c-cf660f617d84")
-		(property "Reference" "LED13"
+		(property "Reference" "LED5"
 			(at 365.252 88.646 0)
 			(effects
 				(font
@@ -10907,7 +10696,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED13")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -10919,11 +10708,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "ac9a1465-6394-4255-94e1-00d97c2b4623")
-		(property "Reference" "LED4"
+		(property "Reference" "LED9"
 			(at 322.072 136.906 0)
 			(effects
 				(font
@@ -10990,7 +10779,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED4")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -11001,11 +10790,11 @@
 		(at 128.27 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "afd386c0-c379-4916-8279-e8b27e971d9d")
-		(property "Reference" "SW38"
+		(property "Reference" "SW10"
 			(at 133.35 97.536 0)
 			(effects
 				(font
@@ -11073,7 +10862,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW38")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -11084,12 +10873,12 @@
 		(at 209.55 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0e9375c-3b6f-4082-89ec-ed5dd912c2b9")
-		(property "Reference" "SW43"
+		(property "Reference" "SW6"
 			(at 209.55 91.44 0)
 			(effects
 				(font
@@ -11157,7 +10946,7 @@
 		(instances
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW43")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -11168,12 +10957,12 @@
 		(at 209.55 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b172178c-c003-48c3-ac17-8b362f7aa16a")
-		(property "Reference" "SW44"
+		(property "Reference" "SW22"
 			(at 209.55 118.11 0)
 			(effects
 				(font
@@ -11241,7 +11030,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW44")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -11253,11 +11042,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b33c1c8a-fa9f-4734-a0dd-98c21efa96e5")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0155"
 			(at 180.34 147.32 0)
 			(effects
 				(font
@@ -11307,7 +11096,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0176")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -11319,11 +11108,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b37cec88-9182-4fd7-b6f4-1381e9e8ebc1")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0159"
 			(at 313.69 157.48 0)
 			(effects
 				(font
@@ -11373,7 +11162,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0126")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -11384,11 +11173,11 @@
 		(at 95.25 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b4b0e9e3-2345-420e-a45d-72a7c34c345b")
-		(property "Reference" "SW24"
+		(property "Reference" "SW9"
 			(at 100.33 97.536 0)
 			(effects
 				(font
@@ -11456,7 +11245,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW24")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -11468,12 +11257,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b646d81a-6f80-4297-874f-ef5b491a2f67")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0146"
 			(at 373.38 128.27 0)
 			(effects
 				(font
@@ -11523,7 +11312,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0153")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -11534,11 +11323,11 @@
 		(at 95.25 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b7abb63a-2dde-49ad-a90c-d5bb17c6e424")
-		(property "Reference" "SW11"
+		(property "Reference" "SW26"
 			(at 100.33 125.476 0)
 			(effects
 				(font
@@ -11606,7 +11395,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW11")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -11618,11 +11407,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b9a2a562-0250-4d92-923a-b3396bfaad88")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0148"
 			(at 335.28 133.35 0)
 			(effects
 				(font
@@ -11672,7 +11461,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0136")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -11684,11 +11473,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "bc3bb1fa-f9ce-4679-b29d-f11c3f2f1cd2")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0125"
 			(at 218.44 104.0978 0)
 			(effects
 				(font
@@ -11738,7 +11527,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0180")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -11749,11 +11538,11 @@
 		(at 166.37 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "bd6099e6-ed6f-489a-b3ce-1328bb886c8e")
-		(property "Reference" "SW25"
+		(property "Reference" "SW37"
 			(at 171.45 149.606 0)
 			(effects
 				(font
@@ -11821,7 +11610,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW25")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -11833,12 +11622,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd93436c-500a-4cf4-8e70-5ee2ad6511c6")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0144"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -11888,7 +11677,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0131")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -11899,11 +11688,11 @@
 		(at 95.25 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "bfc085b0-8f8e-4b9f-9336-e511d711f7e8")
-		(property "Reference" "SW17"
+		(property "Reference" "SW14"
 			(at 100.33 107.696 0)
 			(effects
 				(font
@@ -11971,7 +11760,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW17")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -11982,11 +11771,11 @@
 		(at 39.37 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c018b9c0-99d4-4201-bfea-d3fc4ef076ec")
-		(property "Reference" "SW14"
+		(property "Reference" "SW18"
 			(at 44.45 115.316 0)
 			(effects
 				(font
@@ -12054,7 +11843,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW14")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -12066,11 +11855,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c265099a-9058-471c-9e03-97b786467bb9")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0139"
 			(at 81.28 121.92 0)
 			(effects
 				(font
@@ -12120,7 +11909,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0164")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -12132,11 +11921,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c8f60171-0f1a-46d2-9b87-3194933342fa")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0143"
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -12186,7 +11975,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0183")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -12197,11 +11986,11 @@
 		(at 95.25 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c93adad3-b893-495a-8e8d-1d5e2df8b129")
-		(property "Reference" "SW6"
+		(property "Reference" "SW40"
 			(at 100.33 152.146 0)
 			(effects
 				(font
@@ -12269,7 +12058,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW6")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -12281,11 +12070,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "cdcbd5b1-bbd2-4242-aaed-9e87fe20e4d1")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0178"
 			(at 356.87 205.74 0)
 			(effects
 				(font
@@ -12335,7 +12124,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0150")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -12347,11 +12136,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "cfe3b6fd-a2ee-4ef5-a2a5-7a308606df77")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0164"
 			(at 109.22 158.75 0)
 			(effects
 				(font
@@ -12401,7 +12190,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0167")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -12413,9 +12202,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "d1287770-b12d-49f8-a022-81d84472e889")
 		(property "Reference" "#PWR0135"
 			(at 335.28 109.22 0)
@@ -12479,11 +12268,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "d2cd1e9a-6d66-48c3-920f-ef8239427ac0")
-		(property "Reference" "LED8"
+		(property "Reference" "LED7"
 			(at 343.662 112.776 0)
 			(effects
 				(font
@@ -12550,7 +12339,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED8")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -12562,11 +12351,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "d309fca3-0183-4acc-9ac9-724566190a2f")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0151"
 			(at 53.34 139.7 0)
 			(effects
 				(font
@@ -12616,7 +12405,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0160")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -12627,11 +12416,11 @@
 		(at 127 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "d4bbf4f2-7b28-4080-81ca-ec7a70b3edae")
-		(property "Reference" "SW40"
+		(property "Reference" "SW41"
 			(at 132.08 152.146 0)
 			(effects
 				(font
@@ -12699,7 +12488,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW40")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -12710,11 +12499,11 @@
 		(at 67.31 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "d72887c5-5557-4fe3-a2bc-b43bb61762ca")
-		(property "Reference" "SW16"
+		(property "Reference" "SW19"
 			(at 72.39 115.316 0)
 			(effects
 				(font
@@ -12782,7 +12571,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW16")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -12794,12 +12583,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d910057f-b266-4833-90fc-d71e477c471b")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0167"
 			(at 330.2 176.53 0)
 			(effects
 				(font
@@ -12849,7 +12638,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0133")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -12861,11 +12650,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "da39e9d4-d8d4-4502-8a43-e6504f54f6de")
-		(property "Reference" "LED6"
+		(property "Reference" "LED15"
 			(at 322.072 185.166 0)
 			(effects
 				(font
@@ -12932,7 +12721,7 @@
 		(instances
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED6")
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -12944,12 +12733,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc553a5a-48b9-4c2d-a569-9d769ed2d7ba")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0173"
 			(at 330.2 200.66 0)
 			(effects
 				(font
@@ -12999,7 +12788,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0134")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -13011,12 +12800,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df521dc1-8de1-479b-aa04-059107e0cb08")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0158"
 			(at 373.38 152.4 0)
 			(effects
 				(font
@@ -13066,7 +12855,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0154")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -13077,11 +12866,11 @@
 		(at 67.31 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "e6065b52-a658-40ff-ad71-d050d4122aa8")
-		(property "Reference" "SW3"
+		(property "Reference" "SW34"
 			(at 72.39 144.526 0)
 			(effects
 				(font
@@ -13149,7 +12938,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW3")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -13161,11 +12950,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "e674bd3a-20bb-4442-aaea-cca35f165aa8")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0165"
 			(at 140.97 158.75 0)
 			(effects
 				(font
@@ -13215,7 +13004,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0174")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -13227,11 +13016,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "e6957cbf-04a0-4c7b-aeee-ba4df51ae839")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0161"
 			(at 356.87 157.48 0)
 			(effects
 				(font
@@ -13281,7 +13070,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0148")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -13293,12 +13082,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9210d74-2d9f-488f-af21-79ce7b7b552b")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0132"
 			(at 351.79 104.14 0)
 			(effects
 				(font
@@ -13348,7 +13137,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0140")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -13360,11 +13149,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "e926883e-95b3-438b-9d88-5d674093ffe9")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0163"
 			(at 81.28 158.75 0)
 			(effects
 				(font
@@ -13414,7 +13203,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0166")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -13426,11 +13215,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "ed5d9886-721f-43e3-8315-56ccd12fb40e")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0140"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -13480,7 +13269,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0169")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -13492,11 +13281,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "edda0274-f0e5-4747-b683-006c6982383e")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0154"
 			(at 140.97 139.7 0)
 			(effects
 				(font
@@ -13546,7 +13335,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0173")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -13558,11 +13347,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f2267d99-9d2a-4f13-979e-931505618267")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0171"
 			(at 335.28 181.61 0)
 			(effects
 				(font
@@ -13612,7 +13401,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0138")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -13623,11 +13412,11 @@
 		(at 39.37 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f57409a9-fdb2-4222-b04c-f8b61394684c")
-		(property "Reference" "SW20"
+		(property "Reference" "SW7"
 			(at 44.45 97.536 0)
 			(effects
 				(font
@@ -13695,7 +13484,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW20")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -13707,11 +13496,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f7015a09-b6c1-48e9-9937-41e6a79b9f4f")
-		(property "Reference" "LED3"
+		(property "Reference" "LED6"
 			(at 322.072 112.776 0)
 			(effects
 				(font
@@ -13778,7 +13567,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED3")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -13790,12 +13579,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7099a07-2358-4e6e-8026-7379537db09a")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0133"
 			(at 373.38 104.14 0)
 			(effects
 				(font
@@ -13845,7 +13634,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0152")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -13857,12 +13646,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f74dbe76-bb8f-4df8-9cf8-dacee3edebed")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0131"
 			(at 330.2 104.14 0)
 			(effects
 				(font
@@ -13912,7 +13701,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0130")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -13924,11 +13713,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fa220350-ebf2-457e-9f56-ad986687ada7")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0149"
 			(at 356.87 133.35 0)
 			(effects
 				(font
@@ -13978,7 +13767,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0147")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -13990,11 +13779,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fa7dc2dd-487e-4312-904f-5acc6191fbb3")
-		(property "Reference" "LED12"
+		(property "Reference" "LED2"
 			(at 365.252 64.516 0)
 			(effects
 				(font
@@ -14061,7 +13850,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "LED12")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -14073,11 +13862,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fad51d48-3aa1-4f49-a28c-c781683eb57c")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0172"
 			(at 356.87 181.61 0)
 			(effects
 				(font
@@ -14127,7 +13916,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0149")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -14139,11 +13928,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fafb0d2a-d6f5-4ae0-9993-2142dea3a9fe")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0127"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -14193,7 +13982,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0163")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -14204,11 +13993,11 @@
 		(at 95.25 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fb8d7a0e-9ead-44be-939e-40e59c654f42")
-		(property "Reference" "SW12"
+		(property "Reference" "SW30"
 			(at 100.33 133.096 0)
 			(effects
 				(font
@@ -14276,7 +14065,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW12")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -14287,11 +14076,11 @@
 		(at 39.37 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fd9da24b-111e-437a-9230-6f144c7fc18e")
-		(property "Reference" "SW13"
+		(property "Reference" "SW12"
 			(at 44.45 107.696 0)
 			(effects
 				(font
@@ -14359,7 +14148,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "SW13")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -14371,12 +14160,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffe9760a-33f6-4caa-9512-e0f44c69c743")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0174"
 			(at 351.79 200.66 0)
 			(effects
 				(font
@@ -14426,7 +14215,7 @@
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0144")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
