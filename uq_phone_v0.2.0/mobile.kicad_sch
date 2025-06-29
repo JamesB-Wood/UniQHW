@@ -660,7 +660,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,7 +678,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -687,7 +687,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C52923"
+			(property "LCSC PN" "C53067"
 				(at 0 0 0)
 				(effects
 					(font
@@ -916,7 +916,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -934,7 +934,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(property "Description" "6.3V 100nF X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -943,7 +943,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C307331"
+			(property "LCSC PN" "C160831"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6429,7 +6429,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6447,7 +6447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 47K OHM 1% 1/10W 0402"
+			(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 47kΩ 0201 Chip Resistor - Surface Mount ROHS"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6456,7 +6456,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C427250"
+			(property "LCSC PN" "C138139"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6544,7 +6544,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6562,7 +6562,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
+			(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 4.7kΩ 0201 Chip Resistor - Surface Mount ROHS"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6571,7 +6571,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C606173"
+			(property "LCSC PN" "C138135"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10459,160 +10459,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01835ff4-0f02-4064-b61a-1390aef86950")
-		(property "Reference" "TP16"
-			(at 173.99 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 168.91 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99c1cc39-af7b-4888-b86d-b96677c3b1ff")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12adacf4-54e6-4c70-9292-ae91ea9e8985")
-		(property "Reference" "TP13"
-			(at 173.99 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 168.91 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbb02c23-0c91-4ddf-a264-b372bf45f731")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 77.47 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10639,7 +10485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -10659,15 +10505,6 @@
 		)
 		(property "Description" "test point"
 			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 77.47 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,15 +10704,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 229.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -11839,15 +11667,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 335.28 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "32"
 			(uuid "707aa002-0ab6-43aa-a1f5-24a4a5333720")
 		)
@@ -12653,7 +12472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 49.53 236.22 0)
 			(effects
 				(font
@@ -12671,7 +12490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 47kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 49.53 236.22 0)
 			(effects
 				(font
@@ -12680,16 +12499,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C427250"
-			(at 49.53 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C138139"
 			(at 49.53 232.41 0)
 			(effects
 				(font
@@ -12742,7 +12552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 163.83 40.64 0)
 			(effects
 				(font
@@ -12762,15 +12572,6 @@
 		)
 		(property "Description" "test point"
 			(at 163.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 163.83 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,17 +12643,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95177"
+		(property "LCSC PN" ""
 			(at 71.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 71.12 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13012,15 +12804,6 @@
 			)
 		)
 		(property "LCSC PN" "C460099"
-			(at 57.15 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
 			(at 57.15 227.33 0)
 			(effects
 				(font
@@ -13231,15 +13014,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 288.29 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e8169d4f-4e0f-4571-99e1-33d6cb2133ee")
 		)
@@ -13307,17 +13081,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95177"
+		(property "LCSC PN" ""
 			(at 71.12 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 71.12 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,83 +13165,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "529676cf-a7be-496c-a8c5-6332a85b7bb9")
-		(property "Reference" "TP14"
-			(at 173.99 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 168.91 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a298eb-d5e0-4db3-9b93-a21b2ebf37e1")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -13731,15 +13419,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 288.29 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c9482a8f-3c1b-40cc-b626-a0db97b9b5f2")
 		)
@@ -13875,15 +13554,6 @@
 			)
 		)
 		(property "LCSC PN" "C109461"
-			(at 284.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
 			(at 284.48 43.18 0)
 			(effects
 				(font
@@ -14088,15 +13758,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -14903,7 +14564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 119.38 228.6 0)
 			(effects
 				(font
@@ -14921,7 +14582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 4.7kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 119.38 228.6 0)
 			(effects
 				(font
@@ -14930,17 +14591,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C606173"
+		(property "LCSC PN" "C138135"
 			(at 115.57 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 115.57 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,6 +14610,74 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a61dfe4-3f73-485c-9482-022193d50882")
+		(property "Reference" "TP13"
+			(at 173.99 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0819281-ce83-414f-8479-0d2a8619a088")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -15055,7 +14775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 278.13 43.18 0)
 			(effects
 				(font
@@ -15073,7 +14793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 278.13 43.18 0)
 			(effects
 				(font
@@ -15082,16 +14802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C52923"
-			(at 278.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C53067"
 			(at 278.13 43.18 0)
 			(effects
 				(font
@@ -15273,7 +14984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 120.65 237.49 0)
 			(effects
 				(font
@@ -15291,7 +15002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 47kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 120.65 237.49 0)
 			(effects
 				(font
@@ -15300,16 +15011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C427250"
-			(at 120.65 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C138139"
 			(at 120.65 233.68 0)
 			(effects
 				(font
@@ -15464,6 +15166,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9629d125-939f-4526-9200-7a0c7481bf7b")
+		(property "Reference" "TP11"
+			(at 173.99 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c78662e9-1214-405b-977d-c36b3fa22cef")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:Resistor_0R")
 		(at 71.12 66.04 90)
 		(unit 1)
@@ -15515,17 +15285,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95177"
+		(property "LCSC PN" ""
 			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 71.12 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15543,6 +15304,74 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a07d3666-d70b-4ec1-9123-2211caa208a7")
+		(property "Reference" "TP14"
+			(at 173.99 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6682420-928f-488a-a89a-a97a9ec08f2e")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -15575,7 +15404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 270.51 43.18 0)
 			(effects
 				(font
@@ -15593,7 +15422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "6.3V 100nF X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 270.51 43.18 0)
 			(effects
 				(font
@@ -15602,16 +15431,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C307331"
-			(at 270.51 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C160831"
 			(at 270.51 43.18 0)
 			(effects
 				(font
@@ -15698,15 +15518,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 290.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6aa35049-8268-4945-b9ce-95bcf806dfb4")
 		)
@@ -15785,15 +15596,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 257.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fe6d9d4f-6006-4a57-a1c8-307d1a04d767")
 		)
@@ -15804,83 +15606,6 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba0ca32a-67dd-4905-9850-d3461c852cb2")
-		(property "Reference" "TP15"
-			(at 173.99 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 168.91 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86bea3e8-6404-461e-abc5-fa248ef7c0e6")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -15915,7 +15640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -15942,15 +15667,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 168.91 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "43aafb4a-9a77-4a40-8a25-8b8a025be6e4")
 		)
@@ -15965,16 +15681,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 119.38 270)
+		(at 168.91 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6dad2b0-9c06-4859-8790-6cf5480175a8")
-		(property "Reference" "TP11"
-			(at 173.99 119.3799 90)
+		(uuid "cab9ee3d-46ec-466a-856c-a5d18fb6efb7")
+		(property "Reference" "TP15"
+			(at 173.99 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15983,7 +15699,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 173.99 120.6499 90)
+			(at 173.99 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15992,8 +15708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 124.46 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 168.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16002,7 +15718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 124.46 0)
+			(at 168.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16011,16 +15727,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 168.91 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 168.91 119.38 90)
+			(at 168.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16029,12 +15736,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c24130c-bbc0-4284-99de-318bfd77f54f")
+			(uuid "c03ec523-3f43-4d08-8db3-6986b18a99b7")
 		)
 		(instances
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "TP11")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -16103,15 +15810,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7fc1c97e-e20c-4700-86b6-6ac8f94a51ba")
 		)
@@ -16122,6 +15820,74 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d060a613-7ad5-4794-80b7-5d6305a35b99")
+		(property "Reference" "TP16"
+			(at 173.99 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a508feea-f20c-41ff-a9e3-d7fd8d70bd32")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -16219,7 +15985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 48.26 227.33 0)
 			(effects
 				(font
@@ -16237,7 +16003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 5% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 4.7kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 48.26 227.33 0)
 			(effects
 				(font
@@ -16246,17 +16012,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C606173"
+		(property "LCSC PN" "C138135"
 			(at 44.45 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 44.45 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16339,6 +16096,74 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea50d363-1d05-4220-a6f3-a1c8c3775f4b")
+		(property "Reference" "TP12"
+			(at 173.99 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3695b499-76f5-4656-9b14-28bbef1af518")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -16489,15 +16314,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 128.27 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "7848e0b1-08d2-4828-9a91-42ca7fcce37b")
 		)
@@ -16582,83 +16398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef0e0af8-3b10-4471-8b72-bd5f6db614b9")
-		(property "Reference" "TP12"
-			(at 173.99 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 168.91 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c9ff94e-b4f9-457e-95b4-132cc03bdc15")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Resistors:Resistor_0R")
 		(at 71.12 71.12 90)
 		(unit 1)
@@ -16710,17 +16449,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95177"
+		(property "LCSC PN" ""
 			(at 71.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 71.12 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)

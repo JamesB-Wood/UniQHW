@@ -45,4 +45,6 @@
   (lib (name "0532610371")(type "KiCad")(uri "${USR_SYMBOL_DIR}/0532610371/0532610371.kicad_sym")(options "")(descr ""))
   (lib (name "6871XX14022_68715014022")(type "KiCad")(uri "${USR_SYMBOL_DIR}/6871XX14022_68715014022/6871XX14022_68715014022.kicad_sym")(options "")(descr ""))
   (lib (name "124018312112A")(type "KiCad")(uri "${USR_SYMBOL_DIR}/124018312112A/124018312112A.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD321DPYR")(type "KiCad")(uri "${USR_SYMBOL_DIR}/ESD321DPYR/ESD321DPYR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD441DPYR")(type "KiCad")(uri "${USR_SYMBOL_DIR}/ESD441DPLR/ESD441DPYR.kicad_sym")(options "")(descr ""))
 )

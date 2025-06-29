@@ -339,7 +339,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -357,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -366,7 +366,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C52923"
+			(property "LCSC PN" "C53067"
 				(at 0 0 0)
 				(effects
 					(font
@@ -595,7 +595,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -613,7 +613,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -622,7 +622,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C191541"
+			(property "LCSC PN" "C335103"
 				(at 0 0 0)
 				(effects
 					(font
@@ -723,7 +723,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -741,7 +741,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(property "Description" "6.3V 100nF X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -750,7 +750,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C307331"
+			(property "LCSC PN" "C160831"
 				(at 0 0 0)
 				(effects
 					(font
@@ -808,148 +808,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1235,9 +1093,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Misc:Speaker"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
@@ -1252,7 +1107,7 @@
 					)
 				)
 			)
-			(property "Value" "AS01808AO-3-R"
+			(property "Value" "MCABS-258-RC"
 				(at -1.27 4.572 0)
 				(effects
 					(font
@@ -1260,8 +1115,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "custom_footprints:MCABS-258-RC"
+				(at 0.254 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1278,7 +1133,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "https://www.digikey.com.au/en/products/detail/pui-audio-inc/AS01808AO-3-R/5977706"
+			(property "Description" "https://au.element14.com/multicomp-pro/mcabs-258-rc/speaker-miniature-0hz-10khz-0/dp/4136955"
 				(at -1.27 4.572 0)
 				(effects
 					(font
@@ -1289,8 +1144,8 @@
 			)
 			(symbol "Speaker_0_1"
 				(rectangle
-					(start -1.778 1.27)
-					(end 0 -1.27)
+					(start -2.54 2.032)
+					(end -0.254 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -1301,7 +1156,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 0.508) (xy -3.048 0.508)
+						(xy -0.254 2.032) (xy 2.794 4.826) (xy 2.794 -4.826) (xy -0.254 -2.032) (xy -0.254 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1311,28 +1166,42 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 -0.508) (xy -3.048 -0.508)
+			)
+			(symbol "Speaker_1_1"
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 3.048 4.064) (xy 3.048 -4.064) (xy 0 -1.27) (xy 0 1.27)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2136,7 +2005,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2154,7 +2023,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+			(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2163,7 +2032,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C851848"
+			(property "LCSC PN" "C106225"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2251,7 +2120,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2269,7 +2138,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+			(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 2.2kΩ 0201 Chip Resistor - Surface Mount ROHS"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2278,7 +2147,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C606171"
+			(property "LCSC PN" "C142018"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2366,7 +2235,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2384,7 +2253,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 47K OHM 1% 1/10W 0402"
+			(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 47kΩ 0201 Chip Resistor - Surface Mount ROHS"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2393,7 +2262,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C427250"
+			(property "LCSC PN" "C138139"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2598,7 +2467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            3.5 mm, Stereo, Right Angle, Mid Mount (SMT), 4 Conductors, 1 Internal Switch, Audio Jack Connector, IP67\n                        \n"
+			(property "Description_1" "3.5 mm, Stereo, Right Angle, Mid Mount (SMT), 4 Conductors, 1 Internal Switch, Audio Jack Connector, IP67"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6401,7 +6270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            3.5 mm, Stereo, Right Angle, Mid Mount (SMT), 4 Conductors, 1 Internal Switch, Audio Jack Connector, IP67\n                        \n"
+		(property "Description_1" "3.5 mm, Stereo, Right Angle, Mid Mount (SMT), 4 Conductors, 1 Internal Switch, Audio Jack Connector, IP67"
 			(at 50.8 224.79 0)
 			(effects
 				(font
@@ -6418,15 +6287,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 50.8 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6484,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 309.88 146.05 0)
 			(effects
 				(font
@@ -6502,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 309.88 146.05 0)
 			(effects
 				(font
@@ -6511,16 +6371,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
-			(at 309.88 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C335103"
 			(at 309.88 146.05 0)
 			(effects
 				(font
@@ -6768,7 +6619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 77.47 233.68 0)
 			(effects
 				(font
@@ -6786,7 +6637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 77.47 233.68 0)
 			(effects
 				(font
@@ -6795,16 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C851848"
-			(at 77.47 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C106225"
 			(at 77.47 237.49 0)
 			(effects
 				(font
@@ -6888,85 +6730,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 87.63 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e94f0f9-f1f4-4341-9056-f9e9ff5242b8")
-		(property "Reference" "J11"
-			(at 90.17 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 90.17 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4c85065-0c02-48de-8f3b-073d2574efc6")
-		)
-		(pin "1"
-			(uuid "7a02c617-cf62-494d-888c-e7d4a7bd9f65")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7127,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -7145,7 +6908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -7154,16 +6917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C52923"
-			(at 226.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C53067"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -7214,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 274.32 59.69 0)
 			(effects
 				(font
@@ -7232,7 +6986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 274.32 59.69 0)
 			(effects
 				(font
@@ -7241,17 +6995,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C52923"
+		(property "LCSC PN" "C53067"
 			(at 274.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 274.32 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 274.32 48.26 0)
 			(effects
 				(font
@@ -7382,7 +7127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 274.32 48.26 0)
 			(effects
 				(font
@@ -7391,17 +7136,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
+		(property "LCSC PN" "C335103"
 			(at 274.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 274.32 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,6 +7292,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Misc:Speaker")
+		(at 87.63 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49438a45-98c2-46b7-b205-473fdba8d2d3")
+		(property "Reference" "SP1"
+			(at 91.44 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCABS-258-RC"
+			(at 91.44 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom_footprints:MCABS-258-RC"
+			(at 87.884 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://au.element14.com/multicomp-pro/mcabs-258-rc/speaker-miniature-0hz-10khz-0/dp/4136955"
+			(at 86.36 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "9e242a90-8471-40f2-8bbf-db2c505ebc6f")
+		)
+		(pin "-"
+			(uuid "e69522b5-7ed2-4484-b1b0-be649bf367fc")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "SP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:Resistor_10k")
 		(at 81.28 237.49 180)
 		(unit 1)
@@ -7582,7 +7388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 81.28 233.68 0)
 			(effects
 				(font
@@ -7600,7 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 81.28 233.68 0)
 			(effects
 				(font
@@ -7609,16 +7415,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C851848"
-			(at 81.28 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C106225"
 			(at 81.28 237.49 0)
 			(effects
 				(font
@@ -7806,15 +7603,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 246.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "6_1"
 			(uuid "c806c95e-5dde-41b4-a836-6e20b20d49db")
 		)
@@ -7973,15 +7761,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 213.36 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "df111443-cdf3-4125-ab23-2177612c48c6")
 		)
@@ -8024,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 295.91 156.21 0)
 			(effects
 				(font
@@ -8042,7 +7821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 295.91 156.21 0)
 			(effects
 				(font
@@ -8051,16 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
-			(at 295.91 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C335103"
 			(at 295.91 156.21 0)
 			(effects
 				(font
@@ -8176,7 +7946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 295.91 177.8 0)
 			(effects
 				(font
@@ -8194,7 +7964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 295.91 177.8 0)
 			(effects
 				(font
@@ -8203,16 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
-			(at 295.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C335103"
 			(at 295.91 177.8 0)
 			(effects
 				(font
@@ -8264,7 +8025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 77.47 215.9 0)
 			(effects
 				(font
@@ -8282,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 2.2kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 77.47 215.9 0)
 			(effects
 				(font
@@ -8291,16 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C606171"
-			(at 77.47 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C142018"
 			(at 77.47 212.09 0)
 			(effects
 				(font
@@ -8673,7 +8425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -8691,7 +8443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "6.3V 100nF X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -8700,16 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C307331"
-			(at 57.15 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C160831"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -8758,7 +8501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.98 232.41 0)
 			(effects
 				(font
@@ -8776,7 +8519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 93.98 232.41 0)
 			(effects
 				(font
@@ -8785,17 +8528,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C52923"
+		(property "LCSC PN" "C53067"
 			(at 93.98 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 93.98 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +8774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -9058,7 +8792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -9067,16 +8801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C851848"
-			(at 41.91 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C106225"
 			(at 41.91 143.51 0)
 			(effects
 				(font
@@ -9127,7 +8852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 314.96 171.45 0)
 			(effects
 				(font
@@ -9145,7 +8870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 314.96 171.45 0)
 			(effects
 				(font
@@ -9154,16 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
-			(at 314.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C335103"
 			(at 314.96 171.45 0)
 			(effects
 				(font
@@ -9214,7 +8930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 41.91 134.62 0)
 			(effects
 				(font
@@ -9232,7 +8948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 41.91 134.62 0)
 			(effects
 				(font
@@ -9241,16 +8957,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C851848"
-			(at 41.91 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C106225"
 			(at 41.91 130.81 0)
 			(effects
 				(font
@@ -9364,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.98 222.25 0)
 			(effects
 				(font
@@ -9382,7 +9089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 93.98 222.25 0)
 			(effects
 				(font
@@ -9391,17 +9098,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C52923"
+		(property "LCSC PN" "C53067"
 			(at 93.98 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 93.98 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 226.06 175.26 0)
 			(effects
 				(font
@@ -9722,7 +9420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 1uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 226.06 175.26 0)
 			(effects
 				(font
@@ -9731,17 +9429,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C52923"
+		(property "LCSC PN" "C53067"
 			(at 226.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 226.06 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +9546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 118.11 226.06 0)
 			(effects
 				(font
@@ -9875,7 +9564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 47kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 118.11 226.06 0)
 			(effects
 				(font
@@ -9884,16 +9573,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C427250"
-			(at 118.11 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C138139"
 			(at 118.11 222.25 0)
 			(effects
 				(font
@@ -9944,7 +9624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 316.23 146.05 0)
 			(effects
 				(font
@@ -9962,7 +9642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 316.23 146.05 0)
 			(effects
 				(font
@@ -9971,16 +9651,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
-			(at 316.23 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C335103"
 			(at 316.23 146.05 0)
 			(effects
 				(font
@@ -9999,79 +9670,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Misc:Speaker")
-		(at 114.3 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d880a262-c2de-49ff-9cf2-252e845487c7")
-		(property "Reference" "SP1"
-			(at 118.11 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AS01808AO-3-R"
-			(at 118.11 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "https://www.digikey.com.au/en/products/detail/pui-audio-inc/AS01808AO-3-R/5977706"
-			(at 113.03 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "SP1")
 					(unit 1)
 				)
 			)
@@ -10104,7 +9702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -10122,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "6.3V 4.7uF X5R ±20% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -10131,16 +9729,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C191541"
-			(at 302.26 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
+		(property "LCSC PN" "C335103"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -10468,15 +10057,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 80.01 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "15"
 			(uuid "00f14b19-2420-43d2-ab3f-312a29d7e530")
 		)
@@ -10760,15 +10340,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 267.97 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
