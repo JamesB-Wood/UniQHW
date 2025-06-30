@@ -5,7 +5,8 @@
 	(uuid "4c1ed5c6-5f05-4275-94f7-cfc9cbfc3f08")
 	(paper "A3")
 	(title_block
-		(title "Power System")
+		(title "UQ Phone")
+		(rev "0.2.0")
 		(company "The University of Queensland")
 	)
 	(lib_symbols
@@ -7389,73 +7390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 337.82 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34a2c76a-7c93-406a-b21b-5c13fcd502d9")
-		(property "Reference" "#PWR0119"
-			(at 337.82 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 337.82 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 337.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "528b9843-634e-4859-946a-b2a00e37fa87")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 115.57 0)
 		(mirror y)
@@ -12737,6 +12671,72 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
 					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 337.82 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2d50c3-452d-4f8f-9e3c-446e2d1f8d00")
+		(property "Reference" "#PWR0119"
+			(at 337.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SW"
+			(at 337.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 337.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "100e4268-7d6c-4b6b-a722-6f81b246a900")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)

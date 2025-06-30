@@ -5,6 +5,8 @@
 	(uuid "14f57415-6807-40a5-bb38-3cb818a2cdae")
 	(paper "A3")
 	(title_block
+		(title "UQ Phone")
+		(rev "0.2.0")
 		(company "The University of Queensland")
 	)
 	(lib_symbols)

@@ -5,7 +5,8 @@
 	(uuid "4c1ed5c6-5f05-4275-94f7-cfc9cbfc3f08")
 	(paper "A3")
 	(title_block
-		(title "Power System")
+		(title "UQ Phone")
+		(rev "0.2.0")
 		(company "The University of Queensland")
 	)
 	(lib_symbols
@@ -2987,6 +2988,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Misc:MTQH201208S4R7MBT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7uH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "custom_footprints:IND-SMD_L2.0-W1.2_MTQH201208S4R7MBT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230907/B6BF387D97E908951C348B93C86B14B9.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductance:4.7uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):1.6A DC Resistance(DCR):285mΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "MTQH201208S4R7MBT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MetalLions(美铼)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C17701166"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "4.7uH ±20% 1.6A 温升电流：1.7A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MTQH201208S4R7MBT_0_0"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MTQH201208S4R7MBT_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.635)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 0.635)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.635)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Misc:PMEG2010EA"
 			(pin_names
 				(offset 0)
@@ -4579,255 +4763,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WE-MAPI_3015:WE-MAPI_3015"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "4.7uH"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "WE-MAPI_3015:WE-MAPI_3015"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "732-4866-2-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/74438335047/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Inductor SMD WE-MAPI Metal Alloy | Wurth Electronics 74438335047\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "1212 Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/74438335047/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "74438335047"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "LCSC PN" "C2761891"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WE-MAPI_3015_0_1"
-				(arc
-					(start -2.54 0)
-					(mid -1.905 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.6323)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "WE-MAPI_3015_1_0"
-				(polyline
-					(pts
-						(xy -2.413 1.397) (xy -0.635 1.397)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.397) (xy 2.413 1.397)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "WE-MAPI_3015_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5102,16 +5037,6 @@
 			)
 		)
 		(uuid "578b8c3b-f875-46aa-8417-bc575c5e962b")
-	)
-	(text "TODO: replace with footprint\n"
-		(exclude_from_sim no)
-		(at 359.156 253.238 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "90b120cf-8aca-4d56-bf20-ae064e8f302d")
 	)
 	(text "Micro SIM card"
 		(exclude_from_sim no)
@@ -5925,6 +5850,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 41.91) (xy 340.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5480bdd5-8e92-4f03-8abf-e757a12da3dd")
+	)
+	(wire
+		(pts
 			(xy 29.21 185.42) (xy 52.07 185.42)
 		)
 		(stroke
@@ -5962,6 +5897,16 @@
 			(type default)
 		)
 		(uuid "5aba91c0-9f2a-47b3-9b2a-a145b0d7cfbd")
+	)
+	(wire
+		(pts
+			(xy 360.68 41.91) (xy 370.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2ff4ca-45e4-42ee-84f2-8e0455a56198")
 	)
 	(wire
 		(pts
@@ -6082,16 +6027,6 @@
 			(type default)
 		)
 		(uuid "6bcc5cdc-acbd-4ba1-84f5-470d0c549c2d")
-	)
-	(wire
-		(pts
-			(xy 351.79 41.91) (xy 340.36 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d260532-12b1-443c-9dcc-15fd57c5e3e6")
 	)
 	(wire
 		(pts
@@ -6415,16 +6350,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 41.91) (xy 370.84 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2911e1-4b7b-4d52-9b4d-4f7e2861b64a")
-	)
-	(wire
-		(pts
 			(xy 50.8 187.96) (xy 50.8 190.5)
 		)
 		(stroke
@@ -6532,6 +6457,16 @@
 			(type default)
 		)
 		(uuid "a5f98190-eb19-4284-a5c2-020c39766f27")
+	)
+	(wire
+		(pts
+			(xy 91.44 227.33) (xy 91.44 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d771bb-8734-46a2-b9de-1925f30e8db2")
 	)
 	(wire
 		(pts
@@ -9294,154 +9229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WE-MAPI_3015:WE-MAPI_3015")
-		(at 355.6 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64511594-d48f-4f3b-87bb-a2695d88b7c0")
-		(property "Reference" "L2"
-			(at 355.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7uH"
-			(at 355.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WE-MAPI_3015:WE-MAPI_3015"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "732-4866-2-ND"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/74438335047/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Inductor SMD WE-MAPI Metal Alloy | Wurth Electronics 74438335047\n                        \n"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1212 Würth Elektronik"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/74438335047/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "74438335047"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C2761891"
-			(at 355.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6e8c5f8-bec0-4835-a939-6a896095ea53")
-		)
-		(pin "1"
-			(uuid "8d42d2df-ebf4-48e9-bc5c-1ab7b44821d5")
-		)
-		(instances
-			(project ""
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitors:capacitor_100nF")
 		(at 92.71 165.1 0)
 		(unit 1)
@@ -9731,7 +9518,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 91.44 229.87 0)
+		(at 91.44 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9740,7 +9527,7 @@
 		(fields_autoplaced yes)
 		(uuid "720d4707-8643-481e-8630-f1f57e2d6b52")
 		(property "Reference" "#PWR094"
-			(at 91.44 233.68 0)
+			(at 91.44 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9536,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 91.44 224.79 0)
+			(at 91.44 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +9544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 229.87 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +9553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 229.87 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +9562,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 229.87 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,6 +10665,72 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 325.12 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba5c46a-cf0e-4b00-a0ba-1a867ca569db")
+		(property "Reference" "#PWR0208"
+			(at 325.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SW"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 325.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea89bfc6-b71b-40f5-97ca-a10d435194bf")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -12281,17 +12134,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 325.12 52.07 0)
+		(lib_id "Misc:MTQH201208S4R7MBT")
+		(at 355.6 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ede52464-2095-44fa-9751-0734cadd28a5")
-		(property "Reference" "#PWR069"
-			(at 325.12 55.88 0)
+		(uuid "ed45624d-21d8-4208-8d2b-7146dd56d1e4")
+		(property "Reference" "L2"
+			(at 355.6 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 355.6 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:IND-SMD_L2.0-W1.2_MTQH201208S4R7MBT"
+			(at 355.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,16 +12167,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 325.12 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 52.07 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230907/B6BF387D97E908951C348B93C86B14B9.pdf"
+			(at 355.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,8 +12176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 325.12 52.07 0)
+		(property "Description" "Inductance:4.7uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):1.6A DC Resistance(DCR):285mΩ"
+			(at 355.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,8 +12185,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 325.12 52.07 0)
+		(property "Manufacturer Part" "MTQH201208S4R7MBT"
+			(at 355.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MetalLions(美铼)"
+			(at 355.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17701166"
+			(at 355.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 355.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.7uH ±20% 1.6A 温升电流：1.7A"
+			(at 355.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,12 +12231,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e5ddb99-092a-47ec-a723-8695ccc49d2d")
+			(uuid "171c0943-35f4-49d9-a01c-96dc2f100c4e")
+		)
+		(pin "2"
+			(uuid "48b95af0-33c8-4aec-a359-59ba2efdbdc3")
 		)
 		(instances
-			(project "uq_phone"
+			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/3e1644a6-29e0-4613-bdce-8513434c26aa"
-					(reference "#PWR069")
+					(reference "L2")
 					(unit 1)
 				)
 			)
