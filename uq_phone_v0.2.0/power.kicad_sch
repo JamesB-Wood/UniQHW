@@ -5636,7 +5636,7 @@
 	)
 	(text "CC Configured for USB2.0 Device"
 		(exclude_from_sim no)
-		(at 68.326 102.87 0)
+		(at 68.072 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6177,16 +6177,6 @@
 			(type default)
 		)
 		(uuid "1334ba7b-5893-4056-9249-4b3c2d1d97a6")
-	)
-	(wire
-		(pts
-			(xy 121.92 48.26) (xy 121.92 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1390a6ea-e655-4ac8-a0bb-2bc0fc56979a")
 	)
 	(wire
 		(pts
@@ -6837,6 +6827,16 @@
 			(type default)
 		)
 		(uuid "7f5cc14a-f7ab-4a8f-bdec-9c780e5f7a27")
+	)
+	(wire
+		(pts
+			(xy 121.92 46.99) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819ce834-b8f9-463f-a861-4894a2c8bcd9")
 	)
 	(wire
 		(pts

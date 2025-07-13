@@ -47,4 +47,5 @@
   (lib (name "TXB0108YZPR2")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TXB0108YZPR2")(options "")(descr ""))
   (lib (name "BLM18SG221TN1D")(type "KiCad")(uri "${USR_SYMBOL_DIR}/BLM18SG221TN1D")(options "")(descr ""))
   (lib (name "TPS22964CYZPR")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TPS22964CYZPR")(options "")(descr ""))
+  (lib (name "BCR420UW6-7")(type "KiCad")(uri "${USR_SYMBOL_DIR}/BCR420UW6-7")(options "")(descr ""))
 )
