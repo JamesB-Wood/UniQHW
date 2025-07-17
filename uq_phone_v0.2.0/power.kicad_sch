@@ -5931,12 +5931,6 @@
 		(uuid "a46105eb-c7b6-4b98-b0e5-ee89e7ddd69c")
 	)
 	(junction
-		(at 233.68 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4b45033-9f89-4ba2-8d73-1b2551d421ef")
-	)
-	(junction
 		(at 273.05 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6940,7 +6934,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 181.61) (xy 233.68 181.61)
+			(xy 231.14 181.61) (xy 236.22 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7260,16 +7254,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 181.61) (xy 233.68 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd648554-e657-41d3-9670-08b35b30cdc9")
-	)
-	(wire
-		(pts
 			(xy 72.39 176.53) (xy 72.39 177.8)
 		)
 		(stroke
@@ -7277,16 +7261,6 @@
 			(type default)
 		)
 		(uuid "bef3ff18-ce17-41b9-a8bf-fa0c8bb2b1f7")
-	)
-	(wire
-		(pts
-			(xy 233.68 168.91) (xy 233.68 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf15bcb7-446a-47a2-a2ac-2944949d1b82")
 	)
 	(wire
 		(pts
@@ -7557,16 +7531,6 @@
 			(type default)
 		)
 		(uuid "dfd7ed51-e4ef-40f4-801a-9c09d8fad533")
-	)
-	(wire
-		(pts
-			(xy 231.14 181.61) (xy 233.68 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0348a56-6982-4d07-b236-b526f31a3540")
 	)
 	(wire
 		(pts
@@ -8780,72 +8744,6 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 233.68 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f5b98a2-68e5-46a4-abce-878d2122596b")
-		(property "Reference" "#PWR022"
-			(at 233.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 233.68 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5151b784-aa49-41e8-8c03-11330c4c4804")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10325,84 +10223,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_5k1")
-		(at 233.68 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59245eac-3ae8-4d0d-be19-fba67fe5bbc7")
-		(property "Reference" "R6"
-			(at 234.95 173.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 234.95 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 233.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 5.1kΩ 0201 Chip Resistor - Surface Mount ROHS"
-			(at 233.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C274341"
-			(at 233.68 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a098b922-aa5d-43aa-9001-f7eef935e31b")
-		)
-		(pin "1"
-			(uuid "593f5bbb-f3fb-4e08-bf85-ee592668e9b4")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "R6")
 					(unit 1)
 				)
 			)
