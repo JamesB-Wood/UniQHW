@@ -4034,7 +4034,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4052,7 +4052,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 270K OHM 1% 1/10W 0402"
+			(property "Description" "50mW Thick Film Resistor 25V ±200ppm/℃ ±0.5% 270kΩ 0201 Chip Resistor - Surface Mount ROHS"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4061,7 +4061,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C131553"
+			(property "LCSC PN" "C851694"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12838,7 +12838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 72.39 176.53 0)
 			(effects
 				(font
@@ -12856,7 +12856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 270K OHM 1% 1/10W 0402"
+		(property "Description" "50mW Thick Film Resistor 25V ±200ppm/℃ ±0.5% 270kΩ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 72.39 176.53 0)
 			(effects
 				(font
@@ -12865,7 +12865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C131553"
+		(property "LCSC PN" "C851694"
 			(at 72.39 172.72 0)
 			(effects
 				(font
