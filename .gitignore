@@ -37,3 +37,4 @@ production/
 
 #components - Hide for now until attribution
 Components/
+*.step

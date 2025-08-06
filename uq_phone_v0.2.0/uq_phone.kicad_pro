@@ -224,6 +224,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.4,
           "drill": 0.2
         },
@@ -587,6 +591,10 @@
       {
         "netclass": "High A",
         "pattern": "VBAT"
+      },
+      {
+        "netclass": "High A",
+        "pattern": "Net-(U3-BAT)"
       }
     ]
   },
@@ -598,7 +606,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "uq_phone.step",
       "svg": "",
       "vrml": ""
     },

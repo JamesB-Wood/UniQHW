@@ -17904,7 +17904,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 271.272 46.228 0)
+			(at 271.018 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
