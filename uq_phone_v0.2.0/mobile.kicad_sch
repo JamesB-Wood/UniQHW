@@ -2471,6 +2471,134 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capacitors:Capacitor_220uF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 4.064 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "220uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "GRM31CR60J227ME11L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "6.3V 220uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C412252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitor_220uF_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor_220uF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitors:Capacitor_47uF"
 			(pin_numbers
 				(hide yes)
@@ -12684,6 +12812,12 @@
 		(uuid "036b0887-db13-4755-9da3-d51850559ce8")
 	)
 	(junction
+		(at 290.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "037172f7-5a2c-47f4-9b23-aeca4eb0aa84")
+	)
+	(junction
 		(at 250.19 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12868,6 +13002,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a96bd3c-54b4-408a-8887-8362c62ee626")
+	)
+	(junction
+		(at 298.45 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d998bc9-883e-46c5-b641-14f2b34e5981")
 	)
 	(junction
 		(at 250.19 139.7)
@@ -13152,6 +13292,12 @@
 		(uuid "a8092c76-fea4-44b7-961d-e60aebae7fa0")
 	)
 	(junction
+		(at 306.07 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8fe3929-c24f-4c74-ac33-43e4a165ea99")
+	)
+	(junction
 		(at 250.19 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13194,10 +13340,22 @@
 		(uuid "b4155e31-a557-4b50-bb3c-e4396bc0581d")
 	)
 	(junction
+		(at 298.45 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5df6dfd-4833-488b-85f6-7fa2ea278be7")
+	)
+	(junction
 		(at 278.13 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6c93926-f9e3-4da7-bc45-0860660fdee7")
+	)
+	(junction
+		(at 306.07 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b71db48f-8903-479b-aec6-eb3d65aa121a")
 	)
 	(junction
 		(at 209.55 119.38)
@@ -13246,6 +13404,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d170a7bb-4a8c-431f-ace9-09018e022c6b")
+	)
+	(junction
+		(at 313.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36a047a-36a6-4447-b361-b66250dab763")
 	)
 	(junction
 		(at 209.55 48.26)
@@ -13853,6 +14017,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 38.1) (xy 290.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdbedaf-b5e4-4f7b-ba12-510b5dc77810")
+	)
+	(wire
+		(pts
 			(xy 250.19 81.28) (xy 250.19 83.82)
 		)
 		(stroke
@@ -13890,6 +14064,16 @@
 			(type default)
 		)
 		(uuid "21a94281-cc9b-48d3-a3bc-33a6d6b736a3")
+	)
+	(wire
+		(pts
+			(xy 298.45 46.99) (xy 298.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ac5ea8-8deb-435e-9e68-53db5e516fec")
 	)
 	(wire
 		(pts
@@ -14133,6 +14317,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 46.99) (xy 306.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489e1cf4-6eac-4c20-b6c0-1b87725dad1a")
+	)
+	(wire
+		(pts
 			(xy 250.19 63.5) (xy 250.19 66.04)
 		)
 		(stroke
@@ -14200,6 +14394,16 @@
 			(type default)
 		)
 		(uuid "52c70d4d-a6f3-41a3-828c-f7e6702b7f3d")
+	)
+	(wire
+		(pts
+			(xy 313.69 38.1) (xy 313.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e69d28-f2b9-4dbd-bac6-a5251df31553")
 	)
 	(wire
 		(pts
@@ -14310,6 +14514,16 @@
 			(type default)
 		)
 		(uuid "5d10efdd-f572-409e-bfd5-d171b8ab1152")
+	)
+	(wire
+		(pts
+			(xy 306.07 38.1) (xy 306.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1f4ba9-2c7c-44c4-b067-6c5cc4a0be2b")
 	)
 	(wire
 		(pts
@@ -14443,6 +14657,26 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 48.26) (xy 290.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72eece21-6978-49a1-9908-e389f8462053")
+	)
+	(wire
+		(pts
+			(xy 313.69 38.1) (xy 306.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732f2125-4008-45c3-aab1-273d359bb0d6")
+	)
+	(wire
+		(pts
 			(xy 185.42 224.79) (xy 185.42 217.17)
 		)
 		(stroke
@@ -14543,6 +14777,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 48.26) (xy 306.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db5bdc0-97fd-406e-964b-ae97b59f4fc7")
+	)
+	(wire
+		(pts
 			(xy 252.73 38.1) (xy 250.19 38.1)
 		)
 		(stroke
@@ -14580,6 +14824,16 @@
 			(type default)
 		)
 		(uuid "83468504-6a13-4bad-b37a-f46519f73d2a")
+	)
+	(wire
+		(pts
+			(xy 306.07 48.26) (xy 298.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8362a77a-3d06-447f-a7d2-d290bd8820dc")
 	)
 	(wire
 		(pts
@@ -14623,6 +14877,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 38.1) (xy 298.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3a307a-9aae-4d94-9973-77f0a90b4317")
+	)
+	(wire
+		(pts
 			(xy 290.83 48.26) (xy 284.48 48.26)
 		)
 		(stroke
@@ -14630,6 +14894,16 @@
 			(type default)
 		)
 		(uuid "8d4c4b01-d800-40b3-8597-de6286dd7398")
+	)
+	(wire
+		(pts
+			(xy 306.07 38.1) (xy 298.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6b95e2-6f2a-42c8-97a7-b0a9c44b2d40")
 	)
 	(wire
 		(pts
@@ -14700,6 +14974,16 @@
 			(type default)
 		)
 		(uuid "9506f768-96e9-4d23-ad3b-f24819d36f83")
+	)
+	(wire
+		(pts
+			(xy 313.69 46.99) (xy 313.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95397190-6c08-4356-995b-f38414ecbaa3")
 	)
 	(wire
 		(pts
@@ -14940,6 +15224,16 @@
 			(type default)
 		)
 		(uuid "ac25fdff-2801-4e53-9117-79da1c6f2969")
+	)
+	(wire
+		(pts
+			(xy 320.04 38.1) (xy 313.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac559b77-0510-45c4-ab9f-3d046c3bbb52")
 	)
 	(wire
 		(pts
@@ -17519,7 +17813,7 @@
 	(symbol
 		(lib_name "RC7620_1104625_1")
 		(lib_id "RC7620_1104625:RC7620_1104625")
-		(at 335.28 39.37 0)
+		(at 369.57 35.56 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17527,7 +17821,7 @@
 		(dnp no)
 		(uuid "29db65f2-d1b3-4b0e-bddb-5313f94489dc")
 		(property "Reference" "U4"
-			(at 335.28 34.544 0)
+			(at 369.57 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17535,7 +17829,7 @@
 			)
 		)
 		(property "Value" "WP SNAP-IN BASE_6000636"
-			(at 336.042 31.242 0)
+			(at 370.332 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17837,7 @@
 			)
 		)
 		(property "Footprint" "WP_SNAP-IN_BASE:SIERRA_WP_SNAP-IN_BASE"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17553,7 +17847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17562,7 +17856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17571,7 +17865,7 @@
 			)
 		)
 		(property "MF" "Sierra Wireless"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17581,7 +17875,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.7mm"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,7 +17885,7 @@
 			)
 		)
 		(property "Package" "BFLGA-239 Sierra Wireless"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,7 +17895,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,7 +17905,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=eda"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17621,7 +17915,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17925,7 @@
 			)
 		)
 		(property "PARTREV" "12"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +17935,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=snap"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17945,7 @@
 			)
 		)
 		(property "MP" "RC7620_1104625"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17661,7 +17955,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Cellular, Navigation 2G, 3G, 4G, EDGE, GPRS, GSM, LTE, UMTS Transceiver Module 900MHz, 1.8GHz Antenna Not Included Surface Mount\n                        \n"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +17965,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Sierra Wireless"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17681,7 +17975,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +17985,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "RC7620_1104625"
-			(at 335.28 39.37 0)
+			(at 369.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,6 +18707,84 @@
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "U4")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_220uF")
+		(at 313.69 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b7534b5-6b02-463b-8d10-ee01b6b7091a")
+		(property "Reference" "C53"
+			(at 314.452 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 314.198 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 313.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM31CR60J227ME11L"
+			(at 313.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 220uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 313.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C412252"
+			(at 313.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e12070b2-4a17-4bd2-80e8-7b72fa070651")
+		)
+		(pin "1"
+			(uuid "01b15025-6c95-415e-afa9-b14ac9fc1c57")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "C53")
+					(unit 1)
 				)
 			)
 		)
@@ -20512,6 +20884,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:Capacitor_220uF")
+		(at 306.07 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "768d8384-f04c-4e8c-8a10-720e902097bc")
+		(property "Reference" "C52"
+			(at 306.832 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 306.578 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 306.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM31CR60J227ME11L"
+			(at 306.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 220uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 306.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C412252"
+			(at 306.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a74fe7ee-53bc-4d70-a6bc-89146d6aa406")
+		)
+		(pin "1"
+			(uuid "e74f4066-b329-4d28-b58c-65df15f2f003")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitors:Capacitor_1uF")
 		(at 278.13 43.18 0)
 		(unit 1)
@@ -21562,7 +22012,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 290.83 38.1 270)
+		(at 320.04 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21571,7 +22021,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0e69170-54ee-4623-b39b-55323f8bdc76")
 		(property "Reference" "TP17"
-			(at 295.91 38.0999 90)
+			(at 325.12 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21580,7 +22030,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 295.91 39.3699 90)
+			(at 325.12 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21590,7 +22040,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 290.83 43.18 0)
+			(at 320.04 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21599,7 +22049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 43.18 0)
+			(at 320.04 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21608,7 +22058,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 290.83 38.1 0)
+			(at 320.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21707,84 +22157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:Capacitor_47uF")
-		(at 290.83 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af8eb538-7261-4f61-9d67-a98ab5f5428c")
-		(property "Reference" "C13"
-			(at 291.592 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 291.592 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 290.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 47UF 6.3V X5R 0805"
-			(at 290.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C109461"
-			(at 290.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6aa35049-8268-4945-b9ce-95bcf806dfb4")
-		)
-		(pin "1"
-			(uuid "844ed1ed-ad3f-42a7-b805-c3f37aeb4f59")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitors:Capacitor_10pF")
 		(at 257.81 43.18 0)
 		(unit 1)
@@ -21857,6 +22229,84 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_220uF")
+		(at 298.45 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1b07d8a-7dd2-4a13-999c-53dae7cdb070")
+		(property "Reference" "C13"
+			(at 299.212 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 298.958 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM31CR60J227ME11L"
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 220uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C412252"
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad668752-6be4-43b5-b7ad-a9228328ad01")
+		)
+		(pin "1"
+			(uuid "cef6e5a4-bfae-479a-a37a-e6438533e715")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -22414,6 +22864,84 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_220uF")
+		(at 290.83 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fde51218-6055-4e79-83d5-5e30b6207968")
+		(property "Reference" "C27"
+			(at 291.592 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 291.338 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 290.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM31CR60J227ME11L"
+			(at 290.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 220uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 290.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C412252"
+			(at 290.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d671d3f2-ce8f-4aa8-9705-24b1553a17b3")
+		)
+		(pin "1"
+			(uuid "3e2c4719-aa90-4569-9008-4d0b304e06a6")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/7b044aa4-5304-4653-927f-15b0f7e69857"
+					(reference "C27")
 					(unit 1)
 				)
 			)

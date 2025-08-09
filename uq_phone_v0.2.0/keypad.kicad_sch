@@ -1727,8 +1727,8 @@
 		(uuid "fed05ae7-b747-431a-8816-64e6ca249019")
 	)
 	(no_connect
-		(at 285.75 74.93)
-		(uuid "67bb7435-f546-4f91-b0c3-15cd7c36750e")
+		(at 307.34 74.93)
+		(uuid "9af4ee99-b81f-435e-b767-c695d0095b1f")
 	)
 	(no_connect
 		(at 252.73 74.93)
@@ -2293,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "272accc1-77f5-4b4e-9a33-2e1612c1153b")
+	)
+	(wire
+		(pts
+			(xy 307.34 72.39) (xy 308.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275a89a4-8112-4caf-8787-33a3c84b8179")
 	)
 	(wire
 		(pts
@@ -3336,6 +3346,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 74.93) (xy 285.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7228d1ab-a6e4-4c51-adb4-0095a0c3fd24")
+	)
+	(wire
+		(pts
 			(xy 44.45 167.64) (xy 44.45 170.18)
 		)
 		(stroke
@@ -3796,6 +3816,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 72.39) (xy 293.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94445db8-1410-4e59-8cf7-ee58e0f5bcf9")
+	)
+	(wire
+		(pts
 			(xy 82.55 166.37) (xy 82.55 167.64)
 		)
 		(stroke
@@ -4073,6 +4103,16 @@
 			(type default)
 		)
 		(uuid "a217b777-4035-445d-935a-1d06066fa155")
+	)
+	(wire
+		(pts
+			(xy 289.56 74.93) (xy 289.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32dbda5-8474-4766-ac80-277e14104eff")
 	)
 	(wire
 		(pts
@@ -4583,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "c4ccb525-97f0-40ad-b49f-2c82ac2f4366")
+	)
+	(wire
+		(pts
+			(xy 292.1 74.93) (xy 293.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58320d9-d9a0-4275-964d-32ea67cd01b9")
 	)
 	(wire
 		(pts
@@ -10830,6 +10880,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Misc:XL-1010RGBC-WS2812B")
+		(at 293.37 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "70275098-cc8d-47f9-b457-744d3bc22a8d")
+		(property "Reference" "LED19"
+			(at 300.482 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1010RGBC"
+			(at 300.482 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:XL-1010RGBC-Alt"
+			(at 298.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XINGLIGHT XL-1010RGBC-WS2812B"
+			(at 298.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C5349953"
+			(at 293.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52ef2992-1754-4894-8926-11f7480880e0")
+		)
+		(pin "2"
+			(uuid "10ff9c77-8cb4-474c-8670-c03733e79291")
+		)
+		(pin "3"
+			(uuid "f32d016b-7063-4b1a-9cf6-d307ad3105b8")
+		)
+		(pin "4"
+			(uuid "098d4022-3ab3-493e-8fa7-b270d6fcfdbe")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 93.98 0)
 		(mirror y)
@@ -14544,6 +14677,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 308.61 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c9dea258-2bd0-4d01-a88a-1a65f987c55e")
+		(property "Reference" "#PWR0192"
+			(at 308.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED"
+			(at 308.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 308.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51da3ba7-e301-4992-a35d-3c104b06ef4a")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 195.58 0)
 		(mirror y)
@@ -15618,6 +15818,72 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
 					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e601a846-3a3c-4e29-ae17-9e6820e6816b")
+		(property "Reference" "#PWR0182"
+			(at 292.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade4eae1-7a68-4b5f-8580-0c584cdca3f9")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/f23e268a-469e-43b6-84c9-7924a6d2bdbb"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
