@@ -53,4 +53,5 @@
   (lib (name "TCA9509MRVHR")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TCA9509MRVHR/TCA9509MRVHR.kicad_sym")(options "")(descr ""))
   (lib (name "513382474")(type "KiCad")(uri "${USR_SYMBOL_DIR}/513382474/513382474.kicad_sym")(options "")(descr ""))
   (lib (name "559092474")(type "KiCad")(uri "${USR_SYMBOL_DIR}/559092474/559092474.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ-43615TS-SMT")(type "KiCad")(uri "${USR_SYMBOL_DIR}/SJ-43615TS-SMT/SJ-43615TS-SMT.kicad_sym")(options "")(descr ""))
 )

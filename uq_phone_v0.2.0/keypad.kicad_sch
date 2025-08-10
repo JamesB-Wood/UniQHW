@@ -6092,7 +6092,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "01533740-dd18-41d9-916b-0a45c5231c8e")
 		(property "Reference" "LED27"
 			(at 300.482 133.096 0)
@@ -6874,7 +6874,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d1ced9e-b087-4288-9a87-566991ebc85f")
 		(property "Reference" "#PWR0199"
@@ -7239,7 +7239,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "12bd3755-885e-4d92-a13d-c3e0acac39b1")
 		(property "Reference" "#PWR0212"
 			(at 313.69 129.54 0)
@@ -7305,7 +7305,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14389128-daee-4a39-901a-18dac61ed2ce")
 		(property "Reference" "#PWR0201"
@@ -7571,7 +7571,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "17348ed8-2302-4372-8cfc-f3045c6a38eb")
 		(property "Reference" "#PWR0197"
 			(at 292.1 105.41 0)
@@ -8400,7 +8400,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b4715a-60e9-4f5b-a787-c046b826622b")
 		(property "Reference" "#PWR0193"
@@ -8533,7 +8533,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "332d4a7d-5832-4f6b-a51b-055f75228c87")
 		(property "Reference" "#PWR0218"
 			(at 313.69 153.67 0)
@@ -8665,7 +8665,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3692d268-39c3-4337-b85a-f66f3e15c7a1")
 		(property "Reference" "#PWR0191"
 			(at 270.51 81.28 0)
@@ -9013,7 +9013,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3b4c905a-4903-499b-abcf-be054f3fda54")
 		(property "Reference" "#PWR0208"
 			(at 292.1 129.54 0)
@@ -9377,7 +9377,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "480213db-3112-477f-9d67-8b199426d8e3")
 		(property "Reference" "LED25"
 			(at 322.072 108.966 0)
@@ -9709,7 +9709,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ad63e1-7642-40a4-a877-9b874dac19d5")
 		(property "Reference" "#PWR0200"
@@ -9859,7 +9859,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "58cac289-426b-47cc-814f-be79dd9201de")
 		(property "Reference" "#PWR0216"
 			(at 270.51 153.67 0)
@@ -10074,7 +10074,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5a5a9900-fc8f-4c7b-91fe-b5d3335d3327")
 		(property "Reference" "#PWR0217"
 			(at 292.1 153.67 0)
@@ -10455,7 +10455,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "66375141-42cd-42ac-b427-b7a64f201f76")
 		(property "Reference" "LED23"
 			(at 278.892 108.966 0)
@@ -10605,7 +10605,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6901b4bd-dea9-4c67-a574-c2089a6bca7a")
 		(property "Reference" "#PWR077"
@@ -10887,7 +10887,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "70275098-cc8d-47f9-b457-744d3bc22a8d")
 		(property "Reference" "LED19"
 			(at 300.482 60.706 0)
@@ -11202,7 +11202,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "78e2563d-379d-4f33-b6c7-cc459f7a9fd9")
 		(property "Reference" "LED18"
 			(at 278.892 60.706 0)
@@ -11534,7 +11534,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "829590a2-6ba1-425a-b0ab-905aa081b4db")
 		(property "Reference" "#PWR0215"
@@ -11983,7 +11983,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8d497306-051a-4dab-b165-25078441cbf8")
 		(property "Reference" "#PWR0198"
 			(at 313.69 105.41 0)
@@ -12116,7 +12116,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9593ab95-f282-44f7-bc12-371c6e003380")
 		(property "Reference" "LED24"
 			(at 300.482 108.966 0)
@@ -12265,7 +12265,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "96d49dfd-c150-4933-b154-b38eccad7cfe")
 		(property "Reference" "LED26"
 			(at 278.892 133.096 0)
@@ -12807,7 +12807,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a3d08918-e74b-4721-aff6-dfb9949c120a")
 		(property "Reference" "#PWR0224"
 			(at 313.69 177.8 0)
@@ -12956,7 +12956,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9118fc8-5638-4baa-8fe5-d54ac62465c5")
 		(property "Reference" "#PWR0213"
@@ -13106,7 +13106,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "af0978b2-d3c2-47b1-8085-01dd8fc79129")
 		(property "Reference" "LED22"
 			(at 322.072 84.836 0)
@@ -13272,7 +13272,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0cb2c74-b0a2-46d8-aa2a-d02e49213c7a")
 		(property "Reference" "#PWR0214"
@@ -13789,7 +13789,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b65da909-d279-44e7-a552-61be470046b6")
 		(property "Reference" "#PWR0202"
 			(at 270.51 129.54 0)
@@ -13938,7 +13938,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b80248f6-8994-4f88-a150-61b2ed0d35f9")
 		(property "Reference" "LED28"
 			(at 322.072 133.096 0)
@@ -14684,7 +14684,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9dea258-2bd0-4d01-a88a-1a65f987c55e")
 		(property "Reference" "#PWR0192"
@@ -14883,7 +14883,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d027b6cf-0f03-40f2-aa54-c5ea96d43d1b")
 		(property "Reference" "#PWR0221"
@@ -15165,7 +15165,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4b08856-c080-4d61-b773-ec93351decb7")
 		(property "Reference" "#PWR0194"
@@ -15681,7 +15681,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dec72c27-d318-4bf9-a52d-8254df32b0a6")
 		(property "Reference" "LED31"
 			(at 322.072 157.226 0)
@@ -15831,7 +15831,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e601a846-3a3c-4e29-ae17-9e6820e6816b")
 		(property "Reference" "#PWR0182"
 			(at 292.1 81.28 0)
@@ -16245,7 +16245,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ea6f2695-1d4a-45e2-8b08-7475292e8bc1")
 		(property "Reference" "LED20"
 			(at 278.892 84.836 0)
@@ -16328,7 +16328,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ec86466b-a59a-4ade-9974-13032869eb3b")
 		(property "Reference" "LED21"
 			(at 300.482 84.836 0)
@@ -16692,7 +16692,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f598ff36-2a9e-4c3f-9c7c-9860b3b7c16e")
 		(property "Reference" "#PWR0195"
@@ -17340,7 +17340,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fd6b5e06-eb45-44b1-9f1a-209178a19198")
 		(property "Reference" "#PWR0196"
 			(at 270.51 105.41 0)
