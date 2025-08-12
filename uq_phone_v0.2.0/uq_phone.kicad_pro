@@ -619,6 +619,10 @@
       {
         "netclass": "Audio",
         "pattern": "HP_(LEFT|RIGHT)"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3.3V_SW"
       }
     ]
   },
