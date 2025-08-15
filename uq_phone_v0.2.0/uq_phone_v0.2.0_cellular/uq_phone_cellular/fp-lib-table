@@ -8,4 +8,5 @@
   (lib (name "20279-001E-03")(type "KiCad")(uri "${USR_SYMBOL_DIR}/20279-001E-03")(options "")(descr ""))
   (lib (name "WP_SNAP-IN_BASE")(type "KiCad")(uri "${USR_SYMBOL_DIR}/WP_SNAP-IN_BASE")(options "")(descr ""))
   (lib (name "RC7620_1104625")(type "KiCad")(uri "${USR_SYMBOL_DIR}/RC7620_1104625")(options "")(descr ""))
+  (lib (name "custom_footprints")(type "KiCad")(uri "${USR_SYMBOL_DIR}/custom_footprints.pretty")(options "")(descr ""))
 )

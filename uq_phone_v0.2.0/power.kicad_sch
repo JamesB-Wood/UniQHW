@@ -4883,131 +4883,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5213,143 +5088,6 @@
 				)
 			)
 			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDREF"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDREF"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDREF_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -6084,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 55.88) (xy 378.46 58.42)
+			(xy 368.3 55.88) (xy 368.3 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7064,16 +6802,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 55.88) (xy 367.03 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bf0535-c171-4bc8-8190-32cf870f4f31")
-	)
-	(wire
-		(pts
 			(xy 99.06 213.36) (xy 99.06 208.28)
 		)
 		(stroke
@@ -7151,16 +6879,6 @@
 			(type default)
 		)
 		(uuid "b19bd796-ad20-4e22-bff5-7a40ddf5e75c")
-	)
-	(wire
-		(pts
-			(xy 344.17 63.5) (xy 344.17 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d05cae-953a-4bbc-9b71-19f1c9d55c84")
 	)
 	(wire
 		(pts
@@ -10438,72 +10156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 344.17 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5db0916b-60e9-4bbc-a194-52a511fbac42")
-		(property "Reference" "#PWR019"
-			(at 344.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 344.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 344.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 344.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 344.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c648c18c-b261-403f-8b46-a584c605b271")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Resistors:Resistor_100k")
 		(at 72.39 182.88 0)
 		(unit 1)
@@ -11705,142 +11357,6 @@
 			(project ""
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 344.17 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e95c78c-5f8d-4716-9f27-005d2850f9ea")
-		(property "Reference" "TP7"
-			(at 349.25 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 349.25 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 344.17 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 344.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "045ecdc1-aad9-41f0-a339-dfebb1b495de")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 367.03 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8256ea45-a601-4119-996a-3e2cf95725c6")
-		(property "Reference" "TP4"
-			(at 372.11 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 372.11 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 367.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 367.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62cf5264-23c9-4538-a577-af9e50b5d776")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -13299,7 +12815,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 378.46 58.42 270)
+		(at 368.3 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13308,7 +12824,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7e09414-0c9c-4847-90d1-37120bd3105c")
 		(property "Reference" "TP5"
-			(at 383.54 58.4199 90)
+			(at 373.38 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +12833,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 383.54 59.6899 90)
+			(at 373.38 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +12843,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 378.46 63.5 0)
+			(at 368.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,7 +12852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 378.46 63.5 0)
+			(at 368.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +12861,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 378.46 58.42 0)
+			(at 368.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +13482,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 378.46 55.88 0)
+		(at 368.3 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13975,7 +13491,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3506c83-02e3-4537-bdef-7cc7edfe8711")
 		(property "Reference" "#PWR0204"
-			(at 378.46 59.69 0)
+			(at 368.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +13500,7 @@
 			)
 		)
 		(property "Value" "+3.3V_SW"
-			(at 378.46 50.8 0)
+			(at 368.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,7 +13508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 55.88 0)
+			(at 368.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14001,7 +13517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 55.88 0)
+			(at 368.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,7 +13526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 378.46 55.88 0)
+			(at 368.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,72 +14528,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 367.03 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff908498-b7f8-42d7-a949-3abbd3c760ef")
-		(property "Reference" "#PWR017"
-			(at 367.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 362.966 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 367.03 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0149838-2ebb-4e32-a369-177f4b6c194a")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e697a7f0-03cd-4a38-a369-080a37468a6a"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
