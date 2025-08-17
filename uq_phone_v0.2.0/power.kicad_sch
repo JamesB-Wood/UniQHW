@@ -5795,6 +5795,14 @@
 		(uuid "9d49a937-97f4-444b-a88d-1dfc88954d67")
 	)
 	(no_connect
+		(at 50.8 58.42)
+		(uuid "a1da06a1-7f9d-4b93-ae1f-040f6196ca89")
+	)
+	(no_connect
+		(at 86.36 58.42)
+		(uuid "a2536280-9fda-4d1b-a0ff-b0a5965d59f0")
+	)
+	(no_connect
 		(at 50.8 48.26)
 		(uuid "a3b9ad46-ebb0-402a-9f8e-c64b7ed7b981")
 	)
@@ -5805,6 +5813,14 @@
 	(no_connect
 		(at 86.36 48.26)
 		(uuid "ec1d5644-694f-4cd7-b2e8-e11821ea20fc")
+	)
+	(no_connect
+		(at 50.8 55.88)
+		(uuid "f0a2c77c-3905-42da-80dc-b6ddb4489485")
+	)
+	(no_connect
+		(at 86.36 55.88)
+		(uuid "f6edf7b0-c80e-4902-8f0f-be3c936e8f94")
 	)
 	(no_connect
 		(at 86.36 63.5)
@@ -7536,28 +7552,6 @@
 			)
 		)
 	)
-	(global_label "USB_P"
-		(shape input)
-		(at 50.8 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26575a1e-7746-4b3a-aaaa-2c24512b0bd1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FUEL_GPO"
 		(shape bidirectional)
 		(at 231.14 181.61 180)
@@ -7602,28 +7596,6 @@
 			)
 		)
 	)
-	(global_label "USB_P"
-		(shape input)
-		(at 86.36 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "351c9bb6-fb9a-4b9f-908c-3b0c29af635f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.3928 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCP_STAT1"
 		(shape output)
 		(at 139.7 175.26 0)
@@ -7637,28 +7609,6 @@
 		(uuid "460527cc-faed-43f5-ba0b-02a563ead2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.087 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_N"
-		(shape input)
-		(at 86.36 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "478b709a-61bd-4b88-98c6-134ff5d43b1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4533 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,28 +7768,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_N"
-		(shape input)
-		(at 50.8 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fbfb520f-bbe3-4c5c-82c6-b7573519427e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7067 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
