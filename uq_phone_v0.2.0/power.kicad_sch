@@ -1446,7 +1446,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C2168196"
+			(property "LCSC PN" "C19702"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1958,7 +1958,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC PN" "C26412"
+			(property "LCSC PN" "C76971"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8040,7 +8040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C26412"
+		(property "LCSC PN" "C526993"
 			(at 273.05 185.42 0)
 			(effects
 				(font
@@ -13228,7 +13228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2168196"
+		(property "LCSC PN" "C19702"
 			(at 90.17 173.99 0)
 			(effects
 				(font
@@ -13709,7 +13709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2168196"
+		(property "LCSC PN" "C19702"
 			(at 213.36 59.69 0)
 			(effects
 				(font

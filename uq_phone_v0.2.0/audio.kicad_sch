@@ -8171,7 +8171,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "49438a45-98c2-46b7-b205-473fdba8d2d3")
 		(property "Reference" "SP1"
