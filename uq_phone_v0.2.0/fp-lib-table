@@ -54,4 +54,5 @@
   (lib (name "513382474")(type "KiCad")(uri "${USR_SYMBOL_DIR}/513382474")(options "")(descr ""))
   (lib (name "SMD-TRANSISTORS-NPN-25V-500MW_SOT-23_")(type "KiCad")(uri "${USR_SYMBOL_DIR}/SMD-TRANSISTORS-NPN-25V-500MW_SOT-23_")(options "")(descr ""))
   (lib (name "SJ-43615TS-SMT")(type "KiCad")(uri "${USR_SYMBOL_DIR}/SJ-43615TS-SMT")(options "")(descr ""))
+  (lib (name "TXU0x04DTRR")(type "KiCad")(uri "${USR_SYMBOL_DIR}/TXU0x04DTRR")(options "")(descr ""))
 )

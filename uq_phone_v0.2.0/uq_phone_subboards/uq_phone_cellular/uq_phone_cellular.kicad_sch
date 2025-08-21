@@ -15854,28 +15854,6 @@
 			)
 		)
 	)
-	(global_label "MOB_DCD"
-		(shape output)
-		(at 130.81 236.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b1a892a-eeae-4ff0-8838-6b99d06734f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.9953 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOB_WAKE_L"
 		(shape output)
 		(at 130.81 213.36 180)
@@ -16338,8 +16316,8 @@
 			)
 		)
 	)
-	(global_label "MOB_DTR"
-		(shape input)
+	(global_label "MOB_DCD"
+		(shape output)
 		(at 130.81 238.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -16348,9 +16326,9 @@
 			)
 			(justify right)
 		)
-		(uuid "866ea67d-79ef-422e-98be-2d57684c02cc")
+		(uuid "94be6fde-9ed5-417f-9542-68ff1ccd2590")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.2977 238.76 0)
+			(at 118.9953 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16505,6 +16483,28 @@
 		(uuid "b0d1a5b7-7145-4eb4-b4dc-d7fb7e6c7908")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.9682 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOB_DTR"
+		(shape input)
+		(at 130.81 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4dfa1a8-bc3c-4707-90dc-32634028334d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2977 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

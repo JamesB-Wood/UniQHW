@@ -2973,6 +2973,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistors:Resistor_100k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 100kΩ 0201 Chip Resistor - Surface Mount ROHS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C106224"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_100k_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_100k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Resistors:Resistor_10k"
 			(pin_numbers
 				(hide yes)
@@ -4187,9 +4302,9 @@
 		)
 		(uuid "338b3058-9e58-481a-b6f2-945f2aeff98a")
 	)
-	(text "TODO: figure this out\n"
+	(text "Pin compatable with NCS2300"
 		(exclude_from_sim no)
-		(at 92.964 281.94 0)
+		(at 112.776 271.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,12 +4389,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16c90369-ccf2-4f8d-ad23-c298dea75597")
-	)
-	(junction
-		(at 297.18 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ee2e284-fffb-4598-b6a3-0418e64cc2dd")
 	)
 	(junction
 		(at 364.49 152.4)
@@ -4413,6 +4522,12 @@
 		(color 0 0 0 0)
 		(uuid "c51abac3-fc25-4330-b651-87b3d8e4ad85")
 	)
+	(junction
+		(at 281.94 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f56c66c3-d0a8-4ace-a733-81c35dfe9ded")
+	)
 	(no_connect
 		(at 307.34 173.99)
 		(uuid "0c2322fa-7dee-439b-b22a-0e8cc9186c64")
@@ -4514,6 +4629,16 @@
 			(type default)
 		)
 		(uuid "076a3d89-6fc5-4718-8a51-fe79733b7be2")
+	)
+	(wire
+		(pts
+			(xy 281.94 58.42) (xy 317.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0849206e-0790-4142-889d-deb14481c46c")
 	)
 	(wire
 		(pts
@@ -4627,16 +4752,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 48.26) (xy 297.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21221510-599e-43e6-9af4-8f0c3d728009")
-	)
-	(wire
-		(pts
 			(xy 364.49 151.13) (xy 364.49 152.4)
 		)
 		(stroke
@@ -4644,6 +4759,16 @@
 			(type default)
 		)
 		(uuid "22a2e9e3-122e-4f69-8970-47cc6cba5146")
+	)
+	(wire
+		(pts
+			(xy 281.94 62.23) (xy 281.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fd199a-dc88-4dad-ae71-acc511ab1430")
 	)
 	(wire
 		(pts
@@ -4834,16 +4959,6 @@
 			(type default)
 		)
 		(uuid "5333f1c6-78f1-4525-8994-5e7f3420eaa6")
-	)
-	(wire
-		(pts
-			(xy 317.5 58.42) (xy 297.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557487e0-816f-40d6-a912-63752eeacbf8")
 	)
 	(wire
 		(pts
@@ -5217,16 +5332,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 58.42) (xy 295.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d58c56-d487-4110-ba19-c3600e332fb7")
-	)
-	(wire
-		(pts
 			(xy 353.06 143.51) (xy 354.33 143.51)
 		)
 		(stroke
@@ -5507,6 +5612,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 71.12) (xy 281.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c663f421-3389-40ee-a36e-5c4d837b7a40")
+	)
+	(wire
+		(pts
 			(xy 129.54 247.65) (xy 129.54 251.46)
 		)
 		(stroke
@@ -5687,16 +5802,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 57.15) (xy 297.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1b57ce-539f-4048-ac7d-160cf1922549")
-	)
-	(wire
-		(pts
 			(xy 304.8 153.67) (xy 307.34 153.67)
 		)
 		(stroke
@@ -5734,6 +5839,16 @@
 			(type default)
 		)
 		(uuid "f52330f6-2edc-42c3-8bb8-e493db2dc0f2")
+	)
+	(wire
+		(pts
+			(xy 278.13 58.42) (xy 281.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dc1560-a712-4313-9943-ecdfc340c76b")
 	)
 	(wire
 		(pts
@@ -6479,7 +6594,7 @@
 	)
 	(global_label "AUD_SW_L"
 		(shape output)
-		(at 295.91 58.42 180)
+		(at 278.13 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6489,7 +6604,7 @@
 		)
 		(uuid "cee3d4e4-f4e4-44ee-8372-5b752af55092")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.6115 58.42 0)
+			(at 265.8315 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,6 +6968,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 378.46 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 378.46 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f3c3017-a230-4d39-832a-d3c71cdd97ea")
 		)
@@ -6923,6 +7056,24 @@
 			)
 		)
 		(property "LCSC PN" "C335103"
+			(at 372.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 372.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 372.11 137.16 0)
 			(effects
 				(font
@@ -7204,6 +7355,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 104.14 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 104.14 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5389fba5-d6e1-4b6a-b05a-178bb3ee0ad6")
 		)
@@ -7461,6 +7630,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 44.45 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 44.45 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "505e2e6c-ba44-4402-96a4-eaa97250b68e")
 		)
@@ -7673,6 +7860,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 281.94 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3332c68a-8e84-4086-9d1b-498ca3d014a7")
+		(property "Reference" "#PWR0102"
+			(at 281.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23e45ca4-9acc-4b34-8493-5b6ad2b2fb67")
+		)
+		(instances
+			(project "uq_phone"
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitors:Capacitor_1uF")
 		(at 288.29 172.72 0)
 		(unit 1)
@@ -7725,6 +7977,24 @@
 			)
 		)
 		(property "LCSC PN" "C53067"
+			(at 288.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 288.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 288.29 172.72 0)
 			(effects
 				(font
@@ -7804,6 +8074,24 @@
 		)
 		(property "LCSC PN" "C53067"
 			(at 77.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 77.47 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 77.47 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,6 +8233,24 @@
 		)
 		(property "LCSC PN" "C335103"
 			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 77.47 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 77.47 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8219,6 +8525,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "+"
 			(uuid "9e242a90-8471-40f2-8bbf-db2c505ebc6f")
 		)
@@ -8398,6 +8722,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6_1"
 			(uuid "c806c95e-5dde-41b4-a836-6e20b20d49db")
 		)
@@ -8484,6 +8826,24 @@
 			)
 		)
 		(property "LCSC PN" "C15195"
+			(at 273.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 273.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 273.05 184.15 0)
 			(effects
 				(font
@@ -8635,6 +8995,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 358.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 358.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3803dc95-899f-4ae7-9760-aed47ca182a9")
 		)
@@ -8778,6 +9156,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 358.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 358.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d709b1b0-9733-41ea-b741-69e07b4c55a0")
 		)
@@ -8883,6 +9279,24 @@
 			)
 		)
 		(property "LCSC Part Name" "3.5mm耳机座"
+			(at 29.21 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 29.21 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 29.21 223.52 0)
 			(effects
 				(font
@@ -9083,6 +9497,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 39.37 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 39.37 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d4c9e21b-89e7-4f75-a5c8-3d4cf59dce82")
 		)
@@ -9143,6 +9575,24 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 97.79 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 97.79 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 97.79 251.46 0)
 			(effects
 				(font
@@ -9222,6 +9672,24 @@
 			)
 		)
 		(property "LCSC PN" "C142018"
+			(at 87.63 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 87.63 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 87.63 212.09 0)
 			(effects
 				(font
@@ -9476,6 +9944,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 49.53 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 49.53 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75edb6b6-1e17-4b91-8583-7cb742b7ded4")
 		)
@@ -9486,72 +9972,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 297.18 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a4f9786-97ab-40d2-b6dd-d88a21dfbc54")
-		(property "Reference" "#PWR0102"
-			(at 297.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 289.814 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 297.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3b77810-bcc0-4997-b37a-ad31db28a43c")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -9612,6 +10032,24 @@
 			)
 		)
 		(property "LCSC PN" "C160831"
+			(at 312.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 312.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 312.42 40.64 0)
 			(effects
 				(font
@@ -9689,6 +10127,24 @@
 		)
 		(property "LCSC PN" "C53067"
 			(at 93.98 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 93.98 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 93.98 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,6 +10459,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 246.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 246.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "83d4041f-6ba4-46d9-a276-e9b565135ea5")
 		)
@@ -10079,6 +10553,24 @@
 			)
 		)
 		(property "LCSC PN" "C106225"
+			(at 297.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 297.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 297.18 66.04 0)
 			(effects
 				(font
@@ -10165,6 +10657,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 377.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 377.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c5431d4-d292-44fb-970e-076ec13c6763")
 		)
@@ -10175,84 +10685,6 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors:Resistor_10k")
-		(at 297.18 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af858d64-62f7-4c5a-b990-447159ca38e6")
-		(property "Reference" "R32"
-			(at 291.084 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 291.338 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 297.18 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS"
-			(at 297.18 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C106225"
-			(at 297.18 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1efb90-a447-41d1-a297-059191253783")
-		)
-		(pin "2"
-			(uuid "50bdd1c0-20d2-4645-b2cb-9f273660fb1e")
-		)
-		(instances
-			(project "uq_phone"
-				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10377,6 +10809,24 @@
 		)
 		(property "LCSC PN" "C53067"
 			(at 93.98 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 93.98 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 93.98 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,6 +10975,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 288.29 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 288.29 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6285aa72-85e3-4635-b3c5-b49e35c6fec8")
 		)
@@ -10633,6 +11101,24 @@
 		)
 		(property "LCSC Part Name" "ESD5451X-2/TR"
 			(at 54.61 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 54.61 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 54.61 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,6 +11269,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 378.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 378.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bdedfc0-688e-42f3-8659-483c8bb40d19")
 		)
@@ -10918,6 +11422,24 @@
 			)
 		)
 		(property "LCSC PN" "C335103"
+			(at 364.49 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 364.49 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 364.49 147.32 0)
 			(effects
 				(font
@@ -11244,6 +11766,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 335.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 335.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "00f14b19-2420-43d2-ab3f-312a29d7e530")
 		)
@@ -11434,6 +11974,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 359.41 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 359.41 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b20e4c85-cf27-4ab6-95e4-0afb696d5e5d")
 		)
@@ -11444,6 +12002,85 @@
 			(project "uq_phone"
 				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_100k")
+		(at 281.94 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7471a2-c16c-44be-80a0-4fcbc2fd7076")
+		(property "Reference" "R28"
+			(at 284.48 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 284.48 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 281.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistor 25V ±1% ±200ppm/℃ 100kΩ 0201 Chip Resistor - Surface Mount ROHS"
+			(at 281.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C106224"
+			(at 281.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c571d56f-1883-446f-a88b-8d04c01ff314")
+		)
+		(pin "2"
+			(uuid "4a4a9f6d-c47f-4f36-ab01-b9f33fdba827")
+		)
+		(instances
+			(project ""
+				(path "/14f57415-6807-40a5-bb38-3cb818a2cdae/e19f4f8c-44cb-4a36-b4d3-60ff6ff42a2f"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -11675,6 +12312,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 330.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 330.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

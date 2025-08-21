@@ -7836,6 +7836,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 373.38 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 373.38 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b8fcd08-bd38-4c89-b240-6262b54ea903")
 		)
@@ -7900,6 +7918,24 @@
 		)
 		(property "Description" "test point"
 			(at 332.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 332.74 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 332.74 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,6 +8085,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 273.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 273.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5509f9af-4c44-4924-abfd-af17857acecc")
 		)
@@ -8120,6 +8174,24 @@
 			)
 		)
 		(property "LCSC PN" "C53067"
+			(at 330.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 330.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 330.2 176.53 0)
 			(effects
 				(font
@@ -8380,6 +8452,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 121.92 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 121.92 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a52e5516-4f3b-41ad-8104-4992924caf44")
 		)
@@ -8625,6 +8715,24 @@
 		)
 		(property "LCSC PN" "C22427765"
 			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 106.68 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 106.68 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,6 +9191,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "cac502ad-3331-4051-9ceb-efcd61163091")
 		)
@@ -9174,6 +9300,24 @@
 			)
 		)
 		(property "LCSC PN" "C335103"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 99.06 217.17 0)
 			(effects
 				(font
@@ -9295,6 +9439,24 @@
 		)
 		(property "LCSC PN" "C22427765"
 			(at 140.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 140.97 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 140.97 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,6 +9702,24 @@
 		)
 		(property "LCSC PN" "C2868952"
 			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 128.27 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 128.27 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,6 +9973,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 133.35 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 133.35 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20527982-26fc-467a-addf-cd810e8488d4")
 		)
@@ -10003,6 +10201,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 72.39 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 72.39 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14efb171-730b-4069-afa3-038c9ef75ad1")
 		)
@@ -10146,6 +10362,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b49d3507-eac0-4f48-9899-92b5b759727c")
 		)
@@ -10280,6 +10514,24 @@
 			)
 		)
 		(property "LCSC PN" "C431579"
+			(at 347.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 347.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 347.98 176.53 0)
 			(effects
 				(font
@@ -10479,6 +10731,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B6"
 			(uuid "e4830797-a4fb-410a-af70-a43919b6635c")
 		)
@@ -10628,6 +10898,24 @@
 			)
 		)
 		(property "LCSC PN" "C274341"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -10794,6 +11082,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a86cc326-3e20-4cfd-9533-179a6b052f2e")
 		)
@@ -10922,6 +11228,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 355.6 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 355.6 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "800e6cfd-62be-452b-835d-80a4ffe90e51")
 		)
@@ -10990,6 +11314,24 @@
 			)
 		)
 		(property "LCSC PN" "C3020456"
+			(at 280.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 280.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 280.67 59.69 0)
 			(effects
 				(font
@@ -11275,6 +11617,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 269.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 269.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "643aea5d-1b48-4806-8c77-080ebbeac5f4")
 		)
@@ -11388,6 +11748,24 @@
 		)
 		(property "LCSC PN" "C22427765"
 			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 29.21 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 29.21 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,6 +12170,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12216,6 +12612,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 254 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 254 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e094ea0e-e986-4746-b14c-3365af39decd")
 		)
@@ -12310,6 +12724,24 @@
 			)
 		)
 		(property "LCSC PN" "C851694"
+			(at 72.39 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 72.39 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 72.39 172.72 0)
 			(effects
 				(font
@@ -12587,6 +13019,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08855863-68a0-4d68-9cbc-1c3c5569f600")
 		)
@@ -12646,6 +13096,24 @@
 			)
 		)
 		(property "Description" "https://ecocell.com.au/product/lipo-2000-113450-3w/"
+			(at 181.61 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 181.61 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 181.61 212.09 0)
 			(effects
 				(font
@@ -12726,6 +13194,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 231.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 231.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a4e7263-e138-4b01-bba2-06b9e5aba465")
 		)
@@ -12790,6 +13276,24 @@
 		)
 		(property "Description" "test point"
 			(at 368.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 368.3 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 368.3 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,6 +13368,24 @@
 			)
 		)
 		(property "LCSC PN" "C106225"
+			(at 213.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 213.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 213.36 193.04 0)
 			(effects
 				(font
@@ -13081,6 +13603,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 77.47 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 77.47 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9376b4e0-8a3a-40f0-9297-46bdd4c6fc5b")
 		)
@@ -13151,6 +13691,24 @@
 			)
 		)
 		(property "LCSC PN" "C53067"
+			(at 275.59 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 275.59 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 275.59 203.2 0)
 			(effects
 				(font
@@ -13237,6 +13795,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f33adbc-06e3-4ac0-b0b8-b37803200b7e")
 		)
@@ -13315,6 +13891,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0df66f5c-b30c-4443-8bb2-5c5f98f2ecc8")
 		)
@@ -13385,6 +13979,24 @@
 			)
 		)
 		(property "LCSC PN" "C274341"
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -13637,6 +14249,24 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 209.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 209.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9f002f64-4857-4ea9-a91c-52bd8bbb38b3")
 		)
@@ -13710,6 +14340,24 @@
 			)
 		)
 		(property "LCSC PN" "C19702"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -13914,6 +14562,24 @@
 		)
 		(property "Description" "test point"
 			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 344.17 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS PN" ""
+			(at 344.17 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
