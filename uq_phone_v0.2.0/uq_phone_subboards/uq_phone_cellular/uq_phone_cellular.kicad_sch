@@ -13643,10 +13643,6 @@
 		(uuid "8c5aea86-ece7-4b6b-aada-c40268ee8a38")
 	)
 	(no_connect
-		(at 81.28 115.57)
-		(uuid "93be4943-4a0f-42c3-911c-d9077b794456")
-	)
-	(no_connect
 		(at 162.56 107.95)
 		(uuid "9baba89c-a6c4-457c-8f79-ba5d66014395")
 	)
@@ -14562,6 +14558,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 241.3) (xy 345.44 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad4b6cf-91ce-4571-8df9-f4ca3669d13e")
+	)
+	(wire
+		(pts
 			(xy 162.56 102.87) (xy 166.37 102.87)
 		)
 		(stroke
@@ -15199,6 +15205,16 @@
 			(type default)
 		)
 		(uuid "aad98d1a-6f66-47bc-a753-7905793dc470")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 81.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac878c64-705b-4178-823b-c802bda8fd48")
 	)
 	(wire
 		(pts
@@ -15845,6 +15861,28 @@
 		(uuid "089bba4e-baa9-4330-9f88-b619642338a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.5725 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOB_GNSS_ANT"
+		(shape output)
+		(at 345.44 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b089a05-55eb-4b1e-a685-f792dcfebc5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.8185 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16624,6 +16662,28 @@
 			)
 		)
 	)
+	(global_label "MOB_GNSS_ANT"
+		(shape output)
+		(at 76.2 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dde311f4-e88d-49b9-aa13-ba41c802a21f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.8215 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOB_DSR"
 		(shape input)
 		(at 130.81 241.3 180)
@@ -16849,6 +16909,205 @@
 			(project "uq_phone_cellular"
 				(path "/ec1b925e-10f6-47b3-b240-fe8bcf33326b"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "20279-001E-03:20279-001E-03")
+		(at 334.01 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12bbf89b-60ce-412b-ae1c-688cece28538")
+		(property "Reference" "J5"
+			(at 331.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20279-001E-03"
+			(at 331.724 236.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "20279-001E-03:IPEX_20279-001E-03"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "I-PEX"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.25mm"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/20279-001E-03/I-PEX/view-part/?ref=eda"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "32"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20279-001E-03/I-PEX/view-part/?ref=snap"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "20279-001E-03"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            1 POS Vertical SMD Small form factor with big performance through 6 GHz connector,MHF, RF, micro-coaxial MHF I Receptacle\n                        \n"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "I-PEX"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" " C36499136"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "679ba204-45da-490e-99df-8cc630a45f6e")
+		)
+		(pin "2"
+			(uuid "8fabb7f0-a8f1-478d-b8c7-ec61df8ccbf5")
+		)
+		(instances
+			(project "uq_phone_cellular"
+				(path "/ec1b925e-10f6-47b3-b240-fe8bcf33326b"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -22660,6 +22919,71 @@
 			(project "uq_phone_cellular"
 				(path "/ec1b925e-10f6-47b3-b240-fe8bcf33326b"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0aaebbf-544b-4232-800d-b9740c79c9cf")
+		(property "Reference" "#PWR013"
+			(at 336.55 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 248.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ec48f18-85fd-4f56-9b16-8fd8a5fd3fd8")
+		)
+		(instances
+			(project "uq_phone_cellular"
+				(path "/ec1b925e-10f6-47b3-b240-fe8bcf33326b"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

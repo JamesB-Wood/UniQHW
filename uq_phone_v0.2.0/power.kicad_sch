@@ -2561,7 +2561,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ESD441DPYR"
+			(property "Value" "ESD441DPLR"
 				(at -5.0854 -4.9611 0)
 				(effects
 					(font
@@ -8366,7 +8366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD441DPYR"
+		(property "Value" "ESD441DPLR"
 			(at 124.46 43.1799 90)
 			(effects
 				(font
@@ -8636,7 +8636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD441DPYR"
+		(property "Value" "ESD441DPLR"
 			(at 109.22 62.2299 90)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD441DPYR"
+		(property "Value" "ESD441DPLR"
 			(at 143.51 43.1799 90)
 			(effects
 				(font
@@ -11669,7 +11669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD441DPYR"
+		(property "Value" "ESD441DPLR"
 			(at 26.67 60.9599 90)
 			(effects
 				(font
