@@ -12767,16 +12767,6 @@
 		)
 		(uuid "a59b4911-28e2-4095-82a3-24caec7496bd")
 	)
-	(text "ADD MORE CAPS"
-		(exclude_from_sim no)
-		(at 283.21 62.23 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "c02ddd46-a73f-407f-bc46-f6e75c658255")
-	)
 	(text "0.3A/contact"
 		(exclude_from_sim no)
 		(at 168.656 193.04 0)
@@ -16945,7 +16935,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1104626"
 			(at 229.87 33.02 0)
 			(effects
 				(font
@@ -17924,7 +17914,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1104626"
 			(at 370.078 30.734 0)
 			(effects
 				(font
@@ -20130,7 +20120,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1104626"
 			(at 123.19 30.48 0)
 			(effects
 				(font

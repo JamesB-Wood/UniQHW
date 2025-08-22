@@ -5438,7 +5438,7 @@
 	)
 	(text "Reduce Battery charge if Vin falls below\n5 * (270/(270 + 100)) V = 3.6V"
 		(exclude_from_sim no)
-		(at 45.974 174.498 0)
+		(at 47.498 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)

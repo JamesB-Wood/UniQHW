@@ -4304,7 +4304,7 @@
 	)
 	(text "Pin compatable with NCS2300"
 		(exclude_from_sim no)
-		(at 112.776 271.272 0)
+		(at 159.766 242.062 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4326,7 +4326,7 @@
 	)
 	(text "Headphone Jack"
 		(exclude_from_sim no)
-		(at 86.868 196.85 0)
+		(at 110.236 189.738 0)
 		(effects
 			(font
 				(size 4 4)
@@ -4451,7 +4451,7 @@
 		(uuid "49f20d20-e7a8-4da5-aa8f-50958d3dca6e")
 	)
 	(junction
-		(at 102.87 259.08)
+		(at 149.86 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53b30e7d-97a1-462c-af0e-871a903f5579")
@@ -4702,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 251.46) (xy 93.98 251.46)
+			(xy 138.43 222.25) (xy 140.97 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4712,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 256.54) (xy 102.87 259.08)
+			(xy 149.86 227.33) (xy 149.86 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4772,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 259.08) (xy 104.14 259.08)
+			(xy 149.86 229.87) (xy 151.13 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4842,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 209.55) (xy 369.57 209.55)
+			(xy 375.92 209.55) (xy 370.84 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 254) (xy 104.14 254)
+			(xy 143.51 224.79) (xy 151.13 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4992,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 251.46) (xy 104.14 251.46)
+			(xy 148.59 222.25) (xy 151.13 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5109,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "64893bd8-a845-4690-bac7-9e00c2b8ae81")
+	)
+	(wire
+		(pts
+			(xy 360.68 209.55) (xy 359.41 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a5f9d1-17ee-488d-8ebe-d79b8e1abe5a")
 	)
 	(wire
 		(pts
@@ -5282,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 251.46) (xy 127 251.46)
+			(xy 176.53 222.25) (xy 173.99 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5322,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 260.35) (xy 102.87 259.08)
+			(xy 149.86 231.14) (xy 149.86 229.87)
 		)
 		(stroke
 			(width 0)
@@ -5622,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 247.65) (xy 129.54 251.46)
+			(xy 176.53 218.44) (xy 176.53 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5662,7 +5672,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 255.27) (xy 127 255.27)
+			(xy 176.53 226.06) (xy 173.99 226.06)
 		)
 		(stroke
 			(width 0)
@@ -5862,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 256.54) (xy 102.87 256.54)
+			(xy 151.13 227.33) (xy 149.86 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6110,7 +6120,7 @@
 	)
 	(global_label "HP_DET"
 		(shape input)
-		(at 129.54 255.27 0)
+		(at 176.53 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6120,7 +6130,7 @@
 		)
 		(uuid "4b747fa9-97f5-4a4d-817a-45f93a2b5040")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4799 255.27 0)
+			(at 186.4699 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6296,7 @@
 	)
 	(global_label "HP_LEFT_DET"
 		(shape input)
-		(at 96.52 254 180)
+		(at 143.51 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6296,7 +6306,7 @@
 		)
 		(uuid "7304e32f-2d3e-4e49-88a1-45585b1eabce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.3792 254 0)
+			(at 128.3692 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6406,7 @@
 	)
 	(global_label "HP_MIC"
 		(shape input)
-		(at 91.44 251.46 180)
+		(at 138.43 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6406,7 +6416,7 @@
 		)
 		(uuid "9f14cc23-e742-40a3-a9cc-3a57a7f356eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.5605 251.46 0)
+			(at 128.5505 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +7306,7 @@
 	)
 	(symbol
 		(lib_id "Misc:AZV5001")
-		(at 104.14 254 0)
+		(at 151.13 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7304,7 +7314,7 @@
 		(dnp no)
 		(uuid "21dfd1c9-1f9c-4367-aebd-770b8e4c086a")
 		(property "Reference" "U9"
-			(at 115.316 245.872 0)
+			(at 162.306 216.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7322,7 @@
 			)
 		)
 		(property "Value" "AZV5001RA4-7"
-			(at 115.316 248.412 0)
+			(at 162.306 219.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7330,7 @@
 			)
 		)
 		(property "Footprint" "custom_footprints:DFN1210P6X_L1.2-W1.0-P0.40-BL"
-			(at 102.87 237.998 0)
+			(at 149.86 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7339,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C5246088.html?s_z=n_AZV5001"
-			(at 102.87 237.998 0)
+			(at 149.86 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7348,7 @@
 			)
 		)
 		(property "Description" "Low-Power Headset Detection IC in Miniaturized Package"
-			(at 102.87 237.998 0)
+			(at 149.86 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7357,7 @@
 			)
 		)
 		(property "LCSC PN" "C5246088"
-			(at 102.87 237.998 0)
+			(at 149.86 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7366,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 104.14 254 0)
+			(at 151.13 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7375,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 104.14 254 0)
+			(at 151.13 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +7741,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 102.87 260.35 0)
+		(at 149.86 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7739,7 +7749,7 @@
 		(dnp no)
 		(uuid "2f9889d1-ebd8-4d4a-96d8-b34f43c2064f")
 		(property "Reference" "#PWR017"
-			(at 102.87 266.7 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,7 +7758,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 102.87 264.922 0)
+			(at 149.86 235.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 260.35 0)
+			(at 149.86 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +7775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 260.35 0)
+			(at 149.86 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +7784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 102.87 260.35 0)
+			(at 149.86 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9542,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 97.79 251.46 0)
+		(at 144.78 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9541,7 +9551,7 @@
 		(fields_autoplaced yes)
 		(uuid "711573f5-68d4-4c1b-ae33-a4260231e3fb")
 		(property "Reference" "JP1"
-			(at 97.79 245.11 0)
+			(at 144.78 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9559,7 @@
 			)
 		)
 		(property "Value" "SolderJumper"
-			(at 97.79 247.65 0)
+			(at 144.78 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +9567,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 97.79 251.46 0)
+			(at 144.78 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 251.46 0)
+			(at 144.78 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9585,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 97.79 251.46 0)
+			(at 144.78 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9594,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 97.79 251.46 0)
+			(at 144.78 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9603,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 97.79 251.46 0)
+			(at 144.78 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9790,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 129.54 247.65 0)
+		(at 176.53 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9788,7 +9798,7 @@
 		(dnp no)
 		(uuid "822fcb92-3973-4386-b235-21914eb016d0")
 		(property "Reference" "#PWR019"
-			(at 129.54 251.46 0)
+			(at 176.53 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +9807,7 @@
 			)
 		)
 		(property "Value" "+1.8V"
-			(at 126.492 243.84 0)
+			(at 173.482 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 247.65 0)
+			(at 176.53 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +9825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 247.65 0)
+			(at 176.53 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 129.54 247.65 0)
+			(at 176.53 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11843,7 +11853,7 @@
 	)
 	(symbol
 		(lib_id "BLM18SG221TN1D:BLM18SG221TN1D")
-		(at 359.41 209.55 0)
+		(at 360.68 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11852,7 +11862,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc86f606-9f6a-446e-82fe-eca7494c3f46")
 		(property "Reference" "FB1"
-			(at 364.49 204.47 0)
+			(at 365.76 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11860,7 +11870,7 @@
 			)
 		)
 		(property "Value" "BLM18SG221TN1D"
-			(at 364.49 207.01 0)
+			(at 365.76 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,7 +11878,7 @@
 			)
 		)
 		(property "Footprint" "BLM18SG221TN1D:BEADC1608X65N"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +11888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 209.55 0)
+			(at 360.68 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +11897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 209.55 0)
+			(at 360.68 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11906,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "490-5225-2-ND"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11916,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18SG221TN1D/Murata/view-part/?ref=snap"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +11926,7 @@
 			)
 		)
 		(property "Description_1" "220 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2.5A 40mOhm"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +11936,7 @@
 			)
 		)
 		(property "MF" "Murata Electronics"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,7 +11946,7 @@
 			)
 		)
 		(property "Package" "1608 Murata"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,7 +11956,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BLM18SG221TN1D/Murata/view-part/?ref=eda"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11956,7 +11966,7 @@
 			)
 		)
 		(property "MP" "BLM18SG221TN1D"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11966,7 +11976,7 @@
 			)
 		)
 		(property "LCSC PN" "C88988"
-			(at 359.41 200.66 0)
+			(at 360.68 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11975,7 +11985,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 359.41 209.55 0)
+			(at 360.68 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +11994,7 @@
 			)
 		)
 		(property "LSCS PN" ""
-			(at 359.41 209.55 0)
+			(at 360.68 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
