@@ -4284,7 +4284,7 @@
 	)
 	(text "Suitable for 8-Ohm 1W"
 		(exclude_from_sim no)
-		(at 77.724 146.812 0)
+		(at 383.54 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4304,7 +4304,7 @@
 	)
 	(text "Pin compatable with NCS2300"
 		(exclude_from_sim no)
-		(at 159.766 242.062 0)
+		(at 161.798 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9217,7 +9217,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ-605"
+		(property "Value" "PJ-605-6A"
 			(at 26.162 215.9 0)
 			(effects
 				(font
@@ -10382,15 +10382,15 @@
 		(dnp no)
 		(uuid "aaf79a77-a124-4366-89b8-b0df51b87059")
 		(property "Reference" "OSC1"
-			(at 255.016 184.658 0)
+			(at 251.46 202.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "19.2MHz"
-			(at 256.286 186.69 0)
+		(property "Value" "OT7EL89CJI-111YLC-19.2M"
+			(at 252.73 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

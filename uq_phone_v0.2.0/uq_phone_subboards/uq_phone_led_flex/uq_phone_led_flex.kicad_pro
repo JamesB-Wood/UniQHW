@@ -502,7 +502,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "uq_phone_led_flex.step",
       "svg": "",
       "vrml": ""
     },
