@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "4b953d87-6515-4314-928f-4c67ccb2308d")
 	(paper "A3")
+	(title_block
+		(title "IO Board")
+	)
 	(lib_symbols
 		(symbol "541324562:541324562"
 			(pin_names

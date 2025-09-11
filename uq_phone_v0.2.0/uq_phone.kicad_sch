@@ -6,10 +6,25 @@
 	(paper "A3")
 	(title_block
 		(title "UQ Phone")
+		(date "2025-09-05")
 		(rev "0.2.0")
 		(company "The University of Queensland")
+		(comment 1 "James Wood")
 	)
 	(lib_symbols)
+	(text "UQ Phone"
+		(exclude_from_sim no)
+		(at 316.23 258.064 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "acdc222a-867b-4c3c-9464-18ed378f936c")
+	)
 	(sheet
 		(at 17.78 96.52)
 		(size 116.84 68.58)
