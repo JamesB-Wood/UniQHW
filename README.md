@@ -3,11 +3,28 @@
 The hardware repository for UQ Phone (UniQ)
 The Corresponding software component can be found [https://github.com/Benksur/UniQOS](https://github.com/Benksur/UniQOS)
 
-# Production
+## About
+
+**Supervised by:** Professor Pauline Pounds  
+**Institution:** University of Queensland
+<div align="center">
+
+### UQ Phone Team (Year 1 - 2025)
+
+| Name | Role |
+|------|------|
+| **Ty Behnke** | Firmware Design |
+| **James Wood** | Hardware Design |
+| **Caiyan Jin** | UI/UX Design |
+</div>
+
+Any Questions about the PCB and Schematics please direct them to [james.brian.wood@gmail.com](james.brian.wood@gmail.com)
+
+## Production
 
 The V0.2.0 PCB's must be made with the following specifications from JLCPCB
 
-## Main PCB
+### Main PCB
 
 This 6-Layer PCB must be made with the following
 
@@ -24,7 +41,7 @@ Production versions should also be made with the following (Dependant on desired
 - PCB Color:	Black
 - Silkscreen:	White
 
-## Secondary PCB (Cellular Board)
+### Secondary PCB (Cellular Board)
 
 This 4-Layer PCB must be made with the following
 
@@ -42,7 +59,7 @@ Production versions should also be made with the following (Dependant on desired
 - Silkscreen:	White
 
 
-# Current Issues And Improvements
+## Current Issues And Improvements
 
 The V0.2.0 PCB currently suffers from several issues which should be rectified on later versions:
 
