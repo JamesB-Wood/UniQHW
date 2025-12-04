@@ -5395,6 +5395,19 @@
 		)
 		(uuid "21cc28c7-7891-435d-9388-dea526cae0a1")
 	)
+	(text "Need to add soft power switch "
+		(exclude_from_sim no)
+		(at 331.978 221.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4a1da86e-93dc-4b72-9343-059858f1b4e9")
+	)
 	(text "Addr: 0x55\n"
 		(exclude_from_sim no)
 		(at 245.618 171.196 0)

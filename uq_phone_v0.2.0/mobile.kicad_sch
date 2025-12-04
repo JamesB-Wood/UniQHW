@@ -12748,9 +12748,9 @@
 		)
 		(uuid "10621475-0d00-407f-9a75-571213fe14d5")
 	)
-	(text "MOBILE TX AND RX ARE IN TERMS OF THE \nMCU FOR WHATEVER REASON \nMEANING TX->TX & RX->RX"
+	(text "UART Labels in terms of MCU"
 		(exclude_from_sim no)
-		(at 48.514 50.038 0)
+		(at 58.928 54.356 0)
 		(effects
 			(font
 				(size 1.27 1.27)

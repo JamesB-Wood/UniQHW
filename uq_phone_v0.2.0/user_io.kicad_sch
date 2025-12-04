@@ -4008,6 +4008,19 @@
 		)
 		(uuid "998025bb-7483-40ed-8563-02cd3ac9cca7")
 	)
+	(text "This 3.3v VDD should not be activated\nuntil insertion, requires fixing"
+		(exclude_from_sim no)
+		(at 102.108 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d531edaa-888e-44b1-897f-09788f04b539")
+	)
 	(text "+3v3 = LRA\nGND = ERM\n"
 		(exclude_from_sim yes)
 		(at 185.42 178.816 0)
